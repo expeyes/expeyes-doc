@@ -1,0 +1,412 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Un bon d\IeC {\'e}part}{17}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{17}{section.1.1}
+\contentsline {section}{\numberline {1.2}Le mat\IeC {\'e}riel : connexions externes}{17}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Signaux num\IeC {\'e}riques}{18}{subsection.1.2.1}
+\contentsline {subsubsection}{Entr\IeC {\'e}es num\IeC {\'e}riques (ID0 et ID1)}{18}{section*.3}
+\contentsline {subsubsection}{Sorties num\IeC {\'e}riques (OD0 et OD1)}{18}{section*.4}
+\contentsline {subsection}{\numberline {1.2.2}G\IeC {\'e}n\IeC {\'e}rateurs de signaux}{19}{subsection.1.2.2}
+\contentsline {subsubsection}{SINE}{19}{section*.5}
+\contentsline {subsubsection}{SQR1}{19}{section*.6}
+\contentsline {subsubsection}{SQR2}{19}{section*.7}
+\contentsline {subsubsection}{PULSE}{19}{section*.8}
+\contentsline {subsection}{\numberline {1.2.3}Entr\IeC {\'e}es de tension analogiques}{19}{subsection.1.2.3}
+\contentsline {subsubsection}{A0 et A1}{19}{section*.9}
+\contentsline {subsubsection}{A2}{19}{section*.10}
+\contentsline {subsection}{\numberline {1.2.4}Sorties de tension analogique}{20}{subsection.1.2.4}
+\contentsline {subsubsection}{BPV}{20}{section*.11}
+\contentsline {subsubsection}{UPV}{20}{section*.12}
+\contentsline {subsubsection}{IV}{20}{section*.13}
+\contentsline {subsubsection}{Source de courant constant (CS)}{20}{section*.14}
+\contentsline {subsection}{\numberline {1.2.5}Amplificateurs inverseurs}{20}{subsection.1.2.5}
+\contentsline {subsubsection}{15 $\Rightarrow $ 13}{20}{section*.15}
+\contentsline {subsubsection}{14 $\Rightarrow $ 12}{20}{section*.16}
+\contentsline {subsubsection}{17 $\Rightarrow $ 18}{20}{section*.17}
+\contentsline {subsubsection}{Amplificateur non-inverseur}{21}{section*.18}
+\contentsline {subsubsection}{Entr\IeC {\'e}e de capteur (SEN)}{21}{section*.19}
+\contentsline {subsection}{\numberline {1.2.6}Fr\IeC {\'e}quencem\IeC {\`e}tres}{21}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}Masses [Ground]}{21}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.8}Comment connecter les fils}{21}{subsection.1.2.8}
+\contentsline {section}{\numberline {1.3}Installation du logiciel}{21}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Le CD vif expEYES}{22}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Installation dans une distribution GNU/Linux Debian ou Ubuntu}{22}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Pour les autres distributions GNU/Linux}{22}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Sous MSWindows}{22}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Le programme graphique principal}{23}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}La fen\IeC {\^e}tre du graphique}{23}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Mesures \IeC {\'e}l\IeC {\'e}mentaires \IeC {\`a} l'aide d'expEYES}{24}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}G\IeC {\'e}n\IeC {\'e}rer \&amp; mesurer des tensions}{24}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Observer des signaux de tension}{24}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Mesurer la fr\IeC {\'e}quence}{25}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.4}Mesurer le Connecter PULSE \IeC {\`a} ID0}{25}{subsection.1.5.4}
+\contentsline {subsection}{\numberline {1.5.5}Fixer des niveaux de tension}{25}{subsection.1.5.5}
+\contentsline {section}{\numberline {1.6}Exp\IeC {\'e}riences}{25}{section.1.6}
+\contentsline {chapter}{\numberline {2}Exp\IeC {\'e}riences}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Mesurer la tension}{27}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Objectif}{27}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Mat\IeC {\'e}riel}{27}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Proc\IeC {\'e}dure}{27}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Observation}{28}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Discussion}{28}{subsection.2.1.5}
+\contentsline {section}{\numberline {2.2}Tension, courant et r\IeC {\'e}sistance}{28}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Objectif}{28}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Th\IeC {\'e}orie}{28}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Mat\IeC {\'e}riel}{28}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Proc\IeC {\'e}dure}{29}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Observation}{29}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Discussion}{29}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}R\IeC {\'e}sistances en s\IeC {\'e}rie}{30}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Objectif}{30}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Th\IeC {\'e}orie}{30}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Mat\IeC {\'e}riel}{30}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Proc\IeC {\'e}dure}{30}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Observation}{30}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}Discussion}{30}{subsection.2.3.6}
+\contentsline {section}{\numberline {2.4}R\IeC {\'e}sistances en parall\IeC {\`e}le}{31}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Objectif}{31}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Th\IeC {\'e}orie}{31}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Mat\IeC {\'e}riel}{31}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Proc\IeC {\'e}dure}{31}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Observation}{31}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Discussion}{31}{subsection.2.4.6}
+\contentsline {section}{\numberline {2.5}Mesure de r\IeC {\'e}sistance par comparaison}{31}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Objectif}{31}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Th\IeC {\'e}orie}{32}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Mat\IeC {\'e}riel}{32}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Proc\IeC {\'e}dure}{32}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Observation}{32}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}Discussion}{32}{subsection.2.5.6}
+\contentsline {section}{\numberline {2.6}Tension d'une pile au citron}{32}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Objectif}{32}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Mat\IeC {\'e}riel}{33}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Proc\IeC {\'e}dure}{33}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Observation}{33}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.5}Discussion}{33}{subsection.2.6.5}
+\contentsline {section}{\numberline {2.7}Tension variable dans le temps}{34}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Objectif}{34}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Mat\IeC {\'e}riel}{34}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Proc\IeC {\'e}dure}{34}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}Observation}{34}{subsection.2.7.4}
+\contentsline {subsection}{\numberline {2.7.5}Discussion}{34}{subsection.2.7.5}
+\contentsline {section}{\numberline {2.8}Tension alternative}{35}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Objectif}{35}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Mat\IeC {\'e}riel}{35}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Proc\IeC {\'e}dure}{35}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Observation}{35}{subsection.2.8.4}
+\contentsline {subsection}{\numberline {2.8.5}Discussion}{35}{subsection.2.8.5}
+\contentsline {section}{\numberline {2.9}Influence d'une tension alternative}{36}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Objectif}{36}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Mat\IeC {\'e}riel}{36}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.3}Proc\IeC {\'e}dure}{36}{subsection.2.9.3}
+\contentsline {subsection}{\numberline {2.9.4}Observation}{36}{subsection.2.9.4}
+\contentsline {subsection}{\numberline {2.9.5}Discussion}{36}{subsection.2.9.5}
+\contentsline {section}{\numberline {2.10}Composantes continue et alternative d'une tension}{37}{section.2.10}
+\contentsline {subsection}{\numberline {2.10.1}Objectif}{37}{subsection.2.10.1}
+\contentsline {subsection}{\numberline {2.10.2}Mat\IeC {\'e}riel}{37}{subsection.2.10.2}
+\contentsline {subsection}{\numberline {2.10.3}Proc\IeC {\'e}dure}{37}{subsection.2.10.3}
+\contentsline {subsection}{\numberline {2.10.4}Observation}{38}{subsection.2.10.4}
+\contentsline {subsection}{\numberline {2.10.5}Discussion}{38}{subsection.2.10.5}
+\contentsline {section}{\numberline {2.11}R\IeC {\'e}sistance du corps humain}{38}{section.2.11}
+\contentsline {subsection}{\numberline {2.11.1}Objectif}{38}{subsection.2.11.1}
+\contentsline {subsection}{\numberline {2.11.2}Mat\IeC {\'e}riel}{38}{subsection.2.11.2}
+\contentsline {subsection}{\numberline {2.11.3}Proc\IeC {\'e}dure}{39}{subsection.2.11.3}
+\contentsline {subsection}{\numberline {2.11.4}Discussion}{39}{subsection.2.11.4}
+\contentsline {section}{\numberline {2.12}R\IeC {\'e}sistances d\IeC {\'e}pendantes de la temp\IeC {\'e}rature}{39}{section.2.12}
+\contentsline {subsection}{\numberline {2.12.1}Objectif}{39}{subsection.2.12.1}
+\contentsline {subsection}{\numberline {2.12.2}Mat\IeC {\'e}riel}{39}{subsection.2.12.2}
+\contentsline {subsection}{\numberline {2.12.3}Proc\IeC {\'e}dure}{39}{subsection.2.12.3}
+\contentsline {subsection}{\numberline {2.12.4}Observation}{40}{subsection.2.12.4}
+\contentsline {subsection}{\numberline {2.12.5}Discussion}{40}{subsection.2.12.5}
+\contentsline {section}{\numberline {2.13}R\IeC {\'e}sistances d\IeC {\'e}pendant de la lumi\IeC {\`e}re}{40}{section.2.13}
+\contentsline {subsection}{\numberline {2.13.1}Objectif}{40}{subsection.2.13.1}
+\contentsline {subsection}{\numberline {2.13.2}Mat\IeC {\'e}riel}{40}{subsection.2.13.2}
+\contentsline {subsection}{\numberline {2.13.3}Proc\IeC {\'e}dure}{40}{subsection.2.13.3}
+\contentsline {subsection}{\numberline {2.13.4}Observation}{41}{subsection.2.13.4}
+\contentsline {subsection}{\numberline {2.13.5}Discussion}{41}{subsection.2.13.5}
+\contentsline {section}{\numberline {2.14}L'\IeC {\'e}lectricit\IeC {\'e} traversant les liquides, en courant continu et alternatif}{41}{section.2.14}
+\contentsline {subsection}{\numberline {2.14.1}Objectif}{41}{subsection.2.14.1}
+\contentsline {subsection}{\numberline {2.14.2}Mat\IeC {\'e}riel}{41}{subsection.2.14.2}
+\contentsline {subsection}{\numberline {2.14.3}Proc\IeC {\'e}dure}{41}{subsection.2.14.3}
+\contentsline {subsection}{\numberline {2.14.4}Observation}{42}{subsection.2.14.4}
+\contentsline {subsection}{\numberline {2.14.5}Discussion}{43}{subsection.2.14.5}
+\contentsline {section}{\numberline {2.15}R\IeC {\'e}ponse transitoire de circuits RC}{43}{section.2.15}
+\contentsline {subsection}{\numberline {2.15.1}Objectif}{43}{subsection.2.15.1}
+\contentsline {subsection}{\numberline {2.15.2}Th\IeC {\'e}orie}{43}{subsection.2.15.2}
+\contentsline {subsection}{\numberline {2.15.3}Mat\IeC {\'e}riel}{43}{subsection.2.15.3}
+\contentsline {subsection}{\numberline {2.15.4}Proc\IeC {\'e}dure}{43}{subsection.2.15.4}
+\contentsline {subsection}{\numberline {2.15.5}Observation}{44}{subsection.2.15.5}
+\contentsline {subsection}{\numberline {2.15.6}Discussion}{44}{subsection.2.15.6}
+\contentsline {section}{\numberline {2.16}R\IeC {\'e}ponse transitoire de circuits RL}{45}{section.2.16}
+\contentsline {subsection}{\numberline {2.16.1}Objectif}{45}{subsection.2.16.1}
+\contentsline {subsection}{\numberline {2.16.2}Th\IeC {\'e}orie}{45}{subsection.2.16.2}
+\contentsline {subsection}{\numberline {2.16.3}Mat\IeC {\'e}riel}{45}{subsection.2.16.3}
+\contentsline {subsection}{\numberline {2.16.4}Proc\IeC {\'e}dure}{45}{subsection.2.16.4}
+\contentsline {subsection}{\numberline {2.16.5}Observation}{46}{subsection.2.16.5}
+\contentsline {subsection}{\numberline {2.16.6}Discussion}{46}{subsection.2.16.6}
+\contentsline {section}{\numberline {2.17}R\IeC {\'e}ponse transitoire de circuits RLC}{46}{section.2.17}
+\contentsline {subsection}{\numberline {2.17.1}Objectif}{46}{subsection.2.17.1}
+\contentsline {subsection}{\numberline {2.17.2}Th\IeC {\'e}orie}{47}{subsection.2.17.2}
+\contentsline {subsection}{\numberline {2.17.3}Mat\IeC {\'e}riel}{47}{subsection.2.17.3}
+\contentsline {subsection}{\numberline {2.17.4}Proc\IeC {\'e}dure}{47}{subsection.2.17.4}
+\contentsline {subsection}{\numberline {2.17.5}Observation}{48}{subsection.2.17.5}
+\contentsline {subsection}{\numberline {2.17.6}Discussion}{48}{subsection.2.17.6}
+\contentsline {section}{\numberline {2.18}Condensateur dans des circuits en courant alternatif}{49}{section.2.18}
+\contentsline {subsection}{\numberline {2.18.1}Objectif}{49}{subsection.2.18.1}
+\contentsline {subsection}{\numberline {2.18.2}Th\IeC {\'e}orie}{49}{subsection.2.18.2}
+\contentsline {subsection}{\numberline {2.18.3}Mat\IeC {\'e}riel}{49}{subsection.2.18.3}
+\contentsline {subsection}{\numberline {2.18.4}Proc\IeC {\'e}dure}{49}{subsection.2.18.4}
+\contentsline {subsection}{\numberline {2.18.5}Observation}{50}{subsection.2.18.5}
+\contentsline {subsection}{\numberline {2.18.6}Discussion}{50}{subsection.2.18.6}
+\contentsline {section}{\numberline {2.19}D\IeC {\'e}phasage dans des circuits RC en courant alternatif}{50}{section.2.19}
+\contentsline {subsection}{\numberline {2.19.1}Objectif}{50}{subsection.2.19.1}
+\contentsline {subsection}{\numberline {2.19.2}Th\IeC {\'e}orie}{50}{subsection.2.19.2}
+\contentsline {subsection}{\numberline {2.19.3}Mat\IeC {\'e}riel}{50}{subsection.2.19.3}
+\contentsline {subsection}{\numberline {2.19.4}Proc\IeC {\'e}dure}{50}{subsection.2.19.4}
+\contentsline {subsection}{\numberline {2.19.5}Observation}{51}{subsection.2.19.5}
+\contentsline {subsection}{\numberline {2.19.6}Discussion}{51}{subsection.2.19.6}
+\contentsline {section}{\numberline {2.20}D\IeC {\'e}phasage dans des circuits RL en courant alternatif}{52}{section.2.20}
+\contentsline {subsection}{\numberline {2.20.1}Objectif}{52}{subsection.2.20.1}
+\contentsline {subsection}{\numberline {2.20.2}Th\IeC {\'e}orie}{52}{subsection.2.20.2}
+\contentsline {subsection}{\numberline {2.20.3}Mat\IeC {\'e}riel}{52}{subsection.2.20.3}
+\contentsline {subsection}{\numberline {2.20.4}Proc\IeC {\'e}dure}{52}{subsection.2.20.4}
+\contentsline {subsection}{\numberline {2.20.5}Observation}{52}{subsection.2.20.5}
+\contentsline {subsection}{\numberline {2.20.6}Discussion}{53}{subsection.2.20.6}
+\contentsline {section}{\numberline {2.21}Mat\IeC {\'e}riau ferromagn\IeC {\'e}tique dans un bobinage}{53}{section.2.21}
+\contentsline {subsection}{\numberline {2.21.1}Objectif}{53}{subsection.2.21.1}
+\contentsline {subsection}{\numberline {2.21.2}Th\IeC {\'e}orie}{53}{subsection.2.21.2}
+\contentsline {subsection}{\numberline {2.21.3}Mat\IeC {\'e}riel}{53}{subsection.2.21.3}
+\contentsline {subsection}{\numberline {2.21.4}Proc\IeC {\'e}dure}{53}{subsection.2.21.4}
+\contentsline {subsection}{\numberline {2.21.5}Observation}{53}{subsection.2.21.5}
+\contentsline {subsection}{\numberline {2.21.6}Discussion}{54}{subsection.2.21.6}
+\contentsline {section}{\numberline {2.22}Int\IeC {\'e}gration et diff\IeC {\'e}rentiation RC}{54}{section.2.22}
+\contentsline {subsection}{\numberline {2.22.1}Objectif}{54}{subsection.2.22.1}
+\contentsline {subsection}{\numberline {2.22.2}Th\IeC {\'e}orie}{54}{subsection.2.22.2}
+\contentsline {subsection}{\numberline {2.22.3}Mat\IeC {\'e}riel}{55}{subsection.2.22.3}
+\contentsline {subsection}{\numberline {2.22.4}Proc\IeC {\'e}dure}{55}{subsection.2.22.4}
+\contentsline {subsection}{\numberline {2.22.5}Observation}{56}{subsection.2.22.5}
+\contentsline {subsection}{\numberline {2.22.6}Discussion}{56}{subsection.2.22.6}
+\contentsline {section}{\numberline {2.23}Analyse de Fourier}{57}{section.2.23}
+\contentsline {subsection}{\numberline {2.23.1}Objectif}{57}{subsection.2.23.1}
+\contentsline {subsection}{\numberline {2.23.2}Mat\IeC {\'e}riel}{57}{subsection.2.23.2}
+\contentsline {subsection}{\numberline {2.23.3}Proc\IeC {\'e}dure}{57}{subsection.2.23.3}
+\contentsline {subsection}{\numberline {2.23.4}Observation}{57}{subsection.2.23.4}
+\contentsline {subsection}{\numberline {2.23.5}Discussion}{57}{subsection.2.23.5}
+\contentsline {section}{\numberline {2.24}Harmoniques composant un signal carr\IeC {\'e}}{58}{section.2.24}
+\contentsline {subsection}{\numberline {2.24.1}Mat\IeC {\'e}riel}{58}{subsection.2.24.1}
+\contentsline {subsection}{\numberline {2.24.2}Proc\IeC {\'e}dure}{58}{subsection.2.24.2}
+\contentsline {subsection}{\numberline {2.24.3}Observation}{58}{subsection.2.24.3}
+\contentsline {subsection}{\numberline {2.24.4}Discussion}{59}{subsection.2.24.4}
+\contentsline {chapter}{\numberline {3}\IeC {\'E}lectricit\IeC {\'e} et magn\IeC {\'e}tisme}{61}{chapter.3}
+\contentsline {section}{\numberline {3.1}Induction \IeC {\'e}lectromagn\IeC {\'e}tique}{61}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Objectif}{61}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Mat\IeC {\'e}riel}{61}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Proc\IeC {\'e}dure}{61}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Observation}{62}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Discussion}{62}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Un g\IeC {\'e}n\IeC {\'e}rateur de courant alternatif simple}{62}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Objectif}{62}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Mat\IeC {\'e}riel}{62}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Proc\IeC {\'e}dure}{62}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Observation}{63}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Discussion}{63}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Induction mutuelle, transformateur}{64}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Objectif}{64}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Mat\IeC {\'e}riel}{64}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Proc\IeC {\'e}dure}{64}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Observation}{65}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Discussion}{65}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}\IeC {\'E}lectro-aimant, sol\IeC {\'e}no\IeC {\"\i }de}{65}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Objectif}{65}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Mat\IeC {\'e}riel}{65}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Proc\IeC {\'e}dure}{65}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Observation}{66}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Discussion}{66}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Freinage par courants de Foucault}{66}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Objectif}{66}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Mat\IeC {\'e}riel}{66}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Proc\IeC {\'e}dure}{66}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Observation}{66}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Discussion}{67}{subsection.3.5.5}
+\contentsline {chapter}{\numberline {4}Le son}{69}{chapter.4}
+\contentsline {section}{\numberline {4.1}G\IeC {\'e}n\IeC {\'e}rer du son}{69}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Objectif}{69}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Mat\IeC {\'e}riel}{69}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Proc\IeC {\'e}dure}{69}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Observation}{70}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Discussion}{70}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}La fr\IeC {\'e}quence du son}{70}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Objectif}{70}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Mat\IeC {\'e}riel}{70}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Proc\IeC {\'e}dure}{71}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Observation}{71}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Discussion}{72}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}La vitesse du son}{72}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Objectif}{72}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Mat\IeC {\'e}riel}{72}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Proc\IeC {\'e}dure}{72}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Observation}{73}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Discussion}{73}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}La r\IeC {\'e}flexion du son}{74}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Objectif}{74}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Mat\IeC {\'e}riel}{74}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Proc\IeC {\'e}dure}{74}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Observation}{74}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Discussion}{74}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Les interf\IeC {\'e}rences sonores}{74}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Objectif}{74}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Mat\IeC {\'e}riel}{74}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Proc\IeC {\'e}dure}{75}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Observation}{75}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Discussion}{75}{subsection.4.5.5}
+\contentsline {section}{\numberline {4.6}Analyser de la musique}{75}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Mat\IeC {\'e}riel}{75}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Proc\IeC {\'e}dure}{76}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Observation}{76}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Vitesse du son, avec des ultra-sons}{76}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Objectif}{76}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Mat\IeC {\'e}riel}{76}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Proc\IeC {\'e}dure}{76}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Observation}{77}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}Discussion}{77}{subsection.4.7.5}
+\contentsline {section}{\numberline {4.8}Oscillations forc\IeC {\'e}es d'un cristal pi\IeC {\'e}zo-\IeC {\'e}lectrique}{77}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Objectif}{77}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}Mat\IeC {\'e}riel}{78}{subsection.4.8.2}
+\contentsline {subsection}{\numberline {4.8.3}Proc\IeC {\'e}dure}{78}{subsection.4.8.3}
+\contentsline {subsection}{\numberline {4.8.4}Observation}{78}{subsection.4.8.4}
+\contentsline {chapter}{\numberline {5}\IeC {\'E}lectronique}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Redresseur demi-onde, jonction PN}{81}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Objectif}{81}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Mat\IeC {\'e}riel}{81}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Proc\IeC {\'e}dure}{81}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Observation}{81}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Discussion}{82}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Signaux sinuso\IeC {\"\i }daux en opposition de phase (d\IeC {\'e}phas\IeC {\'e}s de 180\IeC {\degres })}{83}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Objectif}{83}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Mat\IeC {\'e}riel}{83}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Proc\IeC {\'e}dure}{83}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Observation}{83}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Discussion}{83}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}Les diodes, redresseur double alternance}{84}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Objectif}{84}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Mat\IeC {\'e}riel}{84}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Proc\IeC {\'e}dure}{84}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Observation}{84}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Discussion}{84}{subsection.5.3.5}
+\contentsline {section}{\numberline {5.4}Caract\IeC {\'e}ristique courant-tension (I-V) d'une diode}{85}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Objectif}{85}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Th\IeC {\'e}orie}{85}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Mat\IeC {\'e}riel}{85}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Proc\IeC {\'e}dure}{85}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Observation}{86}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Discussion}{86}{subsection.5.4.6}
+\contentsline {section}{\numberline {5.5}Diodes \IeC {\'e}mettrices de lumi\IeC {\`e}re, DEL (LED)}{86}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Objectif}{86}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Th\IeC {\'e}orie}{86}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Mat\IeC {\'e}riel}{87}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Proc\IeC {\'e}dure}{87}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Observation}{87}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Discussion}{87}{subsection.5.5.6}
+\contentsline {section}{\numberline {5.6}Caract\IeC {\'e}ristique d'un transistor en \IeC {\'e}metteur commun}{88}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Objectif}{88}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Mat\IeC {\'e}riel}{88}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Proc\IeC {\'e}dure}{88}{subsection.5.6.3}
+\contentsline {subsection}{\numberline {5.6.4}Observation}{88}{subsection.5.6.4}
+\contentsline {subsection}{\numberline {5.6.5}Discussion}{88}{subsection.5.6.5}
+\contentsline {section}{\numberline {5.7}Amplificateur \IeC {\`a} transistor (\IeC {\'E}metteur commun)}{89}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Objectif}{89}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Mat\IeC {\'e}riel}{89}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.3}Proc\IeC {\'e}dure}{89}{subsection.5.7.3}
+\contentsline {subsection}{\numberline {5.7.4}Observation}{90}{subsection.5.7.4}
+\contentsline {subsection}{\numberline {5.7.5}Discussion}{90}{subsection.5.7.5}
+\contentsline {section}{\numberline {5.8}Photo-transistor}{90}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Objectif}{90}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}Mat\IeC {\'e}riel}{90}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}Proc\IeC {\'e}dure}{90}{subsection.5.8.3}
+\contentsline {subsection}{\numberline {5.8.4}Observation}{91}{subsection.5.8.4}
+\contentsline {subsection}{\numberline {5.8.5}Discussion}{91}{subsection.5.8.5}
+\contentsline {section}{\numberline {5.9}Transmission de signal opto-\IeC {\'e}lectrique}{91}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Objectif}{91}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}Mat\IeC {\'e}riel}{91}{subsection.5.9.2}
+\contentsline {subsection}{\numberline {5.9.3}Proc\IeC {\'e}dure}{91}{subsection.5.9.3}
+\contentsline {subsection}{\numberline {5.9.4}Observation}{92}{subsection.5.9.4}
+\contentsline {subsection}{\numberline {5.9.5}Discussion}{92}{subsection.5.9.5}
+\contentsline {section}{\numberline {5.10}Modulation d'amplitude et de fr\IeC {\'e}quence}{93}{section.5.10}
+\contentsline {subsection}{\numberline {5.10.1}Objectif}{93}{subsection.5.10.1}
+\contentsline {subsection}{\numberline {5.10.2}Mat\IeC {\'e}riel}{93}{subsection.5.10.2}
+\contentsline {subsection}{\numberline {5.10.3}Proc\IeC {\'e}dure}{93}{subsection.5.10.3}
+\contentsline {subsection}{\numberline {5.10.4}Observation}{94}{subsection.5.10.4}
+\contentsline {subsection}{\numberline {5.10.5}Discussion}{94}{subsection.5.10.5}
+\contentsline {chapter}{\numberline {6}M\IeC {\'e}canique, optique et thermophysique}{95}{chapter.6}
+\contentsline {section}{\numberline {6.1}R\IeC {\'e}sonance d'un pendule entretenu}{95}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Objectif}{95}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Mat\IeC {\'e}riel}{95}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Proc\IeC {\'e}dure}{95}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Observation}{96}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Discussion}{96}{subsection.6.1.5}
+\contentsline {section}{\numberline {6.2}Valeur de 'g', pendule pesant}{96}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Objectif}{96}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Th\IeC {\'e}orie}{96}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Mat\IeC {\'e}riel}{96}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Proc\IeC {\'e}dure}{96}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Observation}{97}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Discussion}{97}{subsection.6.2.6}
+\contentsline {section}{\numberline {6.3}Oscillations d'un pendule}{98}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Objectif}{98}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Mat\IeC {\'e}riel}{98}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Proc\IeC {\'e}dure}{98}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Observation}{98}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Discussion}{98}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Valeur de 'g' par temps de vol}{99}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Objectif}{99}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Mat\IeC {\'e}riel}{99}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Proc\IeC {\'e}dure}{99}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Observation}{99}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}Discussion}{100}{subsection.6.4.5}
+\contentsline {section}{\numberline {6.5}Mesure de temp\IeC {\'e}rature, PT100}{100}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Objectif}{100}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Th\IeC {\'e}orie}{100}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Mat\IeC {\'e}riel}{100}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}Proc\IeC {\'e}dure}{100}{subsection.6.5.4}
+\contentsline {subsection}{\numberline {6.5.5}Observation}{101}{subsection.6.5.5}
+\contentsline {subsection}{\numberline {6.5.6}Discussion}{101}{subsection.6.5.6}
+\contentsline {section}{\numberline {6.6}Contr\IeC {\^o}leur de temp\IeC {\'e}rature}{102}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Objectif}{102}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Mat\IeC {\'e}riel}{102}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}Proc\IeC {\'e}dure}{102}{subsection.6.6.3}
+\contentsline {subsection}{\numberline {6.6.4}Observation}{102}{subsection.6.6.4}
+\contentsline {subsection}{\numberline {6.6.5}Discussion}{102}{subsection.6.6.5}
+\contentsline {chapter}{\numberline {7}Exp\IeC {\'e}riences diverses}{105}{chapter.7}
+\contentsline {section}{\numberline {7.1}Stroboscope}{105}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Objectif}{105}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Mat\IeC {\'e}riel}{105}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Proc\IeC {\'e}dure}{105}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Observation}{106}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Discussion}{106}{subsection.7.1.5}
+\contentsline {section}{\numberline {7.2}Mesure de transparence}{106}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Objectif}{106}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Mat\IeC {\'e}riel}{106}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Proc\IeC {\'e}dure}{106}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Observation}{107}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Ondes stationnaires dans une corde}{107}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Objectif}{107}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Th\IeC {\'e}orie}{107}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Mat\IeC {\'e}riel}{107}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Proc\IeC {\'e}dure}{107}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Observation}{108}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.6}Discussion}{108}{subsection.7.3.6}
+\contentsline {chapter}{\numberline {8}Accessoires}{109}{chapter.8}
+\contentsline {section}{\numberline {8.1}La collection d'accessoires standard}{109}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Montage \IeC {\`a} microphone}{110}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Bobinages 3000 tours (2)}{110}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Bobinage 1000 tours}{110}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}\IeC {\'E}lectro-aimant (avec un noyau en fer)}{110}{subsection.8.1.4}
+\contentsline {subsection}{\numberline {8.1.5}Disques pi\IeC {\'e}zo-\IeC {\'e}lectriques (2)}{110}{subsection.8.1.5}
+\contentsline {subsection}{\numberline {8.1.6}Haut-parleur (grand)}{110}{subsection.8.1.6}
+\contentsline {subsection}{\numberline {8.1.7}Haut-parleur (petit)}{110}{subsection.8.1.7}
+\contentsline {subsection}{\numberline {8.1.8}Moteur \IeC {\`a} courant continu}{110}{subsection.8.1.8}
+\contentsline {subsection}{\numberline {8.1.9}Support de transistor}{111}{subsection.8.1.9}
+\contentsline {subsection}{\numberline {8.1.10}Aimants permanents}{111}{subsection.8.1.10}
+\contentsline {subsection}{\numberline {8.1.11}Autres objets}{111}{subsection.8.1.11}
+\contentsline {section}{\numberline {8.2}Barri\IeC {\`e}re photo-\IeC {\'e}lectrique et pendule pesant}{111}{section.8.2}
+\contentsline {section}{\numberline {8.3}\IeC {\'E}metteur-r\IeC {\'e}cepteur pi\IeC {\'e}zo ultra-sonores}{111}{section.8.3}
+\contentsline {section}{\numberline {8.4}Appareil \IeC {\`a} corde vibrante}{112}{section.8.4}

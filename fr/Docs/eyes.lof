@@ -1,0 +1,86 @@
+\select@language {french}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Le tableau de bord d'ExpEYES avec les connexions externes des deux c\IeC {\^o}t\IeC {\'e}s. Les fl\IeC {\`e}ches indiquent les sens des signaux. }}{18}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Copie d'\IeC {\'e}cran du programme Explore. Les fl\IeC {\`e}ches indiquent la direction des signaux. Les champs textes servent \IeC {\`a} fixer des valeurs. Des boutons sont fournis pour les mesures de fr\IeC {\'e}quences. }}{24}{figure.1.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mesure de la tension de piles s\IeC {\`e}ches }}{28}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Caract\IeC {\'e}ristique I-V d'une r\IeC {\'e}sistance }}{29}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces (a) des plaques de zinc et de cuivre ins\IeC {\'e}r\IeC {\'e}es dans un citron. (b) La tension continue produite par la pile. }}{33}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Graphique d'une tension continue en fonction du temps }}{34}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Forme de l'onde de tension alternative issue de SIN }}{35}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Influence d'un c\IeC {\^a}ble \IeC {\'e}lectrique connect\IeC {\'e} au secteur }}{36}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces (a) Tension oscillant entre 0 et 5 V }}{37}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces (b) Apr\IeC {\`e}s travers\IeC {\'e}e d'un condensateur }}{38}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Tension apr\IeC {\`e}s passage dans la main. }}{39}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces }}{40}{figure.2.10}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces }}{40}{figure.2.11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces (a) Montage exp\IeC {\'e}rimental. (b) Tension continue totale et tension \IeC {\`a} travers la r\IeC {\'e}sistance de $1\ k\Omega $. }}{42}{figure.2.12}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Tension alternative totale et tension \IeC {\`a} travers la r\IeC {\'e}sistance de $1\ k\Omega $. }}{42}{figure.2.13}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces R\IeC {\'e}ponse transitoire d'un circuit RC. }}{43}{figure.2.14}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Ce dernier graphique repr\IeC {\'e}sente la charge d'un condensateur par une source de courant constant. }}{44}{figure.2.15}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Tension aux bornes du bobinage apr\IeC {\`e}s un \IeC {\'e}chelon de tension de 5 \IeC {\`a} 0V. }}{46}{figure.2.16}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces R\IeC {\'e}ponse transitoire d'un circuit RLC. (a) Le montage (b) R\IeC {\'e}sultat avec un bobinage sans noyau }}{47}{figure.2.17}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces R\IeC {\'e}sultat avec un noyau en ferrite. }}{47}{figure.2.18}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces R\IeC {\'e}ponse RLC avec une r\IeC {\'e}sistance en s\IeC {\'e}rie de $1 k\Omega $ qui ajoute un amortissement. }}{48}{figure.2.19}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Copie d'\IeC {\'e}cran montrant la tension totale aux bornes d'un circuit $RC$ et la tension aux bornes du condensateur. $C = 1\ \mu F$ et $R = 560 \Omega $. }}{49}{figure.2.20}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Copie d'\IeC {\'e}cran montrant le d\IeC {\'e}phasage pour $R = 560\ \Omega $ et $C = 1\ \mu F$. }}{51}{figure.2.21}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Circuit RL en r\IeC {\'e}gime sinuso\IeC {\"\i }dal. D\IeC {\'e}phasage aux bornes du bobinage. }}{52}{figure.2.22}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Circuit RL. Effet du noyau en ferrite. }}{54}{figure.2.23}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Int\IeC {\'e}grateur $RC$ }}{54}{figure.2.24}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Diff\IeC {\'e}rentiateur $RC$ }}{54}{figure.2.25}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Signal carr\IeC {\'e}, int\IeC {\'e}gr\IeC {\'e} et diff\IeC {\'e}renti\IeC {\'e}. }}{55}{figure.2.26}
+\contentsline {figure}{\numberline {2.27}{\ignorespaces }}{55}{figure.2.27}
+\contentsline {figure}{\numberline {2.28}{\ignorespaces }}{55}{figure.2.28}
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Int\IeC {\'e}gration \IeC {\`a} 20 Hz. $R = 1\ k\Omega $ et $C = 1\ \mu F$ }}{56}{figure.2.29}
+\contentsline {figure}{\numberline {2.30}{\ignorespaces Int\IeC {\'e}gration \IeC {\`a} 1 kHz. $R = 1\ k\Omega $ et $C = 1\ \mu F$ }}{56}{figure.2.30}
+\contentsline {figure}{\numberline {2.31}{\ignorespaces Diff\IeC {\'e}rentiation \IeC {\`a} 20 Hz. $R = 1\ k\Omega $ et $C = 1\ \mu F$ }}{57}{figure.2.31}
+\contentsline {figure}{\numberline {2.32}{\ignorespaces (a) Signal sinuso\IeC {\"\i }dal. (b) Sa transform\IeC {\'e}e de Fourier. }}{58}{figure.2.32}
+\contentsline {figure}{\numberline {2.33}{\ignorespaces Signal carr\IeC {\'e} et sa transform\IeC {\'e}e de Fourier }}{58}{figure.2.33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tension induite dans un bobinage par un aimant en mouvement. }}{62}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tension en sortie du g\IeC {\'e}n\IeC {\'e}rateur de courant alternatif avec diff\IeC {\'e}rentes vitesses de rotation de l'aimant }}{63}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Induction mutuelle entre deux bobines. (a) Le montage. (b) Avec un noyau en ferrite }}{64}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Induction mutuelle entre deux bobines, avec deux noyaux en forme de E. }}{64}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces (a) Sol\IeC {\'e}no\IeC {\"\i }de parcouru par un courant repoussant un aimant permanent. (b) Champ magn\IeC {\'e}tique d'un sol\IeC {\'e}no\IeC {\"\i }de parcouru par un courant. }}{65}{figure.3.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces G\IeC {\'e}n\IeC {\'e}rer du son \IeC {\`a} partir de signaux \IeC {\'e}lectriques. }}{70}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Num\IeC {\'e}riser le son. (a) branchements (b) son \IeC {\`a} 3012 Hz }}{71}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces son \IeC {\`a} 2000 Hz }}{71}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces (a) Montage exp\IeC {\'e}rimental (b) Sch\IeC {\'e}ma de la propagation d'ondes sonores, et de la variation du signal du microphone avec la pression. }}{72}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Amplitude du son capt\IeC {\'e} \IeC {\`a} deux positions s\IeC {\'e}par\IeC {\'e}es d'une demi-longueur d'onde. }}{73}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Battements cr\IeC {\'e}\IeC {\'e}s \IeC {\`a} l'aide de deux fr\IeC {\'e}quences voisines. }}{75}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Analyse de Fourier de notes de musique. }}{76}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces (a) Connexions, (b) Montage exp\IeC {\'e}rimental }}{77}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sortie sonore du pi\IeC {\'e}zo (a) fr\IeC {\'e}quence d'excitation de $3625\ Hz$ (b) fr\IeC {\'e}quence d'excitation de $100\ Hz$ }}{78}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Spectre de puissance de Fourier du son du disque pi\IeC {\'e}zo. (a) Excit\IeC {\'e} \IeC {\`a} $100\ Hz$ (b) Excit\IeC {\'e} \IeC {\`a} $500\ Hz$. }}{79}{figure.4.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Une diode utilis\IeC {\'e}e comme redresseur demi-onde. }}{82}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Redresseur avec filtrage. (a) $1\ \mu F$ (b) $100\ \mu F$. }}{82}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Un amplificateur inverseur pour faire un signal sinuso\IeC {\"\i }dal d\IeC {\'e}phas\IeC {\'e} de 180\IeC {\degres }. }}{83}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Redressement double alternance r\IeC {\'e}alis\IeC {\'e} \IeC {\`a} l'aide de deux diodes. }}{84}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Caract\IeC {\'e}ristiques courant-tension (I-V) pour une diode 1N4148 }}{85}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Caract\IeC {\'e}ristiques courant-tension (I-V) pour une diode Z\IeC {\'e}ner $3,3\ V$. }}{86}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Caract\IeC {\'e}ristiques courant-tension (I-V) de DELs bleue et verte }}{87}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Caract\IeC {\'e}ristiques du transistor en \IeC {\'e}metteur commun }}{88}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Amplificateur \IeC {\`a} transistor. Le montage, et point de fonctionnement avec une polarisation de $2\ V$ }}{89}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces M\IeC {\^e}me montage, point de fonctionnement avec une polarisation de $4\ V$ }}{90}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Caract\IeC {\'e}ristique du photo-transistor en configuration \IeC {\'e}metteur commun. }}{91}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Le signal au collecteur du photo-transistor }}{92}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Modulation d'amplitude.(a) Montage exp\IeC {\'e}rimental (b) Signal modulant pr\IeC {\'e}sent\IeC {\'e} en m\IeC {\^e}me temps que la sortie modul\IeC {\'e}e. }}{93}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces (1) Spectre de puissance de la sortie AM. G\IeC {\'e}n\IeC {\'e}r\IeC {\'e}e avec 1800 mesures et un intervalle de temps de 40 \IeC {\ensuremath {\mu }}s entre elles. (2) La sortie FM. }}{94}{figure.5.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Mesure de la p\IeC {\'e}riode d'un pendule pesant \IeC {\`a} l'aide du barri\IeC {\`e}re photo-\IeC {\'e}lectrique, pour calculer la valeur de 'g'. }}{97}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Calculs la valeur de 'g', dispersion des r\IeC {\'e}sultats. }}{97}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Nature des oscillations d'un pendule }}{98}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Gravit\IeC {\'e} par mesure de temps de vol. La bille de fer est tenue par l'\IeC {\'e}lectro-aimant. }}{99}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Photo du montage }}{100}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Courbe du refroidissement de l'eau mesur\IeC {\'e}e \IeC {\`a} l'aide d'un capteur PT1OO. }}{101}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Mesure de temp\IeC {\'e}rature \IeC {\`a} l'aide d'un LM35. }}{102}{figure.6.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Stroboscope utilisant une DEL comme flash. Le courant alternatif r\IeC {\'e}cup\IeC {\'e}r\IeC {\'e} par la bobine \IeC {\`a} cause de l'aimant tournant est utilis\IeC {\'e} pour v\IeC {\'e}rifier la vitesse de rotation. }}{105}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Mesure de transmission de lumi\IeC {\`e}re \IeC {\`a} l'aide d'un photo-transistor }}{107}{figure.7.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Collection d'accessoires standard. }}{109}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Barri\IeC {\`e}re photo-\IeC {\'e}lectrique et pendule pesant. }}{112}{figure.8.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces \IeC {\'E}metteur pi\IeC {\'e}zo 40 kHz et r\IeC {\'e}cepteur. }}{112}{figure.8.3}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Appareil \IeC {\`a} corde vibrante. }}{113}{figure.8.4}

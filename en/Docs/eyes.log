@@ -1,0 +1,1552 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.6.23)  17 AUG 2012 12:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**eyes.tex
+(./eyes.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin9.def
+File: latin9.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen113
+\WF@size=\dimen114
+\c@WF@wrappedlines=\count92
+\WF@box=\box26
+\WF@everypar=\toks19
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/frenchb.ldf
+Language: frenchb 2010/08/21 v2.5a French support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count93
+\U@D=\dimen115
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `French'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@french = a dialect from \language0
+Package babel Info: Making : an active character on input line 234.
+Package babel Info: Making ; an active character on input line 235.
+Package babel Info: Making ! an active character on input line 236.
+Package babel Info: Making ? an active character on input line 237.
+\FB@Mht=\dimen116
+\std@mcc=\count94
+\dec@mcc=\count95
+\parindentFFN=\dimen117
+*************************************
+* Local config file frenchb.cfg used
+*
+(/usr/share/texlive/texmf-dist/tex/generic/babel/frenchb.cfg))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty) (./eyes.aux)
+\openout1 = `eyes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 49.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(135.15059pt, 327.2067pt, 135.15059pt)
+* v-part:(T,H,B)=(170.71652pt, 483.69687pt, 170.71652pt)
+* \paperwidth=597.50787pt
+* \paperheight=825.12991pt
+* \textwidth=327.2067pt
+* \textheight=483.69687pt
+* \oddsidemargin=62.8806pt
+* \evensidemargin=62.8806pt
+* \topmargin=68.37904pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count96
+\scratchdimen=\dimen118
+\scratchbox=\box27
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen119
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks21
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \degres on input line 49.
+LaTeX Info: Redefining \dots on input line 49.
+LaTeX Info: Redefining \up on input line 49.
+
+<pics/eyes.jpg, id=1, 1003.75pt x 752.8125pt>
+File: pics/eyes.jpg Graphic file (type jpg)
+ <use pics/eyes.jpg>
+Package pdftex.def Info: pics/eyes.jpg used on input line 62.
+(pdftex.def)             Requested size: 227.62204pt x 170.708pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pics/eyes.jpg>] [2] (./e
+yes.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [3
+
+] [4])
+\tf@toc=\write3
+\openout3 = `eyes.toc'.
+
+ [5]
+[6
+
+]
+Chapitre 1.
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [7]
+<pics/top-panel.png, id=36, 216.5691pt x 291.0072pt>
+File: pics/top-panel.png Graphic file (type png)
+ <use pics/top-panel.png>
+Package pdftex.def Info: pics/top-panel.png used on input line 198.
+(pdftex.def)             Requested size: 284.52756pt x 382.33232pt.
+
+[8] [9 <./pics/top-panel.png>] [10] [11] [12]
+Overfull \hbox (14.15695pt too wide) in paragraph at lines 421--426
+[]\T1/cmr/m/n/10 If you have ex-pEYES liveCD, browse in-side the di-rec-tory na
+med WINEYES.
+ []
+
+[13] <pics/explorer.png, id=63, 697.10437pt x 430.60875pt>
+File: pics/explorer.png Graphic file (type png)
+
+<use pics/explorer.png>
+Package pdftex.def Info: pics/explorer.png used on input line 490.
+(pdftex.def)             Requested size: 312.9803pt x 193.33191pt.
+ [14] [15 <./pics/explorer.png>] [16] [17] [18
+
+]
+Chapitre 2.
+[19] <schematics/cell-volatge.png, id=87, 184.69pt x 80.3pt>
+File: schematics/cell-volatge.png Graphic file (type png)
+
+<use schematics/cell-volatge.png>
+Package pdftex.def Info: schematics/cell-volatge.png used on input line 609.
+(pdftex.def)             Requested size: 130.88562pt x 56.9055pt.
+
+<pics/drycell-voltage.png, id=88, 138.5175pt x 79.04532pt>
+File: pics/drycell-voltage.png Graphic file (type png)
+
+<use pics/drycell-voltage.png>
+Package pdftex.def Info: pics/drycell-voltage.png used on input line 609.
+(pdftex.def)             Requested size: 99.72194pt x 56.9055pt.
+ [20 <./schematics/cell-volatge.png> <./pics/drycell-voltage.png>] <schematics/
+res-measure.png, id=94, 114.4275pt x 80.3pt>
+File: schematics/res-measure.png Graphic file (type png)
+
+<use schematics/res-measure.png>
+Package pdftex.def Info: schematics/res-measure.png used on input line 674.
+(pdftex.def)             Requested size: 85.35826pt x 59.90259pt.
+
+<pics/resistor_iv.png, id=95, 505.89pt x 389.20406pt>
+File: pics/resistor_iv.png Graphic file (type png)
+
+<use pics/resistor_iv.png>
+Package pdftex.def Info: pics/resistor_iv.png used on input line 674.
+(pdftex.def)             Requested size: 113.81102pt x 87.55525pt.
+
+! Undefined control sequence.
+l.692 \item Draw the graph using\buttonlabel
+                                            {START} button.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[21 <./schematics/res-measure.png> <./pics/resistor_iv.png>] [22]
+<schematics/res-series.png, id=105, 238.8925pt x 41.15375pt>
+File: schematics/res-series.png Graphic file (type png)
+
+<use schematics/res-series.png>
+Package pdftex.def Info: schematics/res-series.png used on input line 750.
+(pdftex.def)             Requested size: 132.13489pt x 22.76228pt.
+ [23 <./schematics/res-series.png>]
+<schematics/res-par.png, id=110, 238.8925pt x 47.17625pt>
+File: schematics/res-par.png Graphic file (type png)
+
+<use schematics/res-par.png>
+Package pdftex.def Info: schematics/res-par.png used on input line 806.
+(pdftex.def)             Requested size: 144.08022pt x 28.45274pt.
+ [24 <./schematics/res-par.png>]
+<schematics/res-comp.png, id=115, 299.1175pt x 47.17625pt>
+File: schematics/res-comp.png Graphic file (type png)
+
+<use schematics/res-comp.png>
+Package pdftex.def Info: schematics/res-comp.png used on input line 867.
+(pdftex.def)             Requested size: 180.40297pt x 28.45274pt.
+ [25 <./schematics/res-comp.png>] [26]
+<schematics/lemon-cell.png, id=124, 190.7125pt x 89.33376pt>
+File: schematics/lemon-cell.png Graphic file (type png)
+
+<use schematics/lemon-cell.png>
+Package pdftex.def Info: schematics/lemon-cell.png used on input line 912.
+(pdftex.def)             Requested size: 113.81102pt x 53.31168pt.
+
+<pics/lemoncellDC.png, id=125, 357.58594pt x 280.04625pt>
+File: pics/lemoncellDC.png Graphic file (type png)
+
+<use pics/lemoncellDC.png>
+Package pdftex.def Info: pics/lemoncellDC.png used on input line 912.
+(pdftex.def)             Requested size: 130.88284pt x 102.50018pt.
+ [27 <./schematics/lemon-cell.png> <./pics/lemoncellDC.png>] [28]
+File: schematics/cell-volatge.png Graphic file (type png)
+ <use schematics/cell-volatge.png>
+Package pdftex.def Info: schematics/cell-volatge.png used on input line 968.
+(pdftex.def)             Requested size: 113.81102pt x 49.48282pt.
+
+<pics/dcvoltage.png, id=134, 357.58594pt x 279.29344pt>
+File: pics/dcvoltage.png Graphic file (type png)
+
+<use pics/dcvoltage.png>
+Package pdftex.def Info: pics/dcvoltage.png used on input line 968.
+(pdftex.def)             Requested size: 113.81102pt x 88.8899pt.
+ [29 <./pics/dcvoltage.png>]
+<schematics/sine-a0.png, id=139, 86.3225pt x 80.3pt>
+File: schematics/sine-a0.png Graphic file (type png)
+
+<use schematics/sine-a0.png>
+Package pdftex.def Info: schematics/sine-a0.png used on input line 1026.
+(pdftex.def)             Requested size: 56.9055pt x 52.93565pt.
+
+<pics/sinewave90hz.png, id=140, 359.09157pt x 314.67563pt>
+File: pics/sinewave90hz.png Graphic file (type png)
+
+<use pics/sinewave90hz.png>
+Package pdftex.def Info: pics/sinewave90hz.png used on input line 1026.
+(pdftex.def)             Requested size: 113.81102pt x 99.73314pt.
+ [30 <./schematics/sine-a0.png> <./pics/sinewave90hz.png>] [31] <schematics/pic
+kup.png, id=150, 187.70125pt x 125.46875pt>
+File: schematics/pickup.png Graphic file (type png)
+
+<use schematics/pickup.png>
+Package pdftex.def Info: schematics/pickup.png used on input line 1084.
+(pdftex.def)             Requested size: 113.81102pt x 76.07825pt.
+
+<pics/sinewave50hz.png, id=151, 356.83313pt x 314.67563pt>
+File: pics/sinewave50hz.png Graphic file (type png)
+
+<use pics/sinewave50hz.png>
+Package pdftex.def Info: pics/sinewave50hz.png used on input line 1084.
+(pdftex.def)             Requested size: 142.26378pt x 125.45508pt.
+ [32 <./schematics/pickup.png> <./pics/sinewave50hz.png>] [33] <schematics/sqr-
+a0.png, id=160, 74.2775pt x 95.35625pt>
+File: schematics/sqr-a0.png Graphic file (type png)
+
+<use schematics/sqr-a0.png>
+Package pdftex.def Info: schematics/sqr-a0.png used on input line 1131.
+(pdftex.def)             Requested size: 56.9055pt x 73.05786pt.
+
+<pics/sqrwave2.png, id=161, 341.02406pt x 278.54062pt>
+File: pics/sqrwave2.png Graphic file (type png)
+ <use pics/sqrwave2.png>
+Package pdftex.def Info: pics/sqrwave2.png used on input line 1131.
+(pdftex.def)             Requested size: 93.89418pt x 76.69028pt.
+
+<schematics/ac-dc.png, id=162, 131.49126pt x 128.48pt>
+File: schematics/ac-dc.png Graphic file (type png)
+
+<use schematics/ac-dc.png>
+Package pdftex.def Info: schematics/ac-dc.png used on input line 1131.
+(pdftex.def)             Requested size: 71.13188pt x 69.50558pt.
+
+<pics/sqrwave_dcblocked.png, id=163, 356.83313pt x 279.29344pt>
+File: pics/sqrwave_dcblocked.png Graphic file (type png)
+
+<use pics/sqrwave_dcblocked.png>
+Package pdftex.def Info: pics/sqrwave_dcblocked.png used on input line 1131.
+(pdftex.def)             Requested size: 93.89418pt x 73.48822pt.
+ [34 <./schematics/sqr-a0.png> <./pics/sqrwave2.png> <./schematics/ac-dc.png> <
+./pics/sqrwave_dcblocked.png>] [35]
+<pics/conduct-hand.jpg, id=175, 642.4pt x 481.8pt>
+File: pics/conduct-hand.jpg Graphic file (type jpg)
+ <use pics/conduct-hand.jpg>
+Package pdftex.def Info: pics/conduct-hand.jpg used on input line 1199.
+(pdftex.def)             Requested size: 116.65646pt x 87.49217pt.
+
+<pics/sqrwave_hand.png, id=176, 359.84438pt x 279.29344pt>
+File: pics/sqrwave_hand.png Graphic file (type png)
+
+<use pics/sqrwave_hand.png>
+Package pdftex.def Info: pics/sqrwave_hand.png used on input line 1199.
+(pdftex.def)             Requested size: 113.81102pt x 88.33588pt.
+ [36 <./pics/conduct-hand.jpg> <./pics/sqrwave_hand.png>] <schematics/ntc.png, 
+id=181, 214.8025pt x 47.17625pt>
+File: schematics/ntc.png Graphic file (type png)
+
+<use schematics/ntc.png>
+Package pdftex.def Info: schematics/ntc.png used on input line 1240.
+(pdftex.def)             Requested size: 103.64156pt x 22.76228pt.
+ [37 <./schematics/ntc.png>]
+<schematics/ldr.png, id=187, 299.1175pt x 53.19875pt>
+File: schematics/ldr.png Graphic file (type png)
+ <use schematics/ldr.png>
+Package pdftex.def Info: schematics/ldr.png used on input line 1293.
+(pdftex.def)             Requested size: 127.9836pt x 22.76228pt.
+
+[38 <./schematics/ldr.png>]
+<schematics/water.png, id=192, 218.8175pt x 104.39pt>
+File: schematics/water.png Graphic file (type png)
+
+<use schematics/water.png>
+Package pdftex.def Info: schematics/water.png used on input line 1333.
+(pdftex.def)             Requested size: 110.96556pt x 52.93872pt.
+
+<pics/DCthrough_water.png, id=193, 358.33875pt x 314.67563pt>
+File: pics/DCthrough_water.png Graphic file (type png)
+
+<use pics/DCthrough_water.png>
+Package pdftex.def Info: pics/DCthrough_water.png used on input line 1333.
+(pdftex.def)             Requested size: 102.43008pt x 89.94756pt.
+
+<pics/ACthrough_water.png, id=194, 359.09157pt x 316.93407pt>
+File: pics/ACthrough_water.png Graphic file (type png)
+
+<use pics/ACthrough_water.png>
+Package pdftex.def Info: pics/ACthrough_water.png used on input line 1333.
+(pdftex.def)             Requested size: 102.43008pt x 90.40451pt.
+ [39 <./schematics/water.png> <./pics/DCthrough_water.png> <./pics/ACthrough_wa
+ter.png>]
+Overfull \hbox (1.4667pt too wide) in paragraph at lines 1389--1391
+[]\T1/cmr/m/n/10 What are the charge car-ri-ers re-spon-si-ble for the flow of 
+elec-tric-ity through
+ []
+
+[40] <schematics/rc-tran.png, id=205, 166.6225pt x 104.39pt>
+File: schematics/rc-tran.png Graphic file (type png)
+
+<use schematics/rc-tran.png>
+Package pdftex.def Info: schematics/rc-tran.png used on input line 1432.
+(pdftex.def)             Requested size: 91.04872pt x 57.04352pt.
+
+<pics/CR-transient-screen.png, id=206, 424.58624pt x 291.33844pt>
+File: pics/CR-transient-screen.png Graphic file (type png)
+
+<use pics/CR-transient-screen.png>
+Package pdftex.def Info: pics/CR-transient-screen.png used on input line 1432.
+(pdftex.def)             Requested size: 108.12054pt x 74.19029pt.
+
+<pics/capacitor_linear.png, id=207, 423.83344pt x 294.34969pt>
+File: pics/capacitor_linear.png Graphic file (type png)
+
+<use pics/capacitor_linear.png>
+Package pdftex.def Info: pics/capacitor_linear.png used on input line 1432.
+(pdftex.def)             Requested size: 108.12054pt x 75.08736pt.
+
+! Undefined control sequence.
+<recently read> \buttonlabel 
+                             
+l.1449 ...\textit{\emph{\buttonlabel{0->5V STEP}}}
+                                                   and\textit{\emph{\buttonl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \buttonlabel 
+                             
+l.1449 ...d\textit{\emph{\buttonlabel{5->0VSTEP}}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[41 <./schematics/rc-tran.png> <./pics/CR-transient-screen.png> <./pics/capacit
+or_linear.png>] [42]
+Underfull \hbox (badness 10000) in paragraph at lines 1516--1516
+[][][]\T1/cmr/m/n/8 .[]http ://nptel.iitm.ac.in/courses/Webcourse-contents/IIT-
+
+ []
+
+<schematics/rl-tran.png, id=220, 172.645pt x 104.39pt>
+File: schematics/rl-tran.png Graphic file (type png)
+
+<use schematics/rl-tran.png>
+Package pdftex.def Info: schematics/rl-tran.png used on input line 1523.
+(pdftex.def)             Requested size: 91.04872pt x 55.05244pt.
+
+<pics/LR-downstep.png, id=221, 430.60875pt x 373.395pt>
+File: pics/LR-downstep.png Graphic file (type png)
+
+<use pics/LR-downstep.png>
+Package pdftex.def Info: pics/LR-downstep.png used on input line 1523.
+(pdftex.def)             Requested size: 113.81102pt x 98.68712pt.
+
+! Undefined control sequence.
+<recently read> \buttonlabel 
+                             
+l.1541 ...textit{\emph{\buttonlabel{0->5V STEP}}}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \buttonlabel 
+                             
+l.1542 ...textit{\emph{\buttonlabel{5->0V STEP}}}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[43 <./schematics/rl-tran.png> <./pics/LR-downstep.png>] [44]
+<schematics/lc-tran.png, id=231, 172.645pt x 104.39pt>
+File: schematics/lc-tran.png Graphic file (type png)
+
+<use schematics/lc-tran.png>
+Package pdftex.def Info: schematics/lc-tran.png used on input line 1605.
+(pdftex.def)             Requested size: 85.35826pt x 51.61186pt.
+
+<pics/LCRdischarge.png, id=232, 456.95718pt x 351.56343pt>
+File: pics/LCRdischarge.png Graphic file (type png)
+
+<use pics/LCRdischarge.png>
+Package pdftex.def Info: pics/LCRdischarge.png used on input line 1605.
+(pdftex.def)             Requested size: 99.58464pt x 76.61462pt.
+
+<pics/LCRdischarge_ferrite.png, id=233, 456.95718pt x 351.56343pt>
+File: pics/LCRdischarge_ferrite.png Graphic file (type png)
+
+<use pics/LCRdischarge_ferrite.png>
+Package pdftex.def Info: pics/LCRdischarge_ferrite.png used on input line 1605.
+
+(pdftex.def)             Requested size: 99.58464pt x 76.61462pt.
+
+<schematics/rlc-tran.png, id=234, 172.645pt x 152.57pt>
+File: schematics/rlc-tran.png Graphic file (type png)
+
+<use schematics/rlc-tran.png>
+Package pdftex.def Info: schematics/rlc-tran.png used on input line 1634.
+(pdftex.def)             Requested size: 85.35826pt x 75.43275pt.
+
+<pics/LCRdischarge_1k.png, id=235, 456.95718pt x 351.56343pt>
+File: pics/LCRdischarge_1k.png Graphic file (type png)
+
+<use pics/LCRdischarge_1k.png>
+Package pdftex.def Info: pics/LCRdischarge_1k.png used on input line 1634.
+(pdftex.def)             Requested size: 113.81102pt x 87.55804pt.
+ [45 <./schematics/lc-tran.png> <./pics/LCRdischarge.png> <./pics/LCRdischarge_
+ferrite.png>]
+Overfull \hbox (17.70013pt too wide) in paragraph at lines 1661--1664
+[]\T1/cmr/m/n/10 The un-der damped wave-form re-quire a resistance,$\OML/cmm/m/
+it/10 R \OT1/cmr/m/n/10 = [] = [] =
+ []
+
+[46 <./schematics/rlc-tran.png> <./pics/LCRdischarge_1k.png>]
+<schematics/rc-steadystate.png, id=247, 172.645pt x 152.57pt>
+File: schematics/rc-steadystate.png Graphic file (type png)
+
+<use schematics/rc-steadystate.png>
+Package pdftex.def Info: schematics/rc-steadystate.png used on input line 1687.
+
+(pdftex.def)             Requested size: 85.35826pt x 75.43275pt.
+
+<pics/CRphaseshift-1uf560.png, id=248, 357.58594pt x 315.42844pt>
+File: pics/CRphaseshift-1uf560.png Graphic file (type png)
+
+<use pics/CRphaseshift-1uf560.png>
+Package pdftex.def Info: pics/CRphaseshift-1uf560.png used on input line 1687.
+(pdftex.def)             Requested size: 113.81102pt x 100.39047pt.
+ [47 <./schematics/rc-steadystate.png> <./pics/CRphaseshift-1uf560.png>] [48]
+File: schematics/rc-steadystate.png Graphic file (type png)
+ <use schematics/rc-steadystate.png>
+Package pdftex.def Info: schematics/rc-steadystate.png used on input line 1765.
+
+(pdftex.def)             Requested size: 85.35826pt x 75.43275pt.
+File: pics/CRphaseshift-1uf560.png Graphic file (type png)
+
+<use pics/CRphaseshift-1uf560.png>
+Package pdftex.def Info: pics/CRphaseshift-1uf560.png used on input line 1765.
+(pdftex.def)             Requested size: 113.81102pt x 100.39047pt.
+ [49]
+Overfull \hbox (3.88051pt too wide) in paragraph at lines 1802--1804
+[]\T1/cmr/m/n/10 where$\OML/cmm/m/it/10 X[] \OT1/cmr/m/n/10 = []$ \T1/cmr/m/n/1
+0 is the impedance of the ca-pac-i-tor, Fre-quency is 93Hz.$\OML/cmm/m/it/10 X[
+]$
+ []
+
+[50] <schematics/rl-steadystate.png, id=265, 172.645pt x 152.57pt>
+File: schematics/rl-steadystate.png Graphic file (type png)
+
+<use schematics/rl-steadystate.png>
+Package pdftex.def Info: schematics/rl-steadystate.png used on input line 1844.
+
+(pdftex.def)             Requested size: 85.35826pt x 75.43275pt.
+
+<pics/LRphaseshift-125mH-125ohm.png, id=266, 359.09157pt x 315.42844pt>
+File: pics/LRphaseshift-125mH-125ohm.png Graphic file (type png)
+
+<use pics/LRphaseshift-125mH-125ohm.png>
+Package pdftex.def Info: pics/LRphaseshift-125mH-125ohm.png used on input line 
+1844.
+(pdftex.def)             Requested size: 113.81102pt x 99.97173pt.
+ [51 <./schematics/rl-steadystate.png> <./pics/LRphaseshift-125mH-125ohm.png>] 
+[52]
+<schematics/rl-steadystate-ferrite.png, id=275, 172.645pt x 152.57pt>
+File: schematics/rl-steadystate-ferrite.png Graphic file (type png)
+
+<use schematics/rl-steadystate-ferrite.png>
+Package pdftex.def Info: schematics/rl-steadystate-ferrite.png used on input li
+ne 1913.
+(pdftex.def)             Requested size: 85.35826pt x 75.43275pt.
+
+<pics/LRphaseshift_ferrite.png, id=276, 358.33875pt x 313.17pt>
+File: pics/LRphaseshift_ferrite.png Graphic file (type png)
+
+<use pics/LRphaseshift_ferrite.png>
+Package pdftex.def Info: pics/LRphaseshift_ferrite.png used on input line 1913.
+
+(pdftex.def)             Requested size: 113.81102pt x 99.46143pt.
+ [53 <./schematics/rl-steadystate-ferrite.png> <./pics/LRphaseshift_ferrite.png
+>] [54]
+<pics/RCinteg.png, id=285, 159.59625pt x 61.22874pt>
+File: pics/RCinteg.png Graphic file (type png)
+ <use pics/RCinteg.png>
+Package pdftex.def Info: pics/RCinteg.png used on input line 1961.
+(pdftex.def)             Requested size: 113.81102pt x 43.66328pt.
+
+<pics/RCdiff.png, id=286, 159.59625pt x 68.255pt>
+File: pics/RCdiff.png Graphic file (type png)
+ <use pics/RCdiff.png>
+Package pdftex.def Info: pics/RCdiff.png used on input line 1961.
+(pdftex.def)             Requested size: 113.81102pt x 48.67384pt.
+
+<pics/triwave_diff.png, id=287, 80.3pt x 140.525pt>
+File: pics/triwave_diff.png Graphic file (type png)
+
+<use pics/triwave_diff.png>
+Package pdftex.def Info: pics/triwave_diff.png used on input line 1961.
+(pdftex.def)             Requested size: 45.52458pt x 79.66908pt.
+
+<schematics/rc-integ.png, id=288, 275.0275pt x 47.17625pt>
+File: schematics/rc-integ.png Graphic file (type png)
+
+<use schematics/rc-integ.png>
+Package pdftex.def Info: schematics/rc-integ.png used on input line 1998.
+(pdftex.def)             Requested size: 132.69994pt x 22.76228pt.
+
+<schematics/rc-diff.png, id=289, 275.0275pt x 47.17625pt>
+File: schematics/rc-diff.png Graphic file (type png)
+
+<use schematics/rc-diff.png>
+Package pdftex.def Info: schematics/rc-diff.png used on input line 1998.
+(pdftex.def)             Requested size: 132.69994pt x 22.76228pt.
+ [55 <./pics/RCinteg.png> <./pics/RCdiff.png> <./pics/triwave_diff.png>]
+! Undefined control sequence.
+l.2006 \item Click on the Button\buttonlabel
+                                            {FT} to view a Fourier Transform.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<pics/squarewave_interg20hz.png, id=297, 358.33875pt x 280.04625pt>
+File: pics/squarewave_interg20hz.png Graphic file (type png)
+
+<use pics/squarewave_interg20hz.png>
+Package pdftex.def Info: pics/squarewave_interg20hz.png used on input line 2013
+.
+(pdftex.def)             Requested size: 102.43008pt x 80.04903pt.
+
+<pics/squarewave_interg1khz.png, id=298, 357.58594pt x 280.79906pt>
+File: pics/squarewave_interg1khz.png Graphic file (type png)
+
+<use pics/squarewave_interg1khz.png>
+Package pdftex.def Info: pics/squarewave_interg1khz.png used on input line 2013
+.
+(pdftex.def)             Requested size: 102.43008pt x 80.4356pt.
+
+<pics/squarewave_diff20hz.png, id=299, 356.83313pt x 279.29344pt>
+File: pics/squarewave_diff20hz.png Graphic file (type png)
+
+<use pics/squarewave_diff20hz.png>
+Package pdftex.def Info: pics/squarewave_diff20hz.png used on input line 2013.
+(pdftex.def)             Requested size: 102.43008pt x 80.17052pt.
+ [56 <./pics/squarewave_interg20hz.png> <./pics/squarewave_interg1khz.png> <./p
+ics/squarewave_diff20hz.png> <./schematics/rc-integ.png> <./schematics/rc-diff.
+png>]
+<pics/sinewave.png, id=308, 359.09157pt x 280.04625pt>
+File: pics/sinewave.png Graphic file (type png)
+ <use pics/sinewave.png>
+Package pdftex.def Info: pics/sinewave.png used on input line 2062.
+(pdftex.def)             Requested size: 170.71652pt x 133.13872pt.
+
+<pics/sine90hz-fft.png, id=309, 435.0654pt x 373.6359pt>
+File: pics/sine90hz-fft.png Graphic file (type png)
+
+<use pics/sine90hz-fft.png>
+Package pdftex.def Info: pics/sine90hz-fft.png used on input line 2062.
+(pdftex.def)             Requested size: 142.26378pt x 122.17708pt.
+ [57 <./pics/sinewave.png> <./pics/sine90hz-fft.png>] [58] <pics/sqr1000Hz.png,
+ id=318, 356.0803pt x 278.54062pt>
+File: pics/sqr1000Hz.png Graphic file (type png)
+
+<use pics/sqr1000Hz.png>
+Package pdftex.def Info: pics/sqr1000Hz.png used on input line 2113.
+(pdftex.def)             Requested size: 156.49014pt x 122.40948pt.
+
+<pics/sqr1000Hz-fft.png, id=319, 591.8913pt x 401.8212pt>
+File: pics/sqr1000Hz-fft.png Graphic file (type png)
+
+<use pics/sqr1000Hz-fft.png>
+Package pdftex.def Info: pics/sqr1000Hz-fft.png used on input line 2113.
+(pdftex.def)             Requested size: 156.49014pt x 106.23685pt.
+ [59 <./pics/sqr1000Hz.png> <./pics/sqr1000Hz-fft.png>] [60]
+Chapitre 3.
+<pics/EMinduction-photo.jpg, id=328, 803.0pt x 551.05875pt>
+File: pics/EMinduction-photo.jpg Graphic file (type jpg)
+
+<use pics/EMinduction-photo.jpg>
+Package pdftex.def Info: pics/EMinduction-photo.jpg used on input line 2155.
+(pdftex.def)             Requested size: 165.02606pt x 113.24524pt.
+
+<pics/em_induction.png, id=329, 430.60875pt x 351.56343pt>
+File: pics/em_induction.png Graphic file (type png)
+
+<use pics/em_induction.png>
+Package pdftex.def Info: pics/em_induction.png used on input line 2155.
+(pdftex.def)             Requested size: 139.41832pt x 113.82759pt.
+
+! Undefined control sequence.
+l.2170 \item Click on\buttonlabel
+                                 {Start Scanning}. A horizontal trace should...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[61
+
+] [62 <./pics/EMinduction-photo.jpg> <./pics/em_induction.png>]
+<schematics/ac-gen.png, id=339, 160.6pt x 137.51375pt>
+File: schematics/ac-gen.png Graphic file (type png)
+
+<use schematics/ac-gen.png>
+Package pdftex.def Info: schematics/ac-gen.png used on input line 2209.
+(pdftex.def)             Requested size: 85.35826pt x 73.08966pt.
+
+<pics/ACgen-output-30pct.png, id=340, 357.58594pt x 314.67563pt>
+File: pics/ACgen-output-30pct.png Graphic file (type png)
+
+<use pics/ACgen-output-30pct.png>
+Package pdftex.def Info: pics/ACgen-output-30pct.png used on input line 2209.
+(pdftex.def)             Requested size: 113.81102pt x 100.15088pt.
+
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [63 <./schematics/ac-gen.png> <./pics/ACgen-output-30pct.png>] [64]
+<schematics/transformer.png, id=349, 207.77625pt x 137.51375pt>
+File: schematics/transformer.png Graphic file (type png)
+
+<use schematics/transformer.png>
+Package pdftex.def Info: schematics/transformer.png used on input line 2273.
+(pdftex.def)             Requested size: 85.35826pt x 56.4922pt.
+
+<pics/mutual_induction.png, id=350, 359.09157pt x 315.42844pt>
+File: pics/mutual_induction.png Graphic file (type png)
+
+<use pics/mutual_induction.png>
+Package pdftex.def Info: pics/mutual_induction.png used on input line 2273.
+(pdftex.def)             Requested size: 96.73918pt x 84.97429pt.
+
+<pics/mutual_induction_Ecore_1kload.png, id=351, 357.58594pt x 315.42844pt>
+File: pics/mutual_induction_Ecore_1kload.png Graphic file (type png)
+
+<use pics/mutual_induction_Ecore_1kload.png>
+Package pdftex.def Info: pics/mutual_induction_Ecore_1kload.png used on input l
+ine 2273.
+(pdftex.def)             Requested size: 96.73918pt x 85.33527pt.
+ [65 <./schematics/transformer.png> <./pics/mutual_induction.png> <./pics/mutua
+l_induction_Ecore_1kload.png>]
+[66] <pics/coil-magnetpendulum-photo.JPG, id=361, 803.0pt x 651.43375pt>
+File: pics/coil-magnetpendulum-photo.JPG Graphic file (type jpg)
+
+<use pics/coil-magnetpendulum-photo.JPG>
+Package pdftex.def Info: pics/coil-magnetpendulum-photo.JPG used on input line 
+2331.
+(pdftex.def)             Requested size: 142.26378pt x 115.40416pt.
+
+<pics/solenoid_field.jpg, id=362, 934.49126pt x 442.65375pt>
+File: pics/solenoid_field.jpg Graphic file (type jpg)
+
+<use pics/solenoid_field.jpg>
+Package pdftex.def Info: pics/solenoid_field.jpg used on input line 2331.
+(pdftex.def)             Requested size: 170.71652pt x 80.86299pt.
+ [67 <./pics/coil-magnetpendulum-photo.JPG> <./pics/solenoid_field.jpg>] [68] [
+69] [70
+
+]
+Chapitre 4.
+[71] [72] <schematics/sound-freq.png, id=382, 218.8175pt x 158.5925pt>
+File: schematics/sound-freq.png Graphic file (type png)
+
+<use schematics/sound-freq.png>
+Package pdftex.def Info: schematics/sound-freq.png used on input line 2481.
+(pdftex.def)             Requested size: 85.35826pt x 61.86533pt.
+
+<pics/sound3012hz.png, id=383, 357.58594pt x 280.04625pt>
+File: pics/sound3012hz.png Graphic file (type png)
+
+<use pics/sound3012hz.png>
+Package pdftex.def Info: pics/sound3012hz.png used on input line 2481.
+(pdftex.def)             Requested size: 99.58464pt x 77.98936pt.
+
+<pics/sound2000hz.png, id=384, 357.58594pt x 280.04625pt>
+File: pics/sound2000hz.png Graphic file (type png)
+
+<use pics/sound2000hz.png>
+Package pdftex.def Info: pics/sound2000hz.png used on input line 2481.
+(pdftex.def)             Requested size: 99.58464pt x 77.98936pt.
+ [73 <./schematics/sound-freq.png> <./pics/sound3012hz.png> <./pics/sound2000hz
+.png>] [74]
+<schematics/sound-vel.png, id=395, 236.885pt x 158.5925pt>
+File: schematics/sound-vel.png Graphic file (type png)
+
+<use schematics/sound-vel.png>
+Package pdftex.def Info: schematics/sound-vel.png used on input line 2554.
+(pdftex.def)             Requested size: 113.81102pt x 76.1937pt.
+
+<pics/sound_waves.png, id=396, 550.055pt x 291.0875pt>
+File: pics/sound_waves.png Graphic file (type png)
+
+<use pics/sound_waves.png>
+Package pdftex.def Info: pics/sound_waves.png used on input line 2554.
+(pdftex.def)             Requested size: 176.407pt x 93.3542pt.
+
+<pics/sound_inphase.png, id=397, 656.4525pt x 389.20406pt>
+File: pics/sound_inphase.png Graphic file (type png)
+
+<use pics/sound_inphase.png>
+Package pdftex.def Info: pics/sound_inphase.png used on input line 2584.
+(pdftex.def)             Requested size: 153.6447pt x 91.09476pt.
+
+<pics/sound_outofphase.png, id=398, 656.4525pt x 389.20406pt>
+File: pics/sound_outofphase.png Graphic file (type png)
+
+<use pics/sound_outofphase.png>
+Package pdftex.def Info: pics/sound_outofphase.png used on input line 2584.
+(pdftex.def)             Requested size: 153.6447pt x 91.09476pt.
+ [75 <./schematics/sound-vel.png> <./pics/sound_waves.png>] [76 <./pics/sound_i
+nphase.png> <./pics/sound_outofphase.png>]
+[77] <schematics/sound-beats.png, id=412, 266.9975pt x 158.5925pt>
+File: schematics/sound-beats.png Graphic file (type png)
+
+<use schematics/sound-beats.png>
+Package pdftex.def Info: schematics/sound-beats.png used on input line 2678.
+(pdftex.def)             Requested size: 142.26378pt x 84.50613pt.
+
+<pics/sound_beats.png, id=413, 656.4525pt x 389.20406pt>
+File: pics/sound_beats.png Graphic file (type png)
+
+<use pics/sound_beats.png>
+Package pdftex.def Info: pics/sound_beats.png used on input line 2678.
+(pdftex.def)             Requested size: 170.71652pt x 101.21442pt.
+ [78 <./schematics/sound-beats.png> <./pics/sound_beats.png>] [79] <pics/sariga
+.png, id=423, 190.7928pt x 147.4308pt>
+File: pics/sariga.png Graphic file (type png)
+
+<use pics/sariga.png>
+Package pdftex.def Info: pics/sariga.png used on input line 2750.
+(pdftex.def)             Requested size: 170.71652pt x 131.92387pt.
+ [80 <./pics/sariga.png>]
+<pics/40kHz-piezo-photo.jpg, id=428, 651.43375pt x 496.85625pt>
+File: pics/40kHz-piezo-photo.jpg Graphic file (type jpg)
+
+<use pics/40kHz-piezo-photo.jpg>
+Package pdftex.def Info: pics/40kHz-piezo-photo.jpg used on input line 2776.
+(pdftex.def)             Requested size: 113.81102pt x 86.79951pt.
+
+<schematics/ultra-sound.png, id=429, 178.6675pt x 104.39pt>
+File: schematics/ultra-sound.png Graphic file (type png)
+
+<use schematics/ultra-sound.png>
+Package pdftex.def Info: schematics/ultra-sound.png used on input line 2776.
+(pdftex.def)             Requested size: 85.35826pt x 49.87247pt.
+ [81 <./pics/40kHz-piezo-photo.jpg> <./schematics/ultra-sound.png>] [82]
+<pics/piezo-3600hz.png, id=437, 689.57625pt x 423.83344pt>
+File: pics/piezo-3600hz.png Graphic file (type png)
+
+<use pics/piezo-3600hz.png>
+Package pdftex.def Info: pics/piezo-3600hz.png used on input line 2868.
+(pdftex.def)             Requested size: 142.26378pt x 87.43611pt.
+
+<pics/piezo-100hz.png, id=438, 689.57625pt x 423.83344pt>
+File: pics/piezo-100hz.png Graphic file (type png)
+
+<use pics/piezo-100hz.png>
+Package pdftex.def Info: pics/piezo-100hz.png used on input line 2868.
+(pdftex.def)             Requested size: 142.26378pt x 87.43611pt.
+
+<pics/piezo-fft-100hz.png, id=439, 515.9275pt x 457.71pt>
+File: pics/piezo-fft-100hz.png Graphic file (type png)
+
+<use pics/piezo-fft-100hz.png>
+Package pdftex.def Info: pics/piezo-fft-100hz.png used on input line 2880.
+(pdftex.def)             Requested size: 142.26378pt x 126.20937pt.
+
+<pics/piezo-fft-500hz.png, id=440, 458.71375pt x 470.75874pt>
+File: pics/piezo-fft-500hz.png Graphic file (type png)
+
+<use pics/piezo-fft-500hz.png>
+Package pdftex.def Info: pics/piezo-fft-500hz.png used on input line 2880.
+(pdftex.def)             Requested size: 142.26378pt x 145.99835pt.
+ [83] [84 <./pics/piezo-3600hz.png> <./pics/piezo-100hz.png> <./pics/piezo-fft-
+100hz.png> <./pics/piezo-fft-500hz.png>]
+Chapitre 5.
+<schematics/half-wave.png, id=451, 172.645pt x 164.615pt>
+File: schematics/half-wave.png Graphic file (type png)
+
+<use schematics/half-wave.png>
+Package pdftex.def Info: schematics/half-wave.png used on input line 2925.
+(pdftex.def)             Requested size: 85.35826pt x 81.38797pt.
+
+<pics/diode-halfwave.png, id=452, 359.09157pt x 281.55188pt>
+File: pics/diode-halfwave.png Graphic file (type png)
+
+<use pics/diode-halfwave.png>
+Package pdftex.def Info: pics/diode-halfwave.png used on input line 2925.
+(pdftex.def)             Requested size: 113.81102pt x 89.23491pt.
+
+<pics/diode-halfwave-1uF.png, id=453, 356.0803pt x 280.04625pt>
+File: pics/diode-halfwave-1uF.png Graphic file (type png)
+
+<use pics/diode-halfwave-1uF.png>
+Package pdftex.def Info: pics/diode-halfwave-1uF.png used on input line 2949.
+(pdftex.def)             Requested size: 142.26378pt x 111.88403pt.
+
+<pics/diode-halfwave-100uF.png, id=454, 357.58594pt x 280.04625pt>
+File: pics/diode-halfwave-100uF.png Graphic file (type png)
+
+<use pics/diode-halfwave-100uF.png>
+Package pdftex.def Info: pics/diode-halfwave-100uF.png used on input line 2949.
+
+(pdftex.def)             Requested size: 142.26378pt x 111.41399pt.
+ [85
+
+] [86 <./schematics/half-wave.png> <./pics/diode-halfwave.png> <./pics/diode-ha
+lfwave-1uF.png> <./pics/diode-halfwave-100uF.png>] [87] <schematics/sine-180deg
+.png, id=469, 194.7275pt x 80.3pt>
+File: schematics/sine-180deg.png Graphic file (type png)
+
+<use schematics/sine-180deg.png>
+Package pdftex.def Info: schematics/sine-180deg.png used on input line 3006.
+(pdftex.def)             Requested size: 85.35826pt x 35.19855pt.
+
+<pics/sine-two-180deg.png, id=470, 357.58594pt x 278.54062pt>
+File: pics/sine-two-180deg.png Graphic file (type png)
+
+<use pics/sine-two-180deg.png>
+Package pdftex.def Info: pics/sine-two-180deg.png used on input line 3006.
+(pdftex.def)             Requested size: 113.81102pt x 88.65028pt.
+ [88 <./schematics/sine-180deg.png> <./pics/sine-two-180deg.png>] <schematics/f
+ull-wave.png, id=476, 238.8925pt x 119.44624pt>
+File: schematics/full-wave.png Graphic file (type png)
+
+<use schematics/full-wave.png>
+Package pdftex.def Info: schematics/full-wave.png used on input line 3047.
+(pdftex.def)             Requested size: 113.81102pt x 56.90523pt.
+
+<pics/diode-fullwave.png, id=477, 357.58594pt x 280.04625pt>
+File: pics/diode-fullwave.png Graphic file (type png)
+
+<use pics/diode-fullwave.png>
+Package pdftex.def Info: pics/diode-fullwave.png used on input line 3047.
+(pdftex.def)             Requested size: 162.18062pt x 127.01527pt.
+ [89 <./schematics/full-wave.png> <./pics/diode-fullwave.png>] [90] <schematics
+/diode-iv.png, id=486, 146.5475pt x 92.345pt>
+File: schematics/diode-iv.png Graphic file (type png)
+
+<use schematics/diode-iv.png>
+Package pdftex.def Info: schematics/diode-iv.png used on input line 3122.
+(pdftex.def)             Requested size: 85.35826pt x 53.78699pt.
+
+<pics/diode_4148.png, id=487, 505.89pt x 389.20406pt>
+File: pics/diode_4148.png Graphic file (type png)
+
+<use pics/diode_4148.png>
+Package pdftex.def Info: pics/diode_4148.png used on input line 3122.
+(pdftex.def)             Requested size: 105.2751pt x 80.99292pt.
+
+<pics/diode_zener_iv.png, id=488, 505.89pt x 389.20406pt>
+File: pics/diode_zener_iv.png Graphic file (type png)
+
+<use pics/diode_zener_iv.png>
+Package pdftex.def Info: pics/diode_zener_iv.png used on input line 3122.
+(pdftex.def)             Requested size: 105.2751pt x 80.99292pt.
+ [91 <./schematics/diode-iv.png> <./pics/diode_4148.png> <./pics/diode_zener_iv
+.png>]
+! Undefined control sequence.
+l.3141 ...the ZENER Checkbox and click\buttonlabel
+                                                  {START}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[92]
+File: schematics/diode-iv.png Graphic file (type png)
+ <use schematics/diode-iv.png>
+Package pdftex.def Info: schematics/diode-iv.png used on input line 3183.
+(pdftex.def)             Requested size: 85.35826pt x 53.78699pt.
+
+<pics/diode-LED-iv.png, id=499, 505.89pt x 389.20406pt>
+File: pics/diode-LED-iv.png Graphic file (type png)
+
+<use pics/diode-LED-iv.png>
+Package pdftex.def Info: pics/diode-LED-iv.png used on input line 3183.
+(pdftex.def)             Requested size: 113.81102pt x 87.55525pt.
+ [93 <./pics/diode-LED-iv.png>] [94]
+! Undefined control sequence.
+l.3242 ...pply voltage to the base and\buttonlabel
+                                                  {START}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<schematics/tran-ce.png, id=507, 166.6225pt x 119.44624pt>
+File: schematics/tran-ce.png Graphic file (type png)
+
+<use schematics/tran-ce.png>
+Package pdftex.def Info: schematics/tran-ce.png used on input line 3250.
+(pdftex.def)             Requested size: 85.35826pt x 61.19197pt.
+
+<pics/tran_ce.png, id=508, 505.89pt x 389.20406pt>
+File: pics/tran_ce.png Graphic file (type png)
+ <use pics/tran_ce.png>
+Package pdftex.def Info: pics/tran_ce.png used on input line 3250.
+(pdftex.def)             Requested size: 113.81102pt x 87.55525pt.
+
+Overfull \hbox (3.79947pt too wide) in paragraph at lines 3259--3261
+[]\T1/cmr/m/n/10 The char-ac-ter-is-tic curves for dif-fer-ent base cur-rents a
+re shown in figure5.7[]. 
+ []
+
+[95 <./schematics/tran-ce.png> <./pics/tran_ce.png>] [96]
+<schematics/tran-amp.png, id=517, 305.14pt x 122.4575pt>
+File: schematics/tran-amp.png Graphic file (type png)
+
+<use schematics/tran-amp.png>
+Package pdftex.def Info: schematics/tran-amp.png used on input line 3293.
+(pdftex.def)             Requested size: 113.81102pt x 45.67479pt.
+
+<pics/tran_amp2V.png, id=518, 356.83313pt x 280.04625pt>
+File: pics/tran_amp2V.png Graphic file (type png)
+
+<use pics/tran_amp2V.png>
+Package pdftex.def Info: pics/tran_amp2V.png used on input line 3293.
+(pdftex.def)             Requested size: 96.73918pt x 75.92116pt.
+
+<pics/tran_amp4V.png, id=519, 356.83313pt x 279.29344pt>
+File: pics/tran_amp4V.png Graphic file (type png)
+
+<use pics/tran_amp4V.png>
+Package pdftex.def Info: pics/tran_amp4V.png used on input line 3293.
+(pdftex.def)             Requested size: 96.73918pt x 75.71707pt.
+ [97 <./schematics/tran-amp.png> <./pics/tran_amp2V.png> <./pics/tran_amp4V.png
+>] [98]
+<schematics/phtran-ce.png, id=530, 205.76875pt x 125.46875pt>
+File: schematics/phtran-ce.png Graphic file (type png)
+
+<use schematics/phtran-ce.png>
+Package pdftex.def Info: schematics/phtran-ce.png used on input line 3347.
+(pdftex.def)             Requested size: 113.81102pt x 69.39665pt.
+
+<pics/photo-tran_ce.png, id=531, 505.89pt x 389.20406pt>
+File: pics/photo-tran_ce.png Graphic file (type png)
+
+<use pics/photo-tran_ce.png>
+Package pdftex.def Info: pics/photo-tran_ce.png used on input line 3347.
+(pdftex.def)             Requested size: 113.81102pt x 87.55525pt.
+
+! Undefined control sequence.
+l.3365 \item Click on\buttonlabel
+                                 {START}, to draw the CE curve
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[99 <./schematics/phtran-ce.png> <./pics/photo-tran_ce.png>]
+<schematics/opto-tran.png, id=537, 205.76875pt x 125.46875pt>
+File: schematics/opto-tran.png Graphic file (type png)
+
+<use schematics/opto-tran.png>
+Package pdftex.def Info: schematics/opto-tran.png used on input line 3396.
+(pdftex.def)             Requested size: 113.81102pt x 69.39665pt.
+
+<pics/phototran_sqr_received.png, id=538, 357.58594pt x 280.79906pt>
+File: pics/phototran_sqr_received.png Graphic file (type png)
+
+<use pics/phototran_sqr_received.png>
+Package pdftex.def Info: pics/phototran_sqr_received.png used on input line 339
+6.
+(pdftex.def)             Requested size: 142.26378pt x 111.71349pt.
+ [100 <./schematics/opto-tran.png> <./pics/phototran_sqr_received.png>] [101]
+<pics/AM-photo.jpg, id=548, 1003.75pt x 677.53125pt>
+File: pics/AM-photo.jpg Graphic file (type jpg)
+ <use pics/AM-photo.jpg>
+Package pdftex.def Info: pics/AM-photo.jpg used on input line 3455.
+(pdftex.def)             Requested size: 170.71652pt x 115.23047pt.
+
+<pics/AMcarr-and-sig400x20.png, id=549, 496.85625pt x 403.5075pt>
+File: pics/AMcarr-and-sig400x20.png Graphic file (type png)
+
+<use pics/AMcarr-and-sig400x20.png>
+Package pdftex.def Info: pics/AMcarr-and-sig400x20.png used on input line 3455.
+
+(pdftex.def)             Requested size: 142.26378pt x 115.53648pt.
+ [102 <./pics/AM-photo.jpg> <./pics/AMcarr-and-sig400x20.png>] <pics/AMfft-1800
+x40.png, id=554, 192.72pt x 172.9662pt>
+File: pics/AMfft-1800x40.png Graphic file (type png)
+
+<use pics/AMfft-1800x40.png>
+Package pdftex.def Info: pics/AMfft-1800x40.png used on input line 3508.
+(pdftex.def)             Requested size: 153.6447pt x 137.89543pt.
+
+<pics/FMcarr-and-sig500x10-2V.png, id=555, 496.85625pt x 403.5075pt>
+File: pics/FMcarr-and-sig500x10-2V.png Graphic file (type png)
+
+<use pics/FMcarr-and-sig500x10-2V.png>
+Package pdftex.def Info: pics/FMcarr-and-sig500x10-2V.png used on input line 35
+08.
+(pdftex.def)             Requested size: 156.49014pt x 127.08705pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103 <./pics/AMfft-1800x40.png> <./pics/FMcarr-and-sig500x10-2V.png>]
+Overfull \hbox (4.13162pt too wide) in paragraph at lines 3522--3526
+[]\T1/cmr/m/n/10 The AM out-put looks sim-i-lar to the sound beats we ob-tained
+ in section4.5[],
+ []
+
+[104]
+Chapitre 6.
+[105
+
+] [106] <pics/rodpend-photo.jpg, id=571, 803.0pt x 757.83125pt>
+File: pics/rodpend-photo.jpg Graphic file (type jpg)
+
+<use pics/rodpend-photo.jpg>
+Package pdftex.def Info: pics/rodpend-photo.jpg used on input line 3608.
+(pdftex.def)             Requested size: 91.04872pt x 85.91724pt.
+
+<schematics/rodpend.png, id=572, 205.76875pt x 125.46875pt>
+File: schematics/rodpend.png Graphic file (type png)
+
+<use schematics/rodpend.png>
+Package pdftex.def Info: schematics/rodpend.png used on input line 3608.
+(pdftex.def)             Requested size: 85.35826pt x 52.04749pt.
+
+<pics/rodpend-ghist.png, id=573, 273.02pt x 211.79124pt>
+File: pics/rodpend-ghist.png Graphic file (type png)
+
+<use pics/rodpend-ghist.png>
+Package pdftex.def Info: pics/rodpend-ghist.png used on input line 3608.
+(pdftex.def)             Requested size: 113.81102pt x 88.28598pt.
+
+! Undefined control sequence.
+l.3627 ...te the pendulum and click on\buttonlabel
+                                                  {START}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[107 <./pics/rodpend-photo.jpg> <./schematics/rodpend.png> <./pics/rodpend-ghis
+t.png>] [108] <pics/pendulum-photo.jpg, id=582, 803.0pt x 649.42625pt>
+File: pics/pendulum-photo.jpg Graphic file (type jpg)
+
+<use pics/pendulum-photo.jpg>
+Package pdftex.def Info: pics/pendulum-photo.jpg used on input line 3667.
+(pdftex.def)             Requested size: 156.49014pt x 126.56328pt.
+
+<pics/pendulum-osc.png, id=583, 505.89pt x 405.01312pt>
+File: pics/pendulum-osc.png Graphic file (type png)
+
+<use pics/pendulum-osc.png>
+Package pdftex.def Info: pics/pendulum-osc.png used on input line 3667.
+(pdftex.def)             Requested size: 156.49014pt x 125.28702pt.
+ [109 <./pics/pendulum-photo.jpg> <./pics/pendulum-osc.png>] [110] <pics/gravit
+y-tof-photo.jpg, id=592, 803.0pt x 648.4225pt>
+File: pics/gravity-tof-photo.jpg Graphic file (type jpg)
+
+<use pics/gravity-tof-photo.jpg>
+Package pdftex.def Info: pics/gravity-tof-photo.jpg used on input line 3715.
+(pdftex.def)             Requested size: 142.26378pt x 114.8707pt.
+
+<schematics/g-tof.png, id=593, 172.645pt x 125.46875pt>
+File: schematics/g-tof.png Graphic file (type png)
+
+<use schematics/g-tof.png>
+Package pdftex.def Info: schematics/g-tof.png used on input line 3715.
+(pdftex.def)             Requested size: 85.35826pt x 62.03351pt.
+ [111 <./pics/gravity-tof-photo.jpg> <./schematics/g-tof.png>] [112] <pics/cool
+ing-water-photo.jpg, id=601, 803.0pt x 611.28375pt>
+File: pics/cooling-water-photo.jpg Graphic file (type jpg)
+
+<use pics/cooling-water-photo.jpg>
+Package pdftex.def Info: pics/cooling-water-photo.jpg used on input line 3795.
+(pdftex.def)             Requested size: 99.58464pt x 75.80399pt.
+
+<schematics/pt100.png, id=602, 196.735pt x 110.4125pt>
+File: schematics/pt100.png Graphic file (type png)
+
+<use schematics/pt100.png>
+Package pdftex.def Info: schematics/pt100.png used on input line 3795.
+(pdftex.def)             Requested size: 85.35826pt x 47.90436pt.
+
+<pics/cooling-water-pt100.png, id=603, 505.89pt x 426.84468pt>
+File: pics/cooling-water-pt100.png Graphic file (type png)
+
+<use pics/cooling-water-pt100.png>
+Package pdftex.def Info: pics/cooling-water-pt100.png used on input line 3795.
+(pdftex.def)             Requested size: 99.58464pt x 84.0192pt.
+
+! Undefined control sequence.
+l.3817 \item Press\buttonlabel
+                              {START}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[113 <./pics/cooling-water-photo.jpg> <./schematics/pt100.png> <./pics/cooling-
+water-pt100.png>] [114]
+<schematics/temp-control.png, id=612, 273.02pt x 140.525pt>
+File: schematics/temp-control.png Graphic file (type png)
+
+<use schematics/temp-control.png>
+Package pdftex.def Info: schematics/temp-control.png used on input line 3862.
+(pdftex.def)             Requested size: 142.26378pt x 73.22351pt.
+
+<pics/temp-con.png, id=613, 507.39563pt x 405.01312pt>
+File: pics/temp-con.png Graphic file (type png)
+ <use pics/temp-con.png>
+Package pdftex.def Info: pics/temp-con.png used on input line 3862.
+(pdftex.def)             Requested size: 113.81102pt x 90.84592pt.
+
+! Undefined control sequence.
+l.3881 \item Press\buttonlabel
+                              {START} . The vertical scale will be 0 to setp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[115 <./schematics/temp-control.png> <./pics/temp-con.png>] [116]
+<pics/stroboscope-photo.jpg, id=623, 803.0pt x 591.20876pt>
+File: pics/stroboscope-photo.jpg Graphic file (type jpg)
+
+<use pics/stroboscope-photo.jpg>
+Package pdftex.def Info: pics/stroboscope-photo.jpg used on input line 3914.
+(pdftex.def)             Requested size: 142.26378pt x 104.73505pt.
+
+<schematics/strobo.png, id=624, 227.85126pt x 137.51375pt>
+File: schematics/strobo.png Graphic file (type png)
+
+<use schematics/strobo.png>
+Package pdftex.def Info: schematics/strobo.png used on input line 3914.
+(pdftex.def)             Requested size: 128.0374pt x 77.27574pt.
+ [117 <./pics/stroboscope-photo.jpg> <./schematics/strobo.png>] [118] <pics/mot
+or-rpm-photo.jpg, id=632, 803.0pt x 615.29875pt>
+File: pics/motor-rpm-photo.jpg Graphic file (type jpg)
+
+<use pics/motor-rpm-photo.jpg>
+Package pdftex.def Info: pics/motor-rpm-photo.jpg used on input line 3970.
+(pdftex.def)             Requested size: 113.81102pt x 87.20215pt.
+
+<schematics/motor-rps.png, id=633, 198.7425pt x 137.51375pt>
+File: schematics/motor-rps.png Graphic file (type png)
+
+<use schematics/motor-rps.png>
+Package pdftex.def Info: schematics/motor-rps.png used on input line 3970.
+(pdftex.def)             Requested size: 113.81102pt x 78.75084pt.
+ [119 <./pics/motor-rpm-photo.jpg> <./schematics/motor-rps.png>] [120]
+<pics/light-thru-paper-photo.JPG, id=641, 803.0pt x 518.93875pt>
+File: pics/light-thru-paper-photo.JPG Graphic file (type jpg)
+
+<use pics/light-thru-paper-photo.JPG>
+Package pdftex.def Info: pics/light-thru-paper-photo.JPG used on input line 404
+0.
+(pdftex.def)             Requested size: 113.81102pt x 73.5457pt.
+
+<schematics/light-bar.png, id=642, 205.76875pt x 125.46875pt>
+File: schematics/light-bar.png Graphic file (type png)
+
+<use schematics/light-bar.png>
+Package pdftex.def Info: schematics/light-bar.png used on input line 4040.
+(pdftex.def)             Requested size: 113.81102pt x 69.39665pt.
+ [121 <./pics/light-thru-paper-photo.JPG> <./schematics/light-bar.png>] [122] [
+123
+
+] [124]
+<pics/light-bar-rodpend-photo.jpg, id=657, 803.0pt x 612.2875pt>
+File: pics/light-bar-rodpend-photo.jpg Graphic file (type jpg)
+
+<use pics/light-bar-rodpend-photo.jpg>
+Package pdftex.def Info: pics/light-bar-rodpend-photo.jpg used on input line 42
+37.
+(pdftex.def)             Requested size: 105.2751pt x 80.27284pt.
+File: pics/40kHz-piezo-photo.jpg Graphic file (type jpg)
+ <use pics/40kHz-piezo-photo.jpg>
+Package pdftex.def Info: pics/40kHz-piezo-photo.jpg used on input line 4237.
+(pdftex.def)             Requested size: 105.2751pt x 80.29466pt.
+
+<pics/standing-wave-app-photo.jpg, id=658, 762.85pt x 602.25pt>
+File: pics/standing-wave-app-photo.jpg Graphic file (type jpg)
+
+<use pics/standing-wave-app-photo.jpg>
+Package pdftex.def Info: pics/standing-wave-app-photo.jpg used on input line 42
+37.
+(pdftex.def)             Requested size: 102.43008pt x 80.85913pt.
+ [125 <./pics/light-bar-rodpend-photo.jpg> <./pics/standing-wave-app-photo.jpg>
+] (./eyes.aux) ) 
+Here is how much of TeX's memory you used:
+ 4486 strings out of 495059
+ 69648 string characters out of 3182030
+ 113873 words of memory out of 3000000
+ 7460 multiletter control sequences out of 15000+200000
+ 19983 words of font info for 46 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,10n,24p,271b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000
+.600pk> </home/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0800.600pk> <
+/home/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/exp
+eyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600pk> </home/expeyes/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </home/expeyes/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/eccc1000.600pk> </home/expeyes/.texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx1200.600pk> </home/expeyes/.texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecbx1440.600pk> </home/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
+cbx2074.600pk> </home/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.6
+00pk> </home/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </h
+ome/expeyes/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/expey
+es/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/expeyes/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/expeyes/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/expeyes/.texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecrm2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on eyes.pdf (125 pages, 3290472 bytes).
+PDF statistics:
+ 1288 PDF objects out of 1440 (max. 8388607)
+ 372 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 631 words of extra memory for PDF output out of 10000 (max. 10000000)
+

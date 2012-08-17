@@ -1,0 +1,9272 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{wrapfig}
+ \setlength{\intextsep}{0cm plus1cm minus1cm}
+\newcommand{\menuitem}[1]{\textbf{\emph{#1}}}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 21cm
+\paperheight 29.5cm
+\leftmargin 1cm
+\topmargin 1cm
+\rightmargin 1cm
+\bottommargin 1cm
+\secnumdepth 2
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align left
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.2in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+expEYES 
+\size larger
+Junior
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pics/ej-with-netbook-hr.jpg
+	lyxscale 10
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+User's Manual 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size largest
+Experiments for
+\begin_inset Newline newline
+\end_inset
+
+ Young Engineers and Scientists
+\end_layout
+
+\begin_layout Standard
+\align center
+http://expeyes.in
+\end_layout
+
+\begin_layout Standard
+\align center
+from
+\end_layout
+
+\begin_layout Standard
+\align center
+PHOENIX Project
+\begin_inset Newline newline
+\end_inset
+
+Inter-University Accelerator Centre 
+\begin_inset Newline newline
+\end_inset
+
+(A Research Centre of UGC)
+\begin_inset Newline newline
+\end_inset
+
+New Delhi 110 067
+\begin_inset Newline newline
+\end_inset
+
+www.iuac.res.in
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Preface
+\end_layout
+
+\begin_layout Standard
+The PHOENIX (Physics with Home-made Equipment & Innovative Experiments)
+ project was started in 2004 by Inter-University Accelerator Centre with
+ the objective of improving the science education at Indian Universities.
+ Development of low cost laboratory equipment and training teachers are
+ the two major activities under this project.
+ 
+\end_layout
+
+\begin_layout Standard
+expEYES Junior is a modified version of expEYES released earlier.
+ It is meant to be a tool for learning by exploration, suitable for high
+ school classes and above.
+ We have tried optimizing the design to be simple, flexible, rugged and
+ low cost.
+ The low price makes it affordable to individuals and we hope to see students
+ performing experiments outside the four walls of the laboratory, that closes
+ when the bell rings.
+\end_layout
+
+\begin_layout Standard
+Hardware design is open and royalty-free.
+ The software is released under GNU General Public License.
+ The project has progressed due to the active participation and contributions
+ from the user community and many other persons outside IUAC.
+ We are thankful to S Venkataramanan and Prof.
+ R Nagarajan for correcting this document by carrying out the experiments
+ described independently.
+ 
+\end_layout
+
+\begin_layout Standard
+expEYES Junior user's manual is distributed under GNU Free Documentation
+ License.
+ For more details about the project visit the website 
+\shape italic
+expeyes.in
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ajith Kumar B.P.
+ 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+(ajith@iuac.res.in)
+\end_layout
+
+\begin_layout Standard
+V V V Satyanarayana
+\end_layout
+
+\begin_layout Standard
+Jimson Sacharias
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Getting Started
+\end_layout
+
+\begin_layout Section
+Introduction 
+\end_layout
+
+\begin_layout Standard
+Science is the study of the physical world by systematic observations and
+ experiments.
+ Proper science education is essential for cultivating a society where reasoning
+ and logical thinking prevails and not superstition and irrational beliefs.
+ Science education is also essential for training enough technicians, engineers
+ and scientists for the economy of the modern world.
+ It is widely accepted that personal experience in the form of experiments
+ and observations, either carried out by students or performed as demonstrations
+ by teachers, are essential to the pedagogy of science.
+ However, almost everywhere science is mostly taught from the text books
+ without giving importance to experiments, partly due to lack of equipment.
+ As a result, most of the students fail to correlate their classroom experience
+ to problems encountered in daily life.
+ To some extent this can be corrected by learning science based on exploration
+ and experimenting.
+ 
+\end_layout
+
+\begin_layout Standard
+The advent of personal computers and their easy availability has opened
+ up a new path for making laboratory equipment.
+ Addition of some hardware to an ordinary computer can convert it in to
+ a science laboratory.
+ Performing quick measurements with good accuracy enables one to study a
+ wide range of phenomena.
+ Science experiments generally involve measuring/controlling physical parameters
+ like temperature, pressure, velocity, acceleration, force, voltage, current
+ etc.
+ If the measured physical property is changing rapidly, the measurements
+ need to be automated and a computer becomes a useful tool.
+ For example, understanding the variation of AC mains voltage with time
+ requires measuring it after every millisecond.
+\end_layout
+
+\begin_layout Standard
+The ability to perform experiments with reasonable accuracy also opens up
+ the possibility of research oriented science education.
+ Students can compare the experimental data with mathematical models and
+ examine the fundamental laws governing various phenomena.
+ Something similar to what research scientists do but with less sophisticated
+ equipment.
+ The expEYES ( expEriments for Young Engineers & Scientists) kit is designed
+ to support a wide range of experiments, from school to post graduate level.
+ It also acts as a test equipment for electronics engineers and hobbyists.
+ The simple and open architecture of expEYES allows the users to 
+\shape italic
+develop new experiments, without getting into the details of electronics
+ or computer programming
+\shape default
+.
+ This User's manual describes 
+\shape italic
+expEYES
+\shape default
+ Junior along with several experiments, there is also a Programmer's manual
+ available.
+\end_layout
+
+\begin_layout Section
+The equipment
+\end_layout
+
+\begin_layout Standard
+ExpEYES Junior is interfaced and powered by the USB port of the computer.
+ For connecting external signals, it has several Input/Output terminals,
+ arranged on both sides, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-ExpEYES-toppanel"
+
+\end_inset
+
+.
+ It can monitor and control the voltages at these terminals.
+ In order to measure other parameters (like temperature, pressure etc.),
+ we need to convert them in to electrical signals by using appropriate sensor
+ elements.
+ 
+\end_layout
+
+\begin_layout Standard
+Even though our primary objective is to do experiments, you are advised
+ to read through the brief description of the equipment given below.
+ The device can be also used as a test equipment for electrical and electronics
+ engineering experiments.
+\end_layout
+
+\begin_layout Paragraph*
+
+\shape italic
+IMPORTANT : 
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+The external voltages connected to expEYES must be within the allowed limits.
+ Inputs A1 and A2 must be within 
+\begin_inset Formula $\pm5$
+\end_inset
+
+ volts range and Inputs IN1 and IN2 must be in 0 to 5V range.
+ Exceeding these limits slightly will flash an error message.
+ If the program stops responding, exit and re-connect the USB to reset the
+ device.
+ Larger voltages will result in permanent damage.
+ To measure higher voltages, scale them down using resistive potential divider
+ networks.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/top-panel.png
+	lyxscale 50
+	height 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The ExpEYES Junior top panel showing the external connections on both sides.The
+ channel numbers shown against some terminals are meant for those who write
+ software to access them.
+ The arrows indicates the direction of the signals, for example arrow from
+ 
+\begin_inset Formula $A1\Rightarrow1$
+\end_inset
+
+ means the signal from terminal A1 goes to channel number 1.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-ExpEYES-toppanel"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+External connections
+\end_layout
+
+\begin_layout Standard
+The functions of the external Input/Outputs terminals are briefly explained
+ below.
+\end_layout
+
+\begin_layout Paragraph*
+Programmable Voltage Source (PVS) :
+\end_layout
+
+\begin_layout Standard
+Can be set, from software, to any value in the 0 to +5V range.
+ The resolution is 12 bits, implies a minimum voltage step of around 1.25
+ millivolts.
+ There is a read-back to verify PVS.
+\end_layout
+
+\begin_layout Paragraph*
+\begin_inset Formula $\pm5V$
+\end_inset
+
+ Analog Inputs (A1 & A2) : 
+\end_layout
+
+\begin_layout Standard
+Can measure voltage within the 
+\begin_inset Formula $\pm5$
+\end_inset
+
+ volts range.
+ The resolution of ADC used is 12 bits.
+ Voltage at these terminals can be displayed as a function of time, giving
+ the functionality of a low frequency oscilloscope.
+ The maximum sampling rate is 250,000 per second.
+ Both have an input impedance of 
+\begin_inset Formula $10M\Omega$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Paragraph*
+\begin_inset Formula $0-5V$
+\end_inset
+
+ Analog Inputs (IN1 & IN2):
+\end_layout
+
+\begin_layout Standard
+These terminals can measure voltages in the 0 to 5V range.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Resistive Sensor Input (SEN):
+\end_layout
+
+\begin_layout Standard
+This is mainly meant for sensors like Light Dependent Resistor, Thermistor,
+ Photo-transistor etc..
+ SEN is connected to 5 volts through a 
+\begin_inset Formula $5.1k\Omega$
+\end_inset
+
+ resistor.
+ It also has a built-in analog comparator.
+\end_layout
+
+\begin_layout Paragraph*
+Digital Inputs (IN1 & IN2):
+\end_layout
+
+\begin_layout Standard
+The inputs IN1, IN2 can act as both analog and digital inputs.
+ In the digital mode, any voltage less than 1 volt is treated as logic 0(LOW)
+ and anything higher than 2.5 volts is treated as logic 1(HIGH).
+ If the voltage input is changing periodically between HIGH and LOW, these
+ terminals can measure the frequency and duty-cycle of the connected signal.
+ Time interval between voltage transitions on these pins can be measured
+ with microsecond resolution.
+\end_layout
+
+\begin_layout Paragraph*
+Digital Output (OD1) :
+\end_layout
+
+\begin_layout Standard
+The voltage at OD1 can be set to 0 or 5 volts, using software.
+\end_layout
+
+\begin_layout Paragraph*
+Square Waves SQR1 & SQR2 : 
+\end_layout
+
+\begin_layout Standard
+Output swings from 0 to 5 volts and frequency can be varied 0.7Hz to 100kHz.
+ All intermediate values of frequency are not possible.
+ SQR1 and SQR2 can be set to different frequencies.
+ It is also possible to set them to same frequency, with a specific phase
+ shift between the two.
+ These outputs also can be programmed to generate Pulse Width Modulated
+ waveforms.
+ SQR1 is wired to channel 6 for read-back and SQR2 is wired to channel 7.
+\end_layout
+
+\begin_layout Standard
+Setting frequency to 
+\begin_inset Formula $0$
+\end_inset
+
+Hz will make the output HIGH and setting it to 
+\begin_inset Formula $-1$
+\end_inset
+
+ will make it LOW, in both cases the wave generation is disabled.
+ When the wave generation is disabled, SQR1 and SQR2 can act as digital
+ outputs on channel 8 and 9 respectively.
+\end_layout
+
+\begin_layout Standard
+SQR1 output has a
+\series bold
+\shape slanted
+ 
+\begin_inset Formula $100\Omega$
+\end_inset
+
+ series resistor
+\series default
+\shape default
+ so that it can drive LEDs directly.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+Infrared Transmission
+\end_layout
+
+\begin_layout Standard
+An Infrared Diode connected to SQR1 can transmit data using IR transmission
+ protocol.
+ The 4 byte transmission can be used for emulating common TV remotes.
+ It also supports a single byte transmission that can be received by a program
+ running on a micro-controller
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://expeyes.in/micro-controllers-for-hobby-projects-and-education
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Paragraph*
+SINE wave: 
+\end_layout
+
+\begin_layout Standard
+Fixed frequency sine wave generator, frequency is around 150 Hz.
+ Bipolar signal output with an amplitude of around 4 volts.
+\end_layout
+
+\begin_layout Paragraph*
+Constant Current Source (CCS) : 
+\end_layout
+
+\begin_layout Standard
+The constant current source can be switched ON and OFF under software control.
+ The nominal value is 1mA but may vary from unit to unit, due to component
+ tolerances.
+ To measure the exact value, connect an ammeter from CCS to GND.
+ Another method is to connect a known resistance (~3.3k) and measure the
+ voltage drop across it.
+ The load resistor should be less than 4k for this current source.
+\end_layout
+
+\begin_layout Paragraph*
+Microphone (MIC) :
+\end_layout
+
+\begin_layout Standard
+There is a built-in condenser microphone (on the side, near CCS).
+ Its output, amplified 51 times, is available on MIC output.
+ Connect it to A1 or A2 for viewing.
+\end_layout
+
+\begin_layout Paragraph*
+Inverting Amplifier (IN->OUT) : 
+\end_layout
+
+\begin_layout Standard
+The inverting amplifier is implemented using TL084 op-amp.
+ Rf=51000 and Ri = 1000, giving a maximum gain of 
+\begin_inset Formula $\frac{51000}{1000}=51$
+\end_inset
+
+.
+ The gain can be reduced by feeding the input via a resistor.
+ For example, using a 50k series resistor will make it a unity gain inverter.
+\end_layout
+
+\begin_layout Paragraph*
+Ground : 
+\end_layout
+
+\begin_layout Standard
+The four terminals marked as GND are the reference ground.
+ All the generated/measured voltages are with respect to these terminals.
+\end_layout
+
+\begin_layout Subsection
+Accessory Set
+\end_layout
+
+\begin_layout Standard
+Some accessories are provided with expEYES Junior, a photograph is given
+ on back cover of the manual.
+\end_layout
+
+\begin_layout Itemize
+Crocodile Clips with leads (4) : If the connection to any terminal is changed
+ many times during an experiment, it is easier to make the connection using
+ the crocodile clip provided.
+\end_layout
+
+\begin_layout Itemize
+3000 Turns Coil (2) : 44SWG copper wire, Inductance 
+\begin_inset Formula $\approx$
+\end_inset
+
+ 125 mH, Resistance 
+\begin_inset Formula $\approx$
+\end_inset
+
+ 550 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ .
+ These coils can be used for studying inductance, electromagnetic induction
+ etc.
+ 
+\end_layout
+
+\begin_layout Itemize
+Piezo Electric Discs (2) : Resonant frequency is around 3500 Hz.
+ Can be energized by SQR1 or SQR2.
+ Discs are enclosed in a plastic shell that forms a cavity, that enhances
+ the amplitude of sound produced.
+\end_layout
+
+\begin_layout Itemize
+DC Motor : Should be powered by a DC voltage less than 3 volts.
+\end_layout
+
+\begin_layout Itemize
+Permanent Magnets : (a) 10mm dia & length (b) 5 mm dia & 10 mm length (c)
+ Button size magnets(2)
+\end_layout
+
+\begin_layout Itemize
+5mm LEDS : RED, BLUE, GREEN, WHITE
+\end_layout
+
+\begin_layout Itemize
+Capacitors : 47uF, 1uF, 0.1uF & 0.01 uF
+\end_layout
+
+\begin_layout Itemize
+Resistors : 560
+\begin_inset Formula $\Omega$
+\end_inset
+
+, 1
+\begin_inset Formula $k\Omega$
+\end_inset
+
+, 2.2
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ , 10
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ , 51
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ and 200 
+\begin_inset Formula $k\Omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+LDR & Thermistor
+\end_layout
+
+\begin_layout Itemize
+Two silicon diodes (1N4148) and a Transistor( 2N2222)
+\end_layout
+
+\begin_layout Itemize
+5 pieces of wires (8cm) and a Screwdriver 
+\end_layout
+
+\begin_layout Section
+Software Installation
+\end_layout
+
+\begin_layout Standard
+ExpEYES can run on any computer having a Python Interpreter and a Python
+ module to access the Serial port.
+ The USB interface is handled by the device driver program that presents
+ the USB port as an RS232 port to the application programs.
+ The communication the expEYES is done using a library written in Python
+ language (also available in C language).
+ Programs with GUI have been written for many experiments.
+ There are many ways to get the software running:
+\end_layout
+
+\begin_layout Subsubsection*
+The expEYES Live CD 
+\end_layout
+
+\begin_layout Standard
+The easiest way to get started is to boot your PC with the expEYES Live-CD.
+ From the PC BIOS, make the CD drive as the first boot device, insert the
+ live CD and reboot the PC.
+ A desktop will appear and you can start expEYES Junior from the menu 
+\series bold
+Applications->Science
+\series default
+->EYES-Junior.
+ You can also start it from a Terminal using the command:
+\end_layout
+
+\begin_layout LyX-Code
+$ python /usr/share/expeyes-junior/croplus.py
+\end_layout
+
+\begin_layout Subsubsection*
+Installing on Debian or Ubuntu GNU/Linux distributions
+\end_layout
+
+\begin_layout Standard
+Download 
+\series bold
+expeyes-3.0.0.deb
+\series default
+ , or higher version, from the software section of 
+\series bold
+http://expeyes.in
+\series default
+ and install it.
+ It depends on python-serial, python-tk, python-scipy and grace (a 2D plotting
+ program).
+\end_layout
+
+\begin_layout Subsubsection*
+For other GNU/Linux distributions
+\end_layout
+
+\begin_layout Standard
+Download 
+\series bold
+expeyes-3.x.x.zip
+\series default
+ from 
+\series bold
+http://expeyes.in
+\series default
+ and follow the instructions in the README file.
+ It is important to give read/write permissions for all users on the USB
+ port where expEYES is connected.
+ This can be done by running the 
+\shape italic
+postint
+\shape default
+ shell script, included in the zip file.
+\end_layout
+
+\begin_layout Subsubsection*
+On MSWindows
+\end_layout
+
+\begin_layout Standard
+Even though expEYES is Free Software and is developed using Free and Open
+ software, it runs on non-free platforms also.
+ To install it on MS windows, you need (1) MCP2200 drivers (2) Python-2.x
+ version, python-serial, python-tk, python-numpy and python-scipy (3) expeyes-3.x.
+x.zip
+\end_layout
+
+\begin_layout Standard
+Unzip the file 
+\series bold
+expeyes-3.x.x.zip
+\series default
+, and double click on 
+\series bold
+croplus.py
+\series default
+ inside the newly created directory named expeyes-3.x.x
+\backslash
+eyes-junior.
+ If you have expEYES liveCD, browse inside the directory names WINEYES.
+ All the files mentioned above are inside that directory.
+ Double click on them in the order mentioned above to install them.
+ See the software section on the expeyes website for more details.
+\end_layout
+
+\begin_layout Section
+The main GUI program
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/benchmark.png
+	lyxscale 50
+	width 11cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+The croplus screen showing a sine-wave connected to A1.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-croplus-screen."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Start Applications->Science->EYES-Junior from the menu.
+ A four channel oscilloscope screen with several extra features will open
+ as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-croplus-screen."
+
+\end_inset
+
+.
+ The 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ 
+\shape default
+button pops up a menu of programs for several experiments.
+ The main window will become inactive when an experiment is selected and
+ running.
+\end_layout
+
+\begin_layout Subsubsection*
+The Plot Window
+\end_layout
+
+\begin_layout Standard
+The plot window works like a low frequency four channel oscilloscope.
+ The maximum sampling rate is 250 kHz only, sufficient for exploring audio
+ frequency range.
+ A brief description of this GUI program is given below.
+\end_layout
+
+\begin_layout Itemize
+On the left side, the Inputs (A1,A2,IN1,IN2,SEN and read backs of SQR1 &
+ SQR2) are shown.
+ 
+\shape italic
+Clicking on any of them will display the voltage/logic level present.
+ 
+\shape default
+To plot any of them, drag it to the desired channel (CH1 to CH4).
+ The names of inputs selected for display are shown on the right side of
+ the plot window, using a unique color for each channel.
+\end_layout
+
+\begin_layout Itemize
+For online help, place cursor on any item, press and hold the left mouse
+ button.
+\end_layout
+
+\begin_layout Itemize
+Dragging ATR to any of the inputs will make it the CRO trigger source.
+\end_layout
+
+\begin_layout Itemize
+This program allows different types of triggering.
+ For example, dragging WRE to IN1 will enable rising edge triggering on
+ it.
+ It also supports setting levels or generating pulses on Digital outputs
+ just before capturing the waveform.
+ Dragging SHI to OD1 will keep OD1 HIGH during the capture process.
+ For more details refer to the programmers manual.
+\end_layout
+
+\begin_layout Itemize
+Dragging any of the channels, CH1 to CH4, to FIT will enable calculating
+ amplitude and frequency by fitting the data using the equation 
+\begin_inset Formula $V=V_{0}\sin\left(2\pi ft+\theta\right)+C$
+\end_inset
+
+ , 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $f$
+\end_inset
+
+ will be displayed.
+ Dragging the channel to NML will disable the FIT option.
+\end_layout
+
+\begin_layout Itemize
+Right clicking on IN1, IN2, SEN, SQR1 or SQR2 will measure the frequency
+ and duty cycle of the voltage waveform present at the terminal.
+\end_layout
+
+\begin_layout Itemize
+If two adjacent channels are assigned, Right-clicking on the first will
+ calculate frequency and phase difference between the two inputs.
+\end_layout
+
+\begin_layout Itemize
+Dragging a channel to FTR will show the Fourier Spectrum of the waveform
+ in a separate window.
+\end_layout
+
+\begin_layout Itemize
+To remove a displayed input, drag it to DEL.
+\end_layout
+
+\begin_layout Itemize
+Horizontal scale (ms/division) adjustment.
+ Set this to the minimum value and increase to view more number of cycles
+ on the screen.
+ Drag the rider or click on the left/right sides of it.
+\end_layout
+
+\begin_layout Itemize
+Vertical scale (volts/division).
+ Maximum values is 5 volts per division.
+\end_layout
+
+\begin_layout Itemize
+Vertical offset sliders are provided for each channel to shift the trace
+ up or down.
+\end_layout
+
+\begin_layout Itemize
+The Check button LOOP selects Single/Continuous mode of scanning.
+\end_layout
+
+\begin_layout Itemize
+The traces can be transferred to an Grace plot window, using XMG.
+\end_layout
+
+\begin_layout Itemize
+SAVE button to save the data to the specified file in
+\shape italic
+ 
+\shape default
+two column text format.
+\end_layout
+
+\begin_layout Standard
+In addition to the CRO features, you can also control SQR1, SQR2, PVS etc.
+ from the GUI.
+ You can execute Python functions to access the hardware from a command
+ window.
+\end_layout
+
+\begin_layout Itemize
+For the Square waves , the frequency and phase difference in percentage
+ are entered in two text fields.
+ SQR1 & SQR2 can be set to different frequencies or to a single frequency
+ with desired phase difference.
+ Re-activate the check buttons after changing frequency or phase difference.
+ 
+\end_layout
+
+\begin_layout Itemize
+SQR1 can be set using a slider also.
+\end_layout
+
+\begin_layout Itemize
+To Set PVS, type the voltage (0 to 5) and press Enter key.
+ The PVS output has a readback and the read back value is displayed in the
+ message field.
+\end_layout
+
+\begin_layout Itemize
+Checkbuttons are provided to control OD1 and CCS.
+\end_layout
+
+\begin_layout Itemize
+Capacitance connected between IN1 and GND can be measured.
+\end_layout
+
+\begin_layout Itemize
+Python functions to communicate to the hardware can be entered in a Command
+ Window.
+\end_layout
+
+\begin_layout Section
+Basic measurements using expEYES
+\end_layout
+
+\begin_layout Standard
+Before proceeding with the experiments, let us do some simple exercises
+ to become familiar with expEYES Junior.
+ Boot your computer from the LiveCD, connect the device a USB port and start
+ the EYES-Junior program from the menu 'Applications->Science'.
+\end_layout
+
+\begin_layout Subsection
+Generate & measure voltages
+\end_layout
+
+\begin_layout Itemize
+Connect PVS to IN1 and Assign IN1 to CH1
+\end_layout
+
+\begin_layout Itemize
+Set PVS to some voltage and observe the trace
+\end_layout
+
+\begin_layout Itemize
+Click on IN1 to display the voltage.
+\end_layout
+
+\begin_layout Subsection
+Observe voltage waveforms
+\end_layout
+
+\begin_layout Itemize
+Connect SINE to A1 and Assign A1 to CH1
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale (ms/Div) to view 4 or 5 cycles of the square
+ wave
+\end_layout
+
+\begin_layout Itemize
+Set frequency to to 100 and Check SQR1.
+\end_layout
+
+\begin_layout Itemize
+Assign SQR1 to CH2
+\end_layout
+
+\begin_layout Itemize
+Change frequency.
+ Uncheck and Check SQR1.
+\end_layout
+
+\begin_layout Itemize
+Explore the FIT and FTR options.
+\end_layout
+
+\begin_layout Subsection
+Measure frequency & Duty cycle
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 to 1000
+\end_layout
+
+\begin_layout Itemize
+Right Click on SQR1 to display frequency and duty cycle.
+\end_layout
+
+\begin_layout Itemize
+To set 488 Hz 30% PWM, enter 
+\shape italic
+set_sqr1_pwm(30)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\shape italic
+For information about all the commands, refer to the Programmer's manual
+\end_layout
+
+\end_inset
+
+ 
+\shape default
+inside the Command window.
+\end_layout
+
+\begin_layout Itemize
+Measure again by Right Clicking on SQR1
+\end_layout
+
+\begin_layout Subsection
+Accuracy and resolution
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-croplus-screen."
+
+\end_inset
+
+ shows a 3V, 3000.5 Hz sine wave from an Agilent 33220A Function generator,
+ connected to A1.
+ The voltage at IN1 is measured as 3.000 by a Keithley 2100 multimeter, off
+ by 2mV.
+ The frequency of audio frequency sine wave is measured with less than 0.1%
+ error.
+ The voltage measurement has 12 bit resolution but the absolute accuracy
+ may change slightly with ambient temperature.
+\end_layout
+
+\begin_layout Section
+Experiments
+\end_layout
+
+\begin_layout Standard
+The expEYES hardware can generate/measure different kinds of voltage signals.
+ For measuring any other parameter it should be converted into a voltage,
+ using appropriate sensor elements.
+ For example a temperature sensor will give a voltage indicating the temperature.
+ 
+\end_layout
+
+\begin_layout Standard
+A GUI program is provided for every experiment given in this manual.
+ However, it is possible to do the same by writing few lines of code in
+ Python language.
+ All the communication to expEYES is done using a Python library called
+ 
+\shape italic
+eyesj.py
+\shape default
+.
+ Data analysis and graphical display is also done in Python.
+ If you are interested in developing new experiments based on expEYES, it
+ would be a good idea to learn Python programming language.
+ Almost every experiment can be extended in several ways and some hints
+ are given in this direction.
+ 
+\end_layout
+
+\begin_layout Standard
+The following chapters describe experiments from different topics like electrici
+ty, magnetism, electronics, sound, heat etc.
+ Since the expEYES kit is meant for self learning, we have included some
+ very trivial experiments in the beginning.
+\end_layout
+
+\begin_layout Chapter
+Electricity
+\end_layout
+
+\begin_layout Standard
+We start with the simple task of measuring the voltage of a dry-cell.
+ Current and resistance are introduced next, followed by resistances changing
+ with temperature and light.
+ The concept of Alternating Current is introduced by plotting the voltage
+ as a function of time.
+ The behavior of circuits elements like capacitors and inductors in AC and
+ DC circuits are explored, by measuring parameters like amplitude, frequency
+ and phase.
+ The transient response of a resistor and capacitor in series is used for
+ measuring the capacitance.
+ Inductance also is measured in the same manner.
+ The Fourier analysis of waveforms are done to study the harmonics.
+ Integration and differentiation of a square wave using RC circuits also
+ is explored.
+ 
+\end_layout
+
+\begin_layout Standard
+For each experiment, make connections as per the diagram given.
+\end_layout
+
+\begin_layout Section
+Measuring Voltage
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn to measure voltage using expEYES and get some idea about the concept
+ of Electrical Ground.
+ A dry-cell and two wires are required.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/measure-dc.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click on A1 to display the voltage
+\end_layout
+
+\begin_layout Itemize
+Repeat by reversing the cell connections.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+Voltages measured value is +1.5 volts and it becomes -1.5 after reversing
+ the connections.
+\end_layout
+
+\begin_layout Standard
+We are measuring the potential difference between two points.
+ One of them can be treated as at zero volts, or Ground potential.
+ The voltage measuring points of expEYES measure the voltage with respect
+ to the terminals marked GND.
+ We have connected the negative terminal of the cell to Ground.
+ The positive terminal is at +1.5 volts with respect to the negative terminal.
+ 
+\shape italic
+Will it show correct voltage if GND is not connected ?
+\end_layout
+
+\begin_layout Standard
+If the input voltage is within 0 to 5V range, use IN1, which is directly
+ connected to the ADC input.
+ Resolution of bipolar inputs A1 and A2 are half of that of IN1.
+ The offset and gain errors of the level shifting amplifiers also affect
+ the accuracy of A1 & A2.
+ 
+\end_layout
+
+\begin_layout Section
+Voltage, current & resistance
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn about Current, Resistance and Ohm's law, using a couple of resistors.
+ The voltage across a conductor is directly proportional to current flowing
+ through it.
+ The constant of proportionality is called Resistance.
+ This is known as Ohm's Law, expressed mathematically as
+\begin_inset Formula 
+\[
+V\varpropto I\,\,\,;\,\,\,\, V=IR\,\,\,\, or\,\,\, R=\frac{V}{I}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/resistors.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set PVS to some voltage, read the actual value set from the message field.
+\end_layout
+
+\begin_layout Itemize
+Click on IN1 to measure its voltage.
+\end_layout
+
+\begin_layout Itemize
+Repeat for different values of PVS.
+ 
+\end_layout
+
+\begin_layout Itemize
+Repeat for other resistance values.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The total voltage and the voltage across R1 are measured.
+ The voltage across R2 is 
+\begin_inset Formula $V_{PVS}-V_{R1}$
+\end_inset
+
+.
+ The current through R1, 
+\begin_inset Formula $I=V_{R1}/R1$
+\end_inset
+
+.
+ The same amount of current flows through R2 and the voltage across R2 can
+ be calculated using 
+\begin_inset Formula $V_{R1}=IR1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $V_{PVS}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $V_{IN1}=V_{R1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $I=\frac{V_{IN1}}{1000}$
+\end_inset
+
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $V_{R2}=V_{PVS}-V_{IN1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+\begin_inset Formula $V_{R2}=I\times2.2k$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.313
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.313
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.687
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.688
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.626
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.626
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.374
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.377
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.94
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.06
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.07
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Expand this experiment by connecting three resistors in series and connecting
+ the junctions to IN1 and IN2.
+ Another exercise is to connect a 
+\begin_inset Formula $5.1k$
+\end_inset
+
+ resistor from SEN to GND and measure the voltage at SEN.
+ Remember that SEN is internally connected to 5 volts through a 
+\begin_inset Formula $5.1k$
+\end_inset
+
+ resistor.
+\end_layout
+
+\begin_layout Section
+Calibrating Current Source
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Calibrating-Current-Source"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+The actual output of constant current source may be different from the specified
+ 1 mA, due to the tolerance of the resistors used.
+ It can be measured by connecting an ammeter from CCS to GND, or by connecting
+ a known resistance to CCS and measuring the voltage across it.
+ The resistor should be in 2k to 4k range.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ccs-calib.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enable CCS 
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The measured values of the resistance is 3.876k and the voltage is 3.725 volts.
+ The actual value of the constant current source is 3.725/3.876 = .961 mA.
+ 
+\end_layout
+
+\begin_layout Standard
+For better accuracy, the measured value should be used in experiments using
+ CCS.
+\end_layout
+
+\begin_layout Section
+Resistances in series
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Finding the effective resistance of a series combination of resistors, 
+\begin_inset Formula $R=R1+R2+\cdots$
+\end_inset
+
+, using a constant current source.
+ A 
+\begin_inset Formula $560\Omega$
+\end_inset
+
+ and a
+\begin_inset Formula $1k\Omega$
+\end_inset
+
+ resistors are used.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-series.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Connect R1, R2 alone and then both
+\end_layout
+
+\begin_layout Itemize
+Measure IN1 for each case
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R(
+\begin_inset Formula $\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+V(volts)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.558
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.998
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000+560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.556
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the current is same, the total voltage drop gives the effective resistance.
+ It can be seen that it is the sum of the individual values, within the
+ measurement error.
+ For more accurate results, use the value of current measured as explained
+ in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Calibrating-Current-Source"
+
+\end_inset
+
+, instead of 1mA.
+\end_layout
+
+\begin_layout Section
+Resistances in parallel
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Find the effective resistance of parallel combination of resistors, given
+ by 
+\begin_inset Formula $\frac{1}{R}=\frac{1}{R1}+\frac{1}{R2}+\cdots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-parallel.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Connect 1
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ resistor from CCS to Ground.
+\end_layout
+
+\begin_layout Itemize
+Repeat the same with two resistors connected in parallel.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{connected}(\Omega)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{measured}(V)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.008
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\begin_inset Formula $\parallel$
+\end_inset
+
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.503
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since we know the current, we can calculate the resistance from the measured
+ voltage.
+ As per the measured voltage the resistance of the parallel combination
+ is 
+\begin_inset Formula $\frac{0.503V}{0.001A}=503\Omega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Measure resistance by comparison
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn to apply Ohm's law to find the value of an unknown resistance by comparing
+ it with a known one.
+ Voltage across a resistor is given by 
+\begin_inset Formula $V=IR$
+\end_inset
+
+ .
+ If same amount of current is flowing through two different resistors, the
+ ratio of voltages will be the same as the ratio of resistances, 
+\begin_inset Formula $I=\frac{V1}{R1}=\frac{V2}{R2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-compare.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Connect the unknown resistor R from PVS to IN1.
+\end_layout
+
+\begin_layout Itemize
+Connect 1
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ (R1) from IN1 to Ground.
+\end_layout
+
+\begin_layout Itemize
+Set PVS to 4 volts.
+\end_layout
+
+\begin_layout Itemize
+Measure voltage at IN1
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+Voltage at IN1 = 1.254, implies voltage across the unknown resistor is 
+\begin_inset Formula $4-1.254=2.746$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Current 
+\begin_inset Formula $I=\frac{1.254}{1000}=1.254mA$
+\end_inset
+
+ .
+ Unknown resistor value = 
+\begin_inset Formula $\frac{2.746}{1.254mA}=2.19k\Omega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+What is the limitation of this method ? How do we choose the reference resistor
+ ? suppose the unknown value is in Mega Ohms, what will be the voltage drop
+ across a 
+\begin_inset Formula $1k\Omega$
+\end_inset
+
+ reference resistor ? Our voltage measurement is having a resolution of
+ 
+\begin_inset Formula $\frac{1}{4095}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+We will use this method later to measure the resistance of solutions, using
+ AC.
+\end_layout
+
+\begin_layout Section
+Voltage of a lemon cell 
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Make a voltage source by inserting Zinc and Copper plates into a lemon.
+ Explore the current driving capability and internal resistance.
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Graphics
+	filename schematics/lemon-cell.png
+	height 1.3cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click on A1 to measure voltage
+\end_layout
+
+\begin_layout Itemize
+Measure the voltage with and without the 1k resistor
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+Voltage across the Copper and Zinc terminals is nearly .9 volts.
+ Connecting the resistor reduces it to 0.33 volts.
+ When connected, current will start flowing through the resistor.
+ But why is the voltage going down ?
+\end_layout
+
+\begin_layout Standard
+What is the internal resistance of the cell ?
+\end_layout
+
+\begin_layout Standard
+Current is the flow of charges and it has to complete the path.
+ That means, current has to flow through the cell also.
+ Depending on the internal resistance of the cell, part of the voltage gets
+ dropped inside the cell itself.
+ Does the same happen with a new dry-cell ?
+\end_layout
+
+\begin_layout Section
+DC, AC and power line pickup
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Introduce the concept of time dependent voltages, using a V(t) graph.
+ Compare the graph of DC and AC.
+ Learn about the AC mains supply.
+ Explore the phenomenon of propagation of AC through free space.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/ad-dc.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/pickup.png
+	lyxscale 50
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Plotting Voltage Vs Time.
+ (a) graph of DC and AC (b) AC mains pickup 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Graph-of-DC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ac-dc.png
+	height 0.7cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Set PVS to 1 volt
+\end_layout
+
+\begin_layout Itemize
+Assign CH1 to FIT, to measure AC parameters.
+\end_layout
+
+\begin_layout Itemize
+Remove SINE and connect a long wire to A2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/line-pickup.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Graph-of-DC"
+
+\end_inset
+
+(a) shows that the graph of DC is horizontal line and for AC it changes
+ direction and magnitude with time.
+ The voltage is changing with time.
+ It goes to both negative and positive around 150 cycles per second.
+ This voltage waveform is generated by using electronic circuits.
+\end_layout
+
+\begin_layout Standard
+Enabling FIT option calculates the amplitude and frequency by fitting the
+ data with the equation 
+\begin_inset Formula $V=V_{0}\sin(2\pi ft+\theta)$
+\end_inset
+
+ , where 
+\begin_inset Formula $V_{0}$
+\end_inset
+
+ is the amplitude and 
+\begin_inset Formula $f$
+\end_inset
+
+ 
+\begin_inset space ~
+\end_inset
+
+is the frequency.
+ What is the significance of 
+\begin_inset Formula $\theta$
+\end_inset
+
+ in this equation ?
+\end_layout
+
+\begin_layout Standard
+The power line pickup is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Graph-of-DC"
+
+\end_inset
+
+(b).
+ The frequency is obtained by fitting the data.
+ Without making any connection, how are we getting the AC voltage from the
+ mains supply ?
+\end_layout
+
+\begin_layout Section
+DC & AC components of a voltage
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:DC-&-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Separating AC and DC components of a voltage waveform using a capacitor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/acdc-sep-screen.png
+	lyxscale 40
+	width 6cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/body-resistance.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) A 0 to 5V square wave, with DC component blocked (b) Resuming electrical
+ resistance of human body
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Square-wave"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/acdc-separating.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 to 500 Hz
+\end_layout
+
+\begin_layout Itemize
+Assign SQR1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale to see several cycles.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The observed waveforms with and without the series capacitor are shown in
+ figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Square-wave"
+
+\end_inset
+
+.
+ The voltage is swinging between 0 and 5 volts.
+ After passing through the capacitor the voltage swings from -2.5 volts to
+ +2.5 volts.
+\end_layout
+
+\begin_layout Standard
+What will you get if you subtract a 2.5 from the y-coordinate of every point
+ of the first graph? That is what the capacitor did.
+ It did not allow the DC part to pass through.
+ This original square wave can be considered as a 2.5V AC superimposed on
+ a 2.5V DC.
+\end_layout
+
+\begin_layout Standard
+You may need to connect a resistor from A2 to GND to see a waveform swinging
+ between -2.5 to +2.5 volts.
+ Remove the resistor and observe the result.
+ 
+\end_layout
+
+\begin_layout Section
+Resistance of human body
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Get some idea about the resistance of the skin and how it varies.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/res-body.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Join PVS and A2, through your body and measure voltage at CH2
+\end_layout
+
+\begin_layout Itemize
+Calculate your body's resistance, as given in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Repeat using SINE instead of PVS.
+ Enable FIT to measure voltage.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The observed waveform is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Square-wave"
+
+\end_inset
+
+(b).
+ Voltage at A2 is 3V, the variation is due to the 50Hz AC pickup.
+ 
+\end_layout
+
+\begin_layout Section
+Temperature dependent resistors 
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Show the dependence of resistance on temperature, using a thermistor,
+\begin_inset Formula $1k\Omega@25^{0}C$
+\end_inset
+
+, with negative temperature coefficient.
+ Introduce temperature sensor.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/thermistor.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click on IN1 to measure the voltage
+\end_layout
+
+\begin_layout Itemize
+Repeat at different temperatures
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Setup
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+V=IR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R=\frac{V}{I}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+In cold water
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1200
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Room Temperature
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.935
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+935
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Light dependent resistors
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn about LDR.
+ Measure intensity of light and its variation with distance from the source.
+ Use the comparison method to find out the resistance.
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ldr.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set PVS to 4V and note down the value set
+\end_layout
+
+\begin_layout Itemize
+Click on IN1 to measure it, Assign IN1 to CH1.
+\end_layout
+
+\begin_layout Itemize
+Calculate the LDR's resistance, as explained in
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Repeat by changing intensity of light falling on LDR
+\end_layout
+
+\begin_layout Itemize
+Connect an LED from SQR1 to GND.
+ Set SQR1 to 10 Hz
+\end_layout
+
+\begin_layout Itemize
+Show the LED above LDR and watch waveform at IN1
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The resistance vary from 1k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ to around 100 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ depending on the intensity of light falling on it.
+ The voltage is proportional to the resistance.
+ The resistance decreases with intensity of light.
+ If you use a point source of light, the resistance should increase as the
+ square of the distance.
+\end_layout
+
+\begin_layout Standard
+Illuminate the LDR using a fluorescent tube and watch the waveform at CH1.
+ The frequency of the ripple is related to the mains frequency.
+\end_layout
+
+\begin_layout Section
+Conductivity of water, using DC & AC
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Measure the resistance of ionic solutions, using both DC and AC voltages.
+ We have used normal tap water.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+R1 should be comparable to R, start with 10k.
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2, enable FIT on both
+\end_layout
+
+\begin_layout Itemize
+Calculate the resistance as explained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Measure-resistance-by"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Repeat using a DC voltage, PVS instead of SINE
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/res-water.png
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/water-conduct.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Conductivity of water.
+ (b)Total voltage applied and the voltage across the 10k resistor.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conductivity-of-water."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{total}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{10k\Omega}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{liq}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $I=\frac{V_{10k\Omega}}{1000}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{liq}=\frac{V_{liq}}{I}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SINE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.25
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.65
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.26 mA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.5 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PVS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.23 mA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ 7.4 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observed values are shown in the table.
+ The DC and AC resistances seems to be very different.
+ With DC, the resistance of the liquid changes with time, due to electrolysis
+ and bubble formation.
+ The resistance does not depend much on the distance between the electrodes,
+ the area of the electrode is having some effect.
+ The resistance depends on the ion concentration and presence of impurities
+ in the water used.
+\end_layout
+
+\begin_layout Standard
+Try changing the distance between electrodes.
+ Try adding some common salt and repeat the measurements.
+ Why is the behavior different for AC and DC ? What are the charge carriers
+ responsible for the flow of electricity through solutions ? Is there any
+ chemical reaction taking place ?
+\end_layout
+
+\begin_layout Section
+Measuring Capacitance
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+expEYES Junior has an internal programmable current source, that can be
+ enabled on IN1.
+ Connect a capacitance C and switch on current (5.5 
+\begin_inset Formula $\mu A$
+\end_inset
+
+) for a fixed time interval.
+ The accumulated charge 
+\begin_inset Formula $Q=It=CV$
+\end_inset
+
+ .
+ By measuring 
+\begin_inset Formula $V$
+\end_inset
+
+ , the value of C is calculated.
+ For better results the stray capacitance need to be subtracted.
+ Measure C without connecting anything to IN1, and subtract that value from
+ the C measured with capacitor.
+ This method can be used for values upto 10000 pF.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Beyond that you need to use the Python function that can specify the charging
+ current, duration of charging etc.
+\end_layout
+
+\end_inset
+
+ Touching the capacitor during the measurement will corrupt the result.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/measure-cap.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Measure C without anything connected, to get the stray capacitance.
+\end_layout
+
+\begin_layout Itemize
+connect the capacitor from IN1 to ground.
+ 
+\end_layout
+
+\begin_layout Itemize
+Click on the Button
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Measure C on IN1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Repeat with different capacitors
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The empty socket measures 34 pF.
+ Several capacitors were measured.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ Value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Measured value (pF) - 34pF
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+19
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+680
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+664
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+180
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+176
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2900
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Measuring Dielectric Constant
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Measure the dielectric constant of materials like glass, paper, polyester
+ etc., by making a capacitor.
+ Capacitance 
+\begin_inset Formula $C=\epsilon_{0}k\frac{A}{d}$
+\end_inset
+
+, where 
+\begin_inset Formula $\epsilon_{0}$
+\end_inset
+
+ is the permittivity of free space, 
+\begin_inset Formula $k$
+\end_inset
+
+ the dielectric constant , 
+\begin_inset Formula $A$
+\end_inset
+
+ the overlapping area of plates and 
+\begin_inset Formula $d$
+\end_inset
+
+ the separation between them.
+ We have used a 13 cm x 10.6 cm piece of window glass having 4 mm thickness
+ to make a capacitor by pasting metal foil on both sides.
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Itemize
+connect the capacitor from IN1 to ground.
+ 
+\end_layout
+
+\begin_layout Itemize
+Click on the Button 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Measure C on IN1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Repeat without connecting anything to IN1
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The measured capacitance is 225 pF.
+ The stray capacitance is measured after removing the wire from IN1 and
+ it is 30pF, means C = 195pF.
+ 
+\begin_inset Formula $k=\frac{Cd}{\epsilon_{0}A}=\frac{195e-12\times0.004}{8.854e-12\times.13\times.106}=6.37$
+\end_inset
+
+.
+ Touching the capacitor during the measurement gives wrong results.
+ 
+\end_layout
+
+\begin_layout Standard
+Using two parallel plates, the dielectric constant of liquids also can be
+ measured.
+\end_layout
+
+\begin_layout Section
+AC Phase shift in RC circuits
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Capacitor-in-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Explore the effect of a series capacitor in AC circuits, under steady state
+ conditions.
+ Impedance of a Capacitor 
+\begin_inset Formula $X_{c}=\frac{1}{2\pi fC}$
+\end_inset
+
+ , where 
+\begin_inset Formula $f$
+\end_inset
+
+ is the frequency in Hertz and 
+\begin_inset Formula $C$
+\end_inset
+
+ is the capacitance in Farads.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rc-acphase.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale to view more than 4 cycles.
+\end_layout
+
+\begin_layout Itemize
+Right click on CH1 to calculate the phase shift.
+\end_layout
+
+\begin_layout Standard
+For a detailed study select 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Study of AC Circuits}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ from 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The voltage waveform before and after the capacitor are shown in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AC-Phase-in-RC"
+
+\end_inset
+
+(a),and the calculations are shown in the table.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C(uF)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R(
+\begin_inset Formula $\Omega$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Freq (Hz)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigtriangleup\Phi$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\arctan\left(\frac{X_{c}}{X_{R}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+147.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+47.2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $X_{c}=\frac{1}{2\pi fC}$
+\end_inset
+
+ is the impedance of the capacitor, Frequency is 147.3 Hz.
+ 
+\begin_inset Formula $X_{R}$
+\end_inset
+
+ is the resistance.
+\end_layout
+
+\begin_layout Standard
+Current through a capacitor leads the voltage across it by 
+\begin_inset Formula $90^{0}$
+\end_inset
+
+.
+ Why ?
+\end_layout
+
+\begin_layout Standard
+Why does the phase of the voltage advance? Assume we have connected the
+ AC to plate A and at an instant 
+\begin_inset Formula $t=t_{0}$
+\end_inset
+
+ the input voltage is at zero volts.
+ We can see that the slope of the curve is maximum there, i.e.
+ the rate of change of voltage is maximum.
+ The capacitor gets charged very fast at this point.
+ The plate B also gathers the same charge as plate A , that is how a capacitor
+ works.
+ The current to plate B is flowing from ground through the resistor and
+ we are measuring the IR drop across the resistor, it will be already positive
+ when plate A is at zero.
+ This results in the phase advance.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/rc-phaseshift.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/rl-phaseshift.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Phase shift of AC in an (a) RC circuit (b) RL circuit 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AC-Phase-in-RC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+AC phase shift in RL circuits
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Inductor-in-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Measure the AC voltage phase shift in an RL circuit.
+ Impedance of an Inductor 
+\begin_inset Formula $X_{L}=2\pi fL$
+\end_inset
+
+ , where 
+\begin_inset Formula $f$
+\end_inset
+
+ is the frequency in Hertz and L is the inductance in Henry.
+ In an LC circuit, the phase lag across the inductor is given by the equation
+ 
+\begin_inset Formula $\triangle\Phi=\arctan\left(\frac{X_{L}}{X_{R}}\right)$
+\end_inset
+
+, where R is the resistance in Ohms.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rl-acphase.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale to view more than 4 cycles.
+\end_layout
+
+\begin_layout Itemize
+Right Click on A1 to view voltage, frequency and phase difference.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The measured phase shifts are shown below.
+ Waveforms for the 125 mH inductor is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AC-Phase-in-RC"
+
+\end_inset
+
+(b).
+ The resistance of the inductor also should be included while calculating
+ the phase shift.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://www.play-hookey.com/ac_theory/ac_inductors.html
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L(mH)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R=R_{coil}+R_{ext}$
+\end_inset
+
+(
+\begin_inset Formula $\Omega$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigtriangleup\Phi=\arctan\left(\frac{X_{L}}{X_{R}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\bigtriangleup\Phi_{measured}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+125
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+565 + 560
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.71
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-3.8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Insert an iron or ferrite core to the coil and observe the effect of ferromagnet
+ic materials.
+ Self Inductance of a solenoid is given by 
+\begin_inset Formula $L=\frac{\mu N^{2}A}{l}$
+\end_inset
+
+ , where N is the number of turns, A is the cross sectional area, 
+\begin_inset Formula $\mu$
+\end_inset
+
+ is the permeability of the surrounding media and 
+\begin_inset Formula $l$
+\end_inset
+
+ is the length.
+\end_layout
+
+\begin_layout Section
+Transient Response of RC circuits
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Capacitor-charging-&"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Plot the voltage across a capacitor, when it is charged by applying a voltage
+ step through a resistor.
+ Calculate the value of the capacitance from the graph.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/RCcircuit.png
+	height 0.8cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+From 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ , select 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{RC Circuit}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Itemize
+Click on 
+\shape italic
+0->5V STEP
+\shape default
+ and 
+\shape italic
+5->0V step
+\shape default
+ Buttons to plot the graphs
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale, if required, and repeat.
+\end_layout
+
+\begin_layout Itemize
+Calculate RC time constant.
+\end_layout
+
+\begin_layout Itemize
+Use CCS instead of OD1 to charge capacitor with constant current.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/RC-curves.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/cap-linear.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a)Transient response of RC circuit.
+ (b) Charging of capacitor with constant current.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transient-RC"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Applying a 0 to 5V step makes the voltage across the capacitor to rise exponenti
+ally as shown in the figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transient-RC"
+
+\end_inset
+
+(a).
+ By fitting the discharge curve with 
+\begin_inset Formula $V(t)=V_{0}e^{-\frac{t}{RC}}$
+\end_inset
+
+ ,we can extract the RC time constant and find the values of capacitance
+ from it.
+ 
+\end_layout
+
+\begin_layout Standard
+The voltage across a capacitor is exponential only when it is charged trough
+ a linear element, a resistor for example.
+ When charged from a constant current source, the voltage shows linear increase,
+ as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transient-RC"
+
+\end_inset
+
+(b), because 
+\begin_inset Formula $Q=It=CV$
+\end_inset
+
+ , and voltage increases linearly with time as 
+\begin_inset Formula $V=\left(\frac{I}{C}\right)t$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Section
+Transient Response of RL circuits
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Explore the nature of current and voltage when a voltage step is applied
+ to resistor and inductor in series.
+ By measuring the voltage across the inductor as a function of time, we
+ can calculate its inductance.
+\end_layout
+
+\begin_layout Standard
+In an RL circuit 
+\begin_inset Formula $V=IR+L\frac{dI}{dt}$
+\end_inset
+
+ and solving this will give 
+\begin_inset Formula $I=I_{0}e^{-\frac{R}{L}t}$
+\end_inset
+
+.
+ The coefficient of the exponential term R/L can be extracted from the graph
+ of voltage across the inductor.
+ The resistance of the inductor coil should be included in the calculations,
+ 
+\begin_inset Formula $R=R_{ext}+R_{L}$
+\end_inset
+
+.
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://nptel.iitm.ac.in/courses/Webcourse-contents/IIT-KANPUR/esc102/node14.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/RLcircuit.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Inductor is the 3000 Turn coil
+\end_layout
+
+\begin_layout Itemize
+From 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ select 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{RL Circuit}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click on 
+\shape italic
+0->5V STEP
+\shape default
+ and 
+\shape italic
+5->0V step
+\shape default
+ Buttons to plot the graphs
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale, if required, and repeat.
+\end_layout
+
+\begin_layout Itemize
+Calculate the value of inductance
+\end_layout
+
+\begin_layout Itemize
+Insert an iron core into the inductor and repeat
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/RL-curves.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transient response of RL circuit
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transient-RL"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The transient response of the inductor is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transient-RC"
+
+\end_inset
+
+.
+ The exponential curve is fitted to extract the L/R value.
+ The resistance of the coil is measured by comparing it with the known external
+ resistance under DC conditions.
+ IN1 is connected to OD1 for a more accurate measurement of the coil resistance.
+\end_layout
+
+\begin_layout Standard
+The applied voltages are above zero, but the graph went to negative voltages.
+ Why ?
+\end_layout
+
+\begin_layout Standard
+What was the current before doing the 5->0 step ? What is back EMF ?
+\end_layout
+
+\begin_layout Standard
+Repeat with two coils in series, by (a) placing them far away (b) placing
+ one over the other and (c) after changing the orientation.
+ The effect of mutual inductance can be seen.
+\end_layout
+
+\begin_layout Section
+Transient response of LCR circuits
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Step-Response-ofRLC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Explore the oscillatory nature of L and C in series.
+ Resonant frequency of series LC circuit is given by 
+\begin_inset Formula $\omega_{0}=\frac{1}{2\pi\sqrt{LC}}$
+\end_inset
+
+.
+ The damping factor is 
+\begin_inset Formula $\frac{R}{2}\sqrt{\frac{C}{L}}$
+\end_inset
+
+, and it is equal to 1 for critical damping.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://en.wikiversity.org/wiki/RLC_circuit
+\end_layout
+
+\end_inset
+
+ Depending upon the value of C/L and R, the response could be under-damped,
+ critically-damped or over-damped.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/RLC-curves.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/RLC-curve-damped.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transient response of LCR circuit,(a)Under-damped (b)Over-damped.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:LCR Transient-response"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/LCRcircuit.png
+	height 0.8cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename schematics/LCRRcircuit.png
+	height 0.7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ select
+\shape italic
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{RLC Discharge}
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\end_layout
+
+\begin_layout Itemize
+Click on 5->0V STEP.
+ Adjust x-axis and repeat if required.
+\end_layout
+
+\begin_layout Itemize
+FIT the graph to find the resonant frequency & Damping.
+\end_layout
+
+\begin_layout Itemize
+Repeat the experiment with different values of L, C and R
+\end_layout
+
+\begin_layout Itemize
+Repeat with a resistor in series.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+We have used the 3000 turn coil and a 0.1uF capacitor, added a 2.2k series
+ resistor in the second case.
+ The voltage across the capacitor after a 5 to 0V step is shown in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:LCR Transient-response"
+
+\end_inset
+
+ .The measured resonant frequency tallies with 
+\begin_inset Formula $f=\frac{1}{2\pi}\sqrt{\frac{1}{LC}}$
+\end_inset
+
+ , within the component tolerance values.
+\end_layout
+
+\begin_layout Section
+RC Integration & Differentiation 
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+RC circuits can integrate or differentiate a voltage waveform with respect
+ to time.
+ A square wave is integrated to get a triangular wave and differentiated
+ to get spikes at the transitions.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rc-integ.png
+	height 0.8cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Set SQR2 to 1000Hz
+\end_layout
+
+\begin_layout Itemize
+Assign SQR2 to CH1 and A1 to CH2
+\end_layout
+
+\begin_layout Itemize
+Adjust the horizontal scale to view more than 4 cycles.
+\end_layout
+
+\begin_layout Itemize
+Set SQR2 to 1kHz (T = 1mS) and other values and view the waveforms.
+\end_layout
+
+\begin_layout Itemize
+Repeat the same for RC differentiator, at 100Hz.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/rc-diff.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/rc-integ1khz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/rc-diff100Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a)1kHz Squarewave after RC Integrator (b) 100Hz after RC Differentiator
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RC-int-diff"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Integration observed at 1kHz and differentiation at 100Hz are shown in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:RC-int-diff"
+
+\end_inset
+
+, using an RC value of 1 milliseconds.
+ When the time period becomes comparable with the RC value, the output waveform
+ is triangular.
+ The differentiation can only be shown at lower frequency since capturing
+ the narrow spike requires a fast oscilloscope.
+\end_layout
+
+\begin_layout Section
+Fourier Analysis
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Fourier-Transform-**"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn about Fourier Transform of a signal.
+ Time and Frequency domain representations.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ftran.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 to 150Hz
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and SQR1 to CH2
+\end_layout
+
+\begin_layout Itemize
+Assign CH1 & CH2 to FT to view the Fourier transform
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/fft-sine147Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/fft-sqr150Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Frequency spectrum of (a)Sine wave.
+ (b) Squarewave
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Frequency-spectrum-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the Fourier transform plot, frequency is on the x-axis and the y-axis
+ shows the relative strength of each frequency components of the signal.
+ This is called the frequency domain representation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://en.wikipedia.org/wiki/Fourier_transform
+\end_layout
+
+\end_inset
+
+.
+ For the sine wave there is only one dominant peak, the smaller ones are
+ a measure of distortion of the sine wave.
+ 
+\end_layout
+
+\begin_layout Standard
+A square wave function can be represented as 
+\begin_inset Formula $f(\theta)=sin(\theta)+\frac{sin(3\theta)}{3}+\frac{sin(5\theta)}{5}+\cdots$
+\end_inset
+
+.
+ In the Fourier transform of a square wave of frequency 
+\begin_inset Formula $f$
+\end_inset
+
+ , there will be a 
+\begin_inset Formula $3f$
+\end_inset
+
+ component (having an amplitude of one third of 
+\begin_inset Formula $f$
+\end_inset
+
+ ), 
+\begin_inset Formula $5f$
+\end_inset
+
+ component (amplitude one fifth) etc.
+ as shown in the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Frequency-spectrum-of"
+
+\end_inset
+
+(b).
+ Note the peak at 0 Hz, due to the DC component.
+\end_layout
+
+\begin_layout Chapter
+Electricity & Magnetism
+\end_layout
+
+\begin_layout Standard
+Electromagnetic induction is demonstrated by dropping a magnet in to a coil.
+ Working of transformer is demonstrated using two coils.
+ A simple AC generator, capable of generating multi-phase output, is made
+ using a rotating magnet.
+\end_layout
+
+\begin_layout Section
+Electromagnetic induction
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Explore the voltage induced across a coil by a changing magnetic field,
+ by dropping a small cylindrical magnet into a coil.
+ Use a tube to guide the magnet through the coil.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/induction.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+open 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EM Induction}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Click on Start Scanning.
+ A horizontal trace should appear
+\end_layout
+
+\begin_layout Itemize
+Drop the magnet through the coil, until a trace is caught.
+\end_layout
+
+\begin_layout Itemize
+Repeat the process by changing the parameters like magnet strength, speed
+ etc.
+\end_layout
+
+\begin_layout Subsection*
+Observation 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/induction-screen.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/transformer-screen.png
+	lyxscale 40
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a)Voltage induced on a coil by a moving magnet.(b)Mutual Induction between
+ two coils, the applied and induced voltages are shown 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Voltage-induced-on"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The result is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Voltage-induced-on"
+
+\end_inset
+
+(a).
+ The amplitude increases with the speed of the magnet.
+ From the graph, we can find the time taken by the magnet to travel through
+ the coil.
+\end_layout
+
+\begin_layout Standard
+The second peak is bigger than the first peak.
+ Why ? Where will be the magnet at the zero crossing of the induced voltage?
+ Drop the magnet from different heights and plot the voltage vs square root
+ of the height.
+\end_layout
+
+\begin_layout Section
+Mutual induction, transformer
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Demonstrate mutual induction using two coils.
+ One coil is powered by the SINE output.
+ The axes of the coils are aligned and a ferrite core is inserted.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename schematics/tran.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The applied waveform and the induced waveform are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Voltage-induced-on"
+
+\end_inset
+
+(2).
+ A changing magnetic filed is causing the induced voltage.
+ In the previous two experiments, the changing magnetic field was created
+ by the movement of permanent magnets.
+ In the present case the changing magnetic field is created by a time varying
+ current.
+\end_layout
+
+\begin_layout Standard
+The output should have been in phase with the input as per the theory.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://sound.westhost.com/xfmr.htm
+\end_layout
+
+\end_inset
+
+However, this is not happening if the coupling is not enough.
+ With more ferrite material, the phase shift is as expected from the theory.
+ Try doing this experiment using a squarewave of 100 Hz, 1000 Hz etc.
+ Connect a 1k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ resistor across secondary coil to reduce ringing.
+\end_layout
+
+\begin_layout Section
+A simple AC generator
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:A-simple-AC"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Measure the frequency and amplitude of the voltage induced across a solenoid
+ coil by a rotating magnet.
+ Gain some understanding about the AC generators by looking at the output
+ and the drawbacks of the setup.
+ Use the 10 mm x 10 mm magnet and the 3000T coils that comes with the kit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/ac-generator.png
+	width 4cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/ac-gen-screen.png
+	lyxscale 40
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Wiring schematic and voltage output of the AC generator, with coils placed
+ on opposite sides of the rotating magnet.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AC generator output"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+Mount the magnet horizontally and power the DC motor from a 1.5 volts cell
+\end_layout
+
+\begin_layout Itemize
+Hold the coil perpendicular to the axis of rotation of the motor, close
+ to the magnet.
+ Be careful not to touch it.
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 & A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Assign CH1 and CH2 to FIT
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The voltage output is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AC generator output"
+
+\end_inset
+
+.
+ The phase difference between the two voltages depends on the angle between
+ the axes of the two coils.
+\end_layout
+
+\begin_layout Standard
+Bring a shorted coil near the magnet to observe the change in frequency.
+ The shorted coil is drawing energy from the generator and the speed get
+ reduced.
+ The magnetic field in this generator is very weak.
+ The resistance of the coil is very high and trying to draw any current
+ from it will drop most of the voltage across the coil itself.
+ 
+\end_layout
+
+\begin_layout Chapter
+Electronics
+\end_layout
+
+\begin_layout Standard
+The non-linear elements like diodes and transistors are studied by drawing
+ their characteristic curves and making simple circuits to demonstrate their
+ functioning.
+ Photo-transistor is used for transparency measurements, optical signal
+ transmission and for timing mechanical movements.
+ Amplitude and Frequency modulation are explored.
+ A bread board is required to carry out some of the experiments described
+ in this section.
+\end_layout
+
+\begin_layout Section
+Half wave rectifier, PN junction
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn the working of a PN junction diode.
+ Making DC from a sinusoidal AC.
+ Filtering to reduce the AC component.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/half-wave-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/half-wave-filter-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) Half wave rectifier input and output.(b) With capacitor filter.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diode-rectifier"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/half-wave.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Add different values of filter capacitors from A2 to ground 
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The negative half is removed by the diode as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diode-rectifier"
+
+\end_inset
+
+(a).
+ Also notice that the voltage in the positive half is reduced by around
+ 0.7 volts, the voltage drop across a silicon diode.
+ A load resistor is required for the proper operation of the circuit, it
+ could be more than 1k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ but do NOT use very low values since our AC source can drive only up to
+ 5 mA current.
+\end_layout
+
+\begin_layout Standard
+The effect of a capacitor is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diode-rectifier"
+
+\end_inset
+
+(b).
+ We can see that the capacitor charges up and then during the missing cycle
+ it maintains the voltage.
+ The remaining AC component is called the ripple in the DC.
+\end_layout
+
+\begin_layout Standard
+Can we use very large capacitance to reduce the ripple ?
+\end_layout
+
+\begin_layout Standard
+During what part of the cycle does current flow through the diode ?
+\end_layout
+
+\begin_layout Standard
+Amount of peak current is decided by what ?
+\end_layout
+
+\begin_layout Section
+180
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+out of phase sine waves
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+To demonstrate the working of a full-wave rectifier using two diodes, we
+ need two AC waveforms, differing by 180 degree in phase.
+ We do this by inverting the output of SINE using an inverting amplifier.
+ The gain is made near unity by feeding the amplifier input through a 51k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ series resistor.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/ac-invert.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/full-wave.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a)Inverting Amplifier making 180
+\begin_inset Formula $^{\circ}$
+\end_inset
+
+out of phase sine wave.(b)Fullwave rectifier, two inputs and the output.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Inverting-Amplifier-making"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ac-invert.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Right-click on CH1 to measure phase difference
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The result is shown in the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inverting-Amplifier-making"
+
+\end_inset
+
+.
+ The amplitudes are not exactly equal.
+ The gain is given by 
+\begin_inset Formula $G=\frac{51000}{51000+1000}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Fullwave rectifier
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Make a full wave rectifier, using two diodes.
+ Two AC waveforms, differing by 180 degree in phase as required, are made
+ as described in the previous section.
+ The rectified output is connected to the third channel.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Procedure 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/full-wave.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1, A2 to CH2 and IN1 to CH3
+\end_layout
+
+\begin_layout Itemize
+Add Capacitor from IN1 to ground , for filtering.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The result is shown in the figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Inverting-Amplifier-making"
+
+\end_inset
+
+.
+ Adding capacitors to reduce the ripple is left as an exercise to the user.
+ This experiment is only to demonstrate the working of a full wave rectifier,
+ it cannot provide more than few milli amperes of current.
+ 
+\end_layout
+
+\begin_layout Standard
+Why full-wave rectifier is superior to half-wave rectifier ?
+\end_layout
+
+\begin_layout Section
+Diode I-V characteristic
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Draw the I-V Characteristic of diode and compare the result with the theory.
+ The IV characteristic of an ideal PN junction diode is given by equation
+ 
+\begin_inset Formula $I=I_{0}\left(e^{\frac{qV}{kT}}-1\right)$
+\end_inset
+
+, where 
+\begin_inset Formula $I_{0}$
+\end_inset
+
+ is the reverse saturation current, 
+\begin_inset Formula $q$
+\end_inset
+
+ the charge of electron, 
+\begin_inset Formula $k$
+\end_inset
+
+ the Boltzmann constant, 
+\begin_inset Formula $T$
+\end_inset
+
+ the temperature in Kelvin.
+ For a practical, non-ideal, diode, the equation is 
+\begin_inset Formula $I=I_{0}\left(e^{\frac{qV}{nkT}}-1\right)$
+\end_inset
+
+, where 
+\begin_inset Formula $n$
+\end_inset
+
+ is the ideality factor, that is 
+\begin_inset Formula $1$
+\end_inset
+
+ for an ideal diode.
+ For practical diodes it varies from 1 to 2.
+ We have used a IN4148 silicon diode.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename schematics/diode-iv.png
+	width 3cm
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ select 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Diode IV}
+\end_layout
+
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Itemize
+Click on START to draw the characteristic curve.
+\end_layout
+
+\begin_layout Itemize
+Click on FIT to calculate the Diode Ideality factor.
+\end_layout
+
+\begin_layout Itemize
+Plot the IV of LEDs
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/diode-iv-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/led-iv-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+I-V characteristic of (a) Silicon diode (b) several LEDs
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:I-V-characteristic-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The curves obtained are shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:I-V-characteristic-of"
+
+\end_inset
+
+(a).
+ The value of n for 1N4148 is around 2.
+ We have calculated the value of 
+\begin_inset Formula $n$
+\end_inset
+
+ by fitting the experimental data with the equation
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+If the FIT is not successful, transfer data to 
+\shape italic
+xmGrace
+\shape default
+ and use the option Data->Transformations->Nonlinear curve fitting with
+ equation y=a0*exp(a1*x).
+ 
+\end_layout
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:I-V-characteristic-of"
+
+\end_inset
+
+(b) shows the IV curves of few LEDs, of different wavelengths.
+ 
+\end_layout
+
+\begin_layout Standard
+The voltage at which LED starts emitting light depends on its wavelength
+ and Planck's constant.
+ Energy of a photon is given by 
+\begin_inset Formula $E=h\nu=hc/\lambda$
+\end_inset
+
+ .
+ This energy is equal to the energy of an electron that overcomes the junction
+ barrier and is given by 
+\begin_inset Formula $E=eV_{0}$
+\end_inset
+
+.
+ So Planck's constant 
+\begin_inset Formula $h=eV_{0}\lambda/c$
+\end_inset
+
+ , where 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ is the wavelength of light from the LED, 
+\begin_inset Formula $e$
+\end_inset
+
+ the charge of electron and 
+\begin_inset Formula $c$
+\end_inset
+
+ the velocity of light.
+ 
+\end_layout
+
+\begin_layout Standard
+Repeat the experiment by heating the diode to different temperatures.
+\end_layout
+
+\begin_layout Section
+Transistor CE characteristic
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Transistor-CE-Characteristic"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Plot the CE characteristic curve of a transistor.
+ Collector is connected to PVS through a 1K resistor.
+ The base voltage is obtained by filtering a variable duty cycle pulse from
+ SQR1.
+ Base current is decided by this voltage and the 200
+\begin_inset Formula $k\Omega$
+\end_inset
+
+ series resistor.
+ For better results use an external DC supply (1.5V cell will do) for base
+ voltage.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/transistor-ce.png
+	width 4cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/transistor-ce.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Transistor common emitter characteristics
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Transistor-common-emitter"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ open 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Transistor CE}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Enter the Bias supply voltage to the base and START.
+ Repeat for different Vb.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The characteristic curves for different base currents are shown in figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Transistor-common-emitter"
+
+\end_inset
+
+.
+ The collector current is obtained from the voltage difference across the
+ 1k resistor.
+ 
+\end_layout
+
+\begin_layout Standard
+The base current is set by setting the voltage at one end of the 200 k
+\begin_inset Formula $\Omega$
+\end_inset
+
+ resistor, the other end is connected to the transistor base.
+ The value of base current is calculated by, 
+\begin_inset Formula $I_{b}=\frac{V_{bias}-0.6}{200\times10^{3}}\times10^{6}\mu A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Transmission of Light, Photo-transistor 
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Measure the transmission of light through semi-transparent material using
+ a photo-transistor.
+ The material is kept between an LED and the photo-transistor.
+ The collector current depends on the amount of light falling on the transistor.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/light-tranmission.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 to 0 Hz, to turn on the LED
+\end_layout
+
+\begin_layout Itemize
+Assign SEN to CH1
+\end_layout
+
+\begin_layout Itemize
+Measure voltage at SEN, by clicking on it.
+\end_layout
+
+\begin_layout Itemize
+Repeat by changing the material between LED and photo-transistor.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The voltage at the collector of the photo-transistor reduces with the intensity
+ of light falling on the transistor.
+ The voltage measured after placing a piece of paper between LED and photo-trans
+istor is shown in figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Phototransistor output"
+
+\end_inset
+
+(a).
+\end_layout
+
+\begin_layout Section
+Opto-electric signal transmission 
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Demonstrate the transmission of signals using light.
+ An LED is powered by a 1kHz signal and the light is made to fall on a photo-tra
+nsistor.
+ The SEN input is internally connected to 5 volts through a 5.1k resistor.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/opto-electric.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Keep the LED facing the photo-transistor and set SQR1 to 1000Hz
+\end_layout
+
+\begin_layout Itemize
+Assign SQR1 to CH1 and SEN to CH2
+\end_layout
+
+\begin_layout Itemize
+Repeat the experiment by changing the frequency.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/light-transmission.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/opto-electric-transmission.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) Voltage at the photo-transistor with light passing through a piece of
+ paper.
+ (b) Pulse transmission, voltage driving the LED and the voltage across
+ the photo-transistor.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Phototransistor output"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The output of the photo-transistor at 1kHz is shown in figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Phototransistor output"
+
+\end_inset
+
+.
+ The square trace is the voltage across the LED.
+ When the LED is ON, photo-transistor conducts and the voltage across the
+ collector drops to .2 volts.
+ When the LED is OFF the photo-transistor goes into cut off mode and the
+ collector shows almost the supply voltage.
+ The rise and fall times of the photo-transistor seem to be different.
+\end_layout
+
+\begin_layout Standard
+Repeat this experiment with a Fiber Optic cable to guide the light from
+ LED to the photo-transistor.
+\end_layout
+
+\begin_layout Section
+IC555 Oscillator
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Make an astable multivibrator using IC555 and measure its frequency and
+ duty cycle.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+Set OD1 to HIGH, to power IC555
+\end_layout
+
+\begin_layout Itemize
+Assign IN1 to CH1 and enable FIT on CH1
+\end_layout
+
+\begin_layout Itemize
+Right-click on IN1 to measure frequency and duty cycle.
+\end_layout
+
+\begin_layout Itemize
+Repeat by changing the value of R1
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/osc555.png
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/ic555-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+IC555 astable multi-vibrator.
+ (a) schematic (b) Output waveform
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IC555-astable-multi-vibrator."
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+IC555 Monostable multivibrator
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Make a monostable multi-vibrator using IC555 and measure the time delay,
+ at different RC values.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+Set SQR2 to 0 Hz (to set it to 5V DC)
+\end_layout
+
+\begin_layout Itemize
+Enter 
+\shape italic
+set_pulsewidth(1)
+\shape default
+ in the command window
+\end_layout
+
+\begin_layout Itemize
+Assign LTP (Low True Pulse) to OD1, trigger input for 555
+\end_layout
+
+\begin_layout Itemize
+Assign IN1 to CH1 , watch it by varying R1
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename schematics/mono555.png
+	lyxscale 80
+	width 5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename pics/mono555-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+IC555 monostable multi-vibrator.
+ (a) schematic (b) Output waveform
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IC555-astable-multi-vibrator.-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Logic gates
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Study of logic gates using two square waves with a phase difference, using
+ TTL logic ICs 7408 and 7432.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/and-gate.png
+	height 1cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename schematics/or-gate.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Assign SQR1 to CH1, SQR2 CH2 and IN1 to CH3
+\end_layout
+
+\begin_layout Itemize
+Set 100Hz, 25% and enable BOTH.
+ (SQR1 & SQR2)
+\end_layout
+
+\begin_layout Itemize
+Check OD1, to power the TTL AND gate 7408
+\end_layout
+
+\begin_layout Itemize
+Repeat using the OR gate, 7432
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/and-gate.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/or-gate.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Operation of logic gates with square wave inputs.(a)AND gate (b) OR gate
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Operation-of-logic"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Clock Divider
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Study of a clock divider, using a D flip-flop (TTL family, 7474).
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/clock-divider.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 to 500 Hz.
+ Assign SQR1 to CH1 and IN1 to CH2
+\end_layout
+
+\begin_layout Itemize
+Check OD1, to power the flipflop
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The output toggles at every rising edge of the input, resulting in a division
+ of frequency by two.
+ The output is a symmetric squarewave, irrespective of the duty cycle of
+ the input pulse.
+ The HIGH output of the TTL IC is around 4 volts only.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/clock-divider.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/clock-divider2.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+A clock divider circuit, using a D-flipflop.
+ Outputs for two different types of input are shown
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-clock-divider-1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Non-inverting Amplifier
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Non-inverting-Amplifier"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Make a non-inverting amplifier, using op-amp OP27, and measure the gain.
+ The gain and input should be chosen such that the output is in the 0 to
+ 5 volts range, otherwise the device will malfunction.
+ The op-amp is powered by an external 
+\begin_inset Formula $\pm9V$
+\end_inset
+
+ supply.
+ A series resistor is added to prevent any damage to expEYES from over voltage.
+ This circuit will be useful while measuring temperature using PT100 and
+ expEYES.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/amp-test.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+To find out the offset, Ground the amplifier input and measure the output.
+ 
+\end_layout
+
+\begin_layout Itemize
+Set PVS to to .1 volts and Click on IN1 for the output voltage
+\end_layout
+
+\begin_layout Itemize
+Repeat it for several input voltages
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Ri$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Rf$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1+\frac{Rf}{Ri}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Vin$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Vout$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{Vout}{Vin}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10k
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.105
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11.05
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Amplitude & Frequency Modulation
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Study amplitude and frequency modulation of a signal.
+ Analyse the AM output mathematically to see the sidebands.
+ This experiment requires some source of modulated waveform, we have used
+ the PHOENIX Analog Box.
+\end_layout
+
+\begin_layout Standard
+Phoenix Analog Box has a sine wave generator (around 100 Hz) whose amplitude
+ can be controlled using a DC control voltage.
+ It also has a 4kHz sine wave generator with AM and FM control inputs.
+ Use PVS to change the depth of modulation by changing the amplitude of
+ the 100Hz sine wave.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/am.png
+	height 1cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Connect Analog Box and expEYES grounds.
+\end_layout
+
+\begin_layout Itemize
+Assign A1 to CH1 and A2 to CH2
+\end_layout
+
+\begin_layout Itemize
+Capture 900 samples with 20 microsecond interval
+\end_layout
+
+\begin_layout Itemize
+De-select A2 and capture with 1800 samples 
+\end_layout
+
+\begin_layout Itemize
+Click on Power Spectrum to do a Fourier transform
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/am-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/am-ftran.png
+	lyxscale 50
+	width 4.6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modulated wave and its Fourier Spectrum.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Amplitude-modulation"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A carrier signal having a frequency of around 4kHz is modulated by a sinewave
+ of around 100Hz.
+ A small portion of the output (400 points with 20 usec gap) along with
+ the modulating signal is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Amplitude-modulation"
+
+\end_inset
+
+(b).
+ Power spectrum is calculated using Fourier transform.
+ To get better results a larger sample (1800 samples with 50 usec gap) is
+ taken for this purpose.
+ The two sidebands are clearly obtained on both sides of the carrier peak,
+ separated by the modulating frequency.
+\end_layout
+
+\begin_layout Standard
+The AM output looks similar to the sound beats we obtained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Interference-of-sound"
+
+\end_inset
+
+, but taking a power spectrum of beats gives two peaks corresponding to
+ the individual frequencies.
+ How do they differ despite of the similar looks ?
+\end_layout
+
+\begin_layout Standard
+Doing frequency modulation, just changing the connection from AM to FM,
+ is left as an exercise to the user.
+\end_layout
+
+\begin_layout Chapter
+Sound
+\end_layout
+
+\begin_layout Standard
+Pressure variations, about an equilibrium pressure, transmitted through
+ a medium is called sound.
+ They are longitudinal waves.
+ Moving a sheet of paper back and forth in air can generate these kind of
+ pressure waves, like the paper cone of a loudspeaker.
+ When the frequency is within 20 to 20000Hz range, we can hear the sound.
+ In this chapter, we will generate sound from electrical signals, detect
+ them using the built-in microphone (a pressure sensor) and study the properties
+ like amplitude and frequency.
+ Velocity of sound is measured by observing the phase shift of digitized
+ sound with distance.
+\end_layout
+
+\begin_layout Section
+Frequency of sound
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sound Frequency"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Digitize sound and measure its frequency.
+ Use the Piezo buzzer or any other source of sound like a tuning fork.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 around 3500Hz, keep buzzer in front of the microphone
+\end_layout
+
+\begin_layout Itemize
+Enable FIT to measure the frequency
+\end_layout
+
+\begin_layout Itemize
+Repeat with other sources of sound
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The amplified output of the microphone is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Digitized-sound"
+
+\end_inset
+
+(a).
+ The amplitude is maximum near 3500 Hz, due to resonance.
+ Driving with 1200Hz gives more amplitude than 2000Hz, due to the third
+ harmonic of the square wave matching the resonant frequency.
+\end_layout
+
+\begin_layout Standard
+Sound waves create pressure variations in the medium through which it travel.
+ The microphone generates a voltage proportional to the pressure.
+ Since this signal is very small, we amplify it 51 times before digitizing
+ it.
+ The voltage variations are in tune with the pressure variations.
+ You can consider the microphone as a pressure sensor, but working only
+ for time varying pressures.
+ 
+\end_layout
+
+\begin_layout Section
+Frequency response of Piezo
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Resonance-frequency-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Plot the frequency response curve of the Piezo disk by scanning through
+ the frequency and measuring the amplitude of the microphone output.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/sound-frequency.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/piezo-freq-resp.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) Digitized sound wave (b)Frequency response curve of the Piezo disc
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Digitized-sound"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ select 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Frequency Response}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Press START button
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The Frequency Vs Amplitude plot is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Digitized-sound"
+
+\end_inset
+
+(b).
+ The amplitude is maximum around 3700 Hz.
+\end_layout
+
+\begin_layout Section
+Velocity of sound
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Calculate the velocity of sound by measuring the pressure variation with
+ distance.
+ Sound travels as a series of compressions and rarefactions.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sound-waves"
+
+\end_inset
+
+(a) shows the High and Low pressure regions along the direction of travel,
+ along with output of a pressure sensor at corresponding positions.
+\end_layout
+
+\begin_layout Standard
+We can display the pressure variation at any point with respect to the variation
+ at the starting point.
+ The phase of the microphone output changes as you change its distance from
+ the Piezo.
+ Moving by one wavelength changes the phase by 360 degrees.
+ If the phase changes by 
+\begin_inset Formula $X$
+\end_inset
+
+ degrees for 
+\begin_inset Formula $\triangle D$
+\end_inset
+
+ cm change in distance, the wavelength is given by 
+\begin_inset Formula $\lambda=\frac{360\times\triangle D}{X}$
+\end_inset
+
+ .
+ The velocity of sound can be calculated by multiplying the frequency with
+ this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/sound_waves.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/velocity-sound.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a)Propagation of sound waves, variation of microphone output with pressure.
+ (b) Output of microphone
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sound-waves"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ start 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Velocity of Sound}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Set frequency to resonant maximum by measuring the frequency response 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Resonance-frequency-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Keep the Piezo facing the microphone, on the same axis
+\end_layout
+
+\begin_layout Itemize
+Measure Phase difference at different distances.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+At 3500 Hz, for a 2 cm change in distance the phase changed from 176 to
+ 102.
+ Using the equation, 
+\begin_inset Formula $v=f\times\frac{360\times\triangle D}{X}=3500\times\frac{360\times2}{(176-102)}=34054$
+\end_inset
+
+ cm/sec.
+ It is important to keep the mic and the Piezo disc on the same axis, for
+ accurate results.
+\end_layout
+
+\begin_layout Section
+Interference of sound 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Interference-of-sound"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Study the interference of sound from two individual sources.
+ Two Piezo buzzers are powered by two different sources, and the sound is
+ directed towards the microphone.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/inter-sound.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/beats-ftran.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) Sum of sound having two nearby frequencies (b) Fourier transform showing
+ the frequency components.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SoundBeats"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound-inter.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ start 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Interference of Sound}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR1 to 3500 Hz and SQR2 to 3600 Hz
+\end_layout
+
+\begin_layout Itemize
+Adjust positions of Piezo buzzers, from the mic, to get clear beat pattern.
+\end_layout
+
+\begin_layout Itemize
+Repeat with other values of frequencies.
+\end_layout
+
+\begin_layout Itemize
+Capture with NC=1800 and take Fourier Transform
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+From figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SoundBeats"
+
+\end_inset
+
+(a) it can be seen how the low frequency envelope is created.
+ Distance between two minimum pressure points., of the envelope, corresponds
+ to the beat wavelength.
+ The Fourier transform of the output is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SoundBeats"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Forced Oscillations of Piezo-electric crystal
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Study the behavior of a Piezo-electric disc at low excitation frequencies,
+ using a square wave.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ open 
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Interference of Sound}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Tick only SQR1, set it to 100 
+\end_layout
+
+\begin_layout Itemize
+Press START to capture mic output
+\end_layout
+
+\begin_layout Itemize
+Try different frequencies
+\end_layout
+
+\begin_layout Itemize
+Capture with larger NS (<=1800) for doing Fourier transform.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The resonant frequency of the Piezo crystal is around 3600 Hz.
+ Driven by a square wave, the piezo gets a kick on every rising and falling
+ edge, and it undergoes several cycles of oscillations at its natural resonant
+ frequency.
+ The Fourier transform shows a peak at the resonant frequency and side band
+ 200 Hz separated from the peak.
+ It may be interesting to repeat this study using a variable frequency sine
+ wave instead of the square wave.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/piezo-drive100Hz.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/piezo-drive100hz-fft.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sound output from Piezo, driven by 100Hz square wave and the Fourier transform
+ of the output.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Capturing a burst of sound
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Digitize sound from a transient source.
+ A bell or two metal plates can be used as source of sound.
+ The capturing of sound is synchronized with the burst of sound by waiting
+ for microphone output to go above a threshold.
+ A better way is to make IN1 go HIGH with the sound and the capture routine
+ waiting for that.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/sound-burst.png
+	height 1.2cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ select 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Capture Burst of Sound}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Check Wait on HIGH, if the diode and resistor are wired.
+\end_layout
+
+\begin_layout Itemize
+Click on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Start Scanning}
+\end_layout
+
+\end_inset
+
+ and make the sound.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+A burst of sound captured is shown below.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename pics/sound-burst.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Mechanics, Optics & Heat
+\end_layout
+
+\begin_layout Standard
+Resonance phenomena is studied using a driven pendulum.
+ Value of acceleration due to gravity is measured using a pendulum.
+ Cooling of a liquid is studied using a PT100 sensor.
+\end_layout
+
+\begin_layout Section
+Resonance of a driven pendulum
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Demonstrate the resonance of a driven pendulum.
+ .
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+Make a pendulum using two button magnets and a piece of paper.
+ Suspend it and place the 3000T coil near that.
+ Connect the coil between SQR1 and ground
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ select 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Driven Pendulum}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Scan the frequency upwards starting from 1Hz, very slowly.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+When SQR1 reaches the resonant frequency of the pendulum, the amplitude
+ goes up due to resonance.
+ A 4 cm (from the center of the magnet to the axis of oscillation) long
+ pendulum resonated at around 2.5 Hz, almost tallying with its calculated
+ natural frequency.
+ The resonant frequency of the pendulum is given by 
+\begin_inset Formula $f=\frac{1}{2\pi}\sqrt{\frac{g}{\ell}}$
+\end_inset
+
+, where 
+\begin_inset Formula $\ell$
+\end_inset
+
+ is the distance from the center of the magnet to the point of suspension
+ and 
+\begin_inset Formula $g$
+\end_inset
+
+ is the acceleration due to gravity.
+ 
+\end_layout
+
+\begin_layout Standard
+Repeat the experiment by changing the length of the pendulum.
+ 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+SQR1 cannot go below 0.7 Hz
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Value of 'g', Rod pendulum
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Measure the period of oscillations of a rod pendulum using a light barrier
+ and calculate the value of acceleration due to gravity.
+ Period of oscillation of a uniform rod about one end is given by 
+\begin_inset Formula $T=2\pi\sqrt{\frac{2\ell}{3g}}$
+\end_inset
+
+, where 
+\begin_inset Formula $\ell$
+\end_inset
+
+ is the length and 
+\begin_inset Formula $g$
+\end_inset
+
+ is the acceleration due to gravity.
+ The pendulum (T-shaped, a knife edge attached to a 6mm dia rod) is made
+ to swing between an LED and photo-transistor, connected to expEYES.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/light-barrier.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ Start 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Rod Pendulum}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Oscillate the pendulum and click on START
+\end_layout
+
+\begin_layout Itemize
+Repeat with different pendulum lengths.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The time period is measured 50 times, using a 14.6cm rod pendulum, and the
+ average value is 0.627 seconds.
+ The calculated value of 'g' is 977.4 
+\begin_inset Formula $cm/sec^{2}$
+\end_inset
+
+, slightly different from the actual value due to the following reasons.
+ The length is measured from the knife edge to the bottom and used in the
+ formula.
+ But there is a small mass projecting above the knife edge that is not included
+ in the calculation.
+ Another reason is that the pendulum may not be exactly vertical in the
+ resting position.
+\end_layout
+
+\begin_layout Section
+Oscillations of a pendulum
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+To study the nature of oscillations of a pendulum.
+ An angle encoder is required for measuring the angular displacement as
+ a function of time.
+ But using a DC motor as a sensor, we can measure the angular velocity as
+ a function of time.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+Attach some sort of rigid pendulum to the axis of the motor.
+\end_layout
+
+\begin_layout Itemize
+Connect the motor between IN and GND
+\end_layout
+
+\begin_layout Itemize
+Connect OUT to A1
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ start 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Pendulum Waveform}
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Oscillate the pendulum and START digitizing
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The observed waveform is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cooling-curve-of"
+
+\end_inset
+
+(a).
+ Fitting it with equation 
+\begin_inset Formula $A=A_{0}sin\left(\omega t+\theta\right)*\exp\left(-dt\right)+C$
+\end_inset
+
+, using Grace gave an angular frequency of 10 Hz.
+\end_layout
+
+\begin_layout Standard
+The pendulum should be made with a heavy bob and a light weight rod connecting
+ it to the axis of the motor.
+ The DC motor acts like a generator in this case.
+\end_layout
+
+\begin_layout Section
+Temperature measurement, PT100
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Record the temperature of a liquid by using a Platinum Resistance Thermometer.
+ Resistance of a PT100 element is related to the temperature by the equation
+ 
+\begin_inset Formula $R_{T}=R_{0}\left[1+AT+BT^{2}\right]$
+\end_inset
+
+, where 
+\begin_inset Formula $A=3.9083e-3$
+\end_inset
+
+ and 
+\begin_inset Formula $B=-5.775e-7$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+This require a low offset non-inverting amplifier, so that we can use 0
+ to 5V input IN1.
+ Since that is not available on expEYES Junior, we use the inverting amplifier,
+ after reducing its gain by an input series resistance, and connecting the
+ output to A1.
+ The accuracy is not very good in this case but temperature variations can
+ be studied.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+To measure the resistance of the PT100 element, we connect it from the CCS
+ to ground and measure the voltage across it.
+ The actual current of CCS should be measured as explained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Calibrating-Current-Source"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\align left
+\begin_inset Graphics
+	filename schematics/pt100.png
+	height 0.8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ start 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{PT100 Sensor}
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Enter the measured current value.
+ 
+\end_layout
+
+\begin_layout Itemize
+Select the required parameters and press START 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+ The resistance of PT100 is
+\begin_inset Formula $100\Omega$
+\end_inset
+
+ at 
+\begin_inset Formula $0^{0}C$
+\end_inset
+
+ .
+ It changes nearly 
+\begin_inset Formula $0.4\Omega/C$
+\end_inset
+
+ , changing the voltage by 0.4 milli volts.
+ The 12 bit ADC output changes by 1 LSB for 1.22 mV change in input voltage,
+ hence any temperature change less than 3 degrees will not be detected.
+ Use an external non-inverting amplifier to increase the resolution.
+ The gain of the amplifier should be such that the maximum temperature measured
+ should give an output less than 5 volts.
+ Change the gain field entry accordingly.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pendulum-screen.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/cooling-curve.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) Oscillations of a pendulum.
+ (b)Cooling curve of water
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cooling-curve-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cooling curve of water is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cooling-curve-of"
+
+\end_inset
+
+.
+ The temperature is changing in big steps, this can be improved by using
+ an amplifier between CCS and IN1, as explained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Non-inverting-Amplifier"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Instead of measuring the current and calculating the actual amplifier gain,
+ one can follow a calibration procedure to obtain good results.
+ This procedure assumes a linear variation of resistance with temperature.
+ To do calibration, place the sensor in ice and click on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Freezing Point}
+\end_layout
+
+\end_inset
+
+.
+ Immerse the sensor in boiling water and click on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Boiling Point}
+\end_layout
+
+\end_inset
+
+.
+ After that click on 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Calibrate}
+\end_layout
+
+\end_inset
+
+.
+ Once the calibration is done the temperature is calculated using the calibratio
+n constants.
+\end_layout
+
+\begin_layout Section
+Stroboscope
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+An object executing periodic motion will appear stationary when it is illuminate
+d with a light pulse of the same frequency, since the object is illuminated
+ every time only when it reaches the same point.
+ If the frequencies are slightly different, it will appear to move with
+ the difference in frequency.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Itemize
+From 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{EXPERIMENTS}
+\end_layout
+
+\end_inset
+
+ select 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+menuitem{Stroboscope}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Connect the White LED from SQR1 to GND
+\end_layout
+
+\begin_layout Itemize
+Power the motor by a battery and illuminate it with the LED
+\end_layout
+
+\begin_layout Itemize
+Adjust SQR1 to make the motor appear stationary.
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+As you adjust SQR2, the movement of the disc on the axis of the motor appears
+ to slow down and then at some point reverses the direction of motion.
+ Note down the frequency at the direction reversal.
+\end_layout
+
+\begin_layout Standard
+When viewed in a pulsed light source of frequency 11 Hz, a motor rotating
+ clockwise at 10 rotations per second will look like rotating anti-clockwise
+ once a second.
+ During stopping and starting, the ceiling fans sometimes looks like rotating
+ backwards, in the light of fluorescent tubes.
+\end_layout
+
+\begin_layout Standard
+How is the RPM of a car engine adjusted ?
+\end_layout
+
+\begin_layout Section
+Speed of rotation of a motor
+\end_layout
+
+\begin_layout Subsection*
+Objective
+\end_layout
+
+\begin_layout Standard
+Learn about making sensors to detect mechanical movements.
+ Use a photo-transistor to find the rotational speed of a motor.
+\end_layout
+
+\begin_layout Subsection*
+Procedure
+\end_layout
+
+\begin_layout Standard
+A single leaf is attached to the motor and it is placed between the photo-transi
+stor and the LED, intercepting the light once during every rotation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/motor-rpm.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Set SQR2 to 100Hz, to rotate the motor
+\end_layout
+
+\begin_layout Itemize
+Assign SEN to CH1
+\end_layout
+
+\begin_layout Itemize
+Right Click on SEN to measure the frequency (FIT option may not work for
+ these pulses)
+\end_layout
+
+\begin_layout Subsection*
+Observation
+\end_layout
+
+\begin_layout Standard
+The photo-transistor output shown spikes when the light is obstructed.
+ The observed values can be cross checked by using a magnet and coil as
+ explained in section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:A-simple-AC"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Coding expEYES in Python
+\end_layout
+
+\begin_layout Standard
+The GUI programs described in the previous sections are meant for a fixed
+ set of experiments.
+ To develop new experiments, one should know how to access the features
+ of expEYES Junior from software.
+ Important function calls used for communicating with the device is given
+ below.
+ For more details, refer to the 
+\emph on
+Programmer's manual
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Installing the Python Libraries
+\end_layout
+
+\begin_layout Standard
+The expEYES Junior package consists of three files (eyesj.py, eyeplot.py and
+ eyemath.py) inside a subdirectory named expeyes.
+ This subdirectory should be inside your PYTHON LIBRARY PATH ( or inside
+ your working directory).
+ On Debian based GNU/Linux systems, this will be done by installing the
+ expeyes-3.x.x.deb file.
+ On other systems unzip the file expeyes-3.x.x.zip and follow the instructions
+ in the README file.
+\end_layout
+
+\begin_layout Section
+Start Communicating
+\end_layout
+
+\begin_layout Paragraph*
+Channel Numbers
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+A channel number is assigned to identify every Analog/Digital signal, as
+ given in table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Channel-numbers-of"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Channel #
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Analog Comparator output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SEN
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1 readback
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR2 readback
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1 output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1 output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OD1 output
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CCS output control
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PVS Readback
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Channel numbers of Input/Output terminals
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Channel-numbers-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Start the Python Interpreter (from the directory where you have the expeyes
+ subdirectory), by the command;
+\end_layout
+
+\begin_layout LyX-Code
+$python
+\end_layout
+
+\begin_layout LyX-Code
+Python 2.7.3 (default, Apr 20 2012, 22:44:07)  
+\end_layout
+
+\begin_layout LyX-Code
+>>>
+\end_layout
+
+\begin_layout Standard
+The triple angle bracket implies that you using Python in the interactive
+ mode.
+ Type the following two lines to load the library and establish connection
+ to the device.
+\end_layout
+
+\begin_layout LyX-Code
+>>>import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+>>>p=expeyes.eyesj.open()
+\end_layout
+
+\begin_layout Standard
+If you get an error message, check the connections, and other programs already
+ using expEYES.
+ Only one program can use expEYES at a time.
+ We will start by measuring the stray capacitance of the socket IN1:
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.measure_cap()   # measure C on IN1
+\end_layout
+
+\begin_layout Standard
+A value of 30 to 35 pF will be printed.
+ Connect a capacitor (smaller than 0.01 uF) from IN1 to GND and repeat the
+ command.
+ Subtract the stray capacitance from the values obtained.
+ 
+\end_layout
+
+\begin_layout Standard
+Digital Input/Output features are available.
+ To test them, connect OD1 to IN1 using a piece of wire and try the following:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_state(3)    # status of IN1
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.set_state(10,1)       # make OD1 logic high
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_state(3)    # new status of IN1
+\end_layout
+
+\begin_layout Standard
+For the second call, get_state(3) should print 1.
+ 
+\end_layout
+
+\begin_layout Standard
+Now let us start generating/measuring voltage signals.
+ Connect PVS to IN1 and try:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_voltage(2.5) # returns the value set 
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_voltage(3)   # channel 3 is IN1
+\end_layout
+
+\begin_layout Standard
+It should print 2.5 volts, within 2-3 millivolts.
+\end_layout
+
+\begin_layout Standard
+Now connect SINE to A1 and try:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.get_voltage(1)
+\end_layout
+
+\begin_layout Standard
+You will get different results every time you issue the command
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+use up arrows to edit previous commands
+\end_layout
+
+\end_inset
+
+.
+ It makes better sense to measure this voltage for some duration and plot
+ it.
+ We will import the matplotlib library for plotting, capture the sine wave
+ and plot it.
+\end_layout
+
+\begin_layout LyX-Code
+>>>from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+>>>ion()   # set pylab interactive mode
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v = p.capture(1,300,100) 
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pylab-sine.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/pylab-sine-sqr.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Inputs captured and plotted using pylab(a) Sine wave (b)Sine and square
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sine"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have sampled the voltage on A1 300 times with a delay of 100 micro seconds
+ between two consecutive readings, i.e.
+ the voltage is captured for total 30 milliseconds.
+ Each data word is 1 byte in size and the maximum number of samples possible
+ is 1800, limited by the RAM on expEYES.
+ 
+\end_layout
+
+\begin_layout Standard
+The graph will popup in a new window, as shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sine"
+
+\end_inset
+
+(a).
+ For measuring with higher resolution (12 bits), you may use capture_hr(),
+ but the total number of samples will be limited to 900 in that case.
+ 
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v = p.capture_hr(1,300,100) 
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+Now let us add a square wave to the plot by:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_sqr1(100)         # set 100Hz on SQR1
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v = p.capture(6,300,100)    # channel 6 is SQR1 readback
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+The output is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sine"
+
+\end_inset
+
+(b).
+\end_layout
+
+\begin_layout Standard
+Some experiments will require capturing more than one waveform with timing
+ correlation, use capture2, capture3 or capture4 for this.
+ For example to view the phase shift of a sine wave, connect SINE to A1,
+ a 1uF capacitor from A1 to A2 and a 1k resistor from A2 to GND.
+ Capture the voltage before and after the capacitor by;
+\end_layout
+
+\begin_layout LyX-Code
+>>>t1,v1,t2,v2 = p.capture2(1, 2,300,100)       
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t1,v1, t2,v2)
+\end_layout
+
+\begin_layout Standard
+The out put is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)Phase-shift-of"
+
+\end_inset
+
+(a).
+ The last line plots a Lissajous figure as shown in figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)Phase-shift-of"
+
+\end_inset
+
+(b).
+ There are more than one ellipse since we captured more than one cycle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pylab-sine-phase.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/lissaj.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a)Phase shift of sine wave across a capacitor.
+ (b) Lissajous plot of the voltages
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:(a)Phase-shift-of"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Most of the time the captured voltage is generated by some other actions
+ like setting a voltage.
+ This is done by implementing capture modifiers.
+ This can be easily explained by capturing the voltage across a capacitor,
+ just after applying a voltage step to it through a resistor.
+ Connect 1k resistor from OD1 to A1, a 1uF capacitor from A1 to GND, and
+ run;
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.set_state(1)        # OD1 5 volts
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.enable_set_low(10)  # Effect only during capture 
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v=p.capture_hr(1,300,20)  # OD1->0 before capture 
+\end_layout
+
+\begin_layout LyX-Code
+>>>p.disable_actions()   # No more actions on OD1
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+The result is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-PWM-waveform"
+
+\end_inset
+
+(a).
+\end_layout
+
+\begin_layout Standard
+The outputs SQR1 and SQR2 can generate square waves ranging from .7Hz to
+ 200kHz, function returns the actual frequency set.
+ They can also be programmed to generate Pulse Width Modulated (PWM) waveforms,
+ at some fixed frequencies.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/pylab-cap-discharge.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/pylab-pwm.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+(a) Capacitor discharge (b) PWM waveform
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:(a)-PWM-waveform"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_sqr1_pwm(30)    # 30% duty cycle, 488 Hz
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v=p.capture_hr(6, 300,50)   # get the wave form
+\end_layout
+
+\begin_layout LyX-Code
+>>>plot(t,v)
+\end_layout
+
+\begin_layout Standard
+The result is shown in figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:(a)-PWM-waveform"
+
+\end_inset
+
+(b).
+ 
+\end_layout
+
+\begin_layout Standard
+expEYES can measure time interval between voltage transitions at the digital
+ inputs.
+ Connect SQR1 to IN1 and try:
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.r2ftime(3,3)      
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.set_sqr1(1000)    # 1kHz square wave
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.r2ftime(3,3)      # rising to falling
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.multi_r2rtime(3)  # two rising edge 
+\end_layout
+
+\begin_layout LyX-Code
+>>>print p.measure_frequency(3)
+\end_layout
+
+\begin_layout Standard
+Try to set square waves of different frequencies and measure them.
+\end_layout
+
+\begin_layout Standard
+From a captured waveform, we can measure the amplitude and frequency by
+ curve fitting.
+ The results are accurate with a sine wave input but frequency measurement
+ works with other shapes also.
+ Connect SINE to A1 and try:
+\end_layout
+
+\begin_layout LyX-Code
+>>>import expeyes.eyemath as em
+\end_layout
+
+\begin_layout LyX-Code
+>>>t,v= p.capture_hr(1, 400,50)
+\end_layout
+
+\begin_layout LyX-Code
+>>>vfit, par = em.fit_sine(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+>>>print par[0], par[1]*1000   # Amplitude & Frequency
+\end_layout
+
+\begin_layout Standard
+The peak voltage and the frequency will be printed.
+\end_layout
+
+\begin_layout Standard
+For more information read the Programmer's manual.
+ You can get a brief description of all the functions by giving the command
+\end_layout
+
+\begin_layout LyX-Code
+>>>help(expeyes.eyesj)
+\end_layout
+
+\begin_layout Standard
+Once you learn Python language, it will be easier to read through the source
+ code 
+\shape italic
+eyesj.py
+\shape default
+ to understand the working of the program.
+ In fact all the real-time measurements are done by the C program 
+\shape italic
+eyesj.c
+\shape default
+ running on the micro-controller.
+ The Python library sends commands to get the required data, and uses the
+ power of Python for data analysis and display.
+\end_layout
+
+\begin_layout Standard
+The latest PDF versions of this manual can be downloaded from http://expeyes.in
+\end_layout
+
+\begin_layout LyX-Code
+If you find mistakes, send a mail to ajith@iuac.res
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\end_body
+\end_document

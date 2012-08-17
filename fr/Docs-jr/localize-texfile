@@ -1,0 +1,94 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+"""
+use a PO file to localize some expressions in a LaTeX file
+"""
+
+import sys, re
+
+gatherPattern = re.compile('^"(.*)"$')
+msgidPattern  = re.compile('^msgid "(.*)"$')
+msgstrPattern = re.compile('^msgstr "(.*)"$')
+macroPattern  = re.compile(r'(\\menuitem{)([^}]*)(})')
+
+class Localizer:
+    def __init__(self, pofile):
+        """
+        the constructor
+        @param pofile a path to a PO file
+        """
+        lines=open(pofile,'r').readlines()
+        self.dic={}
+        idGathering=False
+        msgGathering=True
+        ident=""
+        msg=""
+        for l in lines:
+            m=msgidPattern.match(l)
+            if m:
+                idGathering=True
+                if msgGathering:
+                    self.dic[ident]=msg
+                msgGathering=False
+                ident=m.group(1)
+                continue
+            m=msgstrPattern.match(l)
+            if m:
+                idGathering=False
+                msgGathering=True
+                msg=m.group(1)
+            m=gatherPattern.match(l)
+            if m:
+                if idGathering:
+                    ident+=m.group(1)
+                    continue
+                elif msgGathering:
+                    msg += m.group(1)
+                    continue
+        #end of file; recording the last l10n
+        self.dic[ident]=msg
+        return
+
+    def localize(self, lines):
+        """
+        replaces strings to be localized
+        @param lines a list of lines to be localized
+        @return a list of localized lines
+        """
+        return [re.sub(macroPattern, self.localizeFunc, l) for l in lines]
+
+    def localizeFunc(self, matchObj):
+        """
+        the true localizing function.
+        @param matchObj a regular expression match object
+        @return the replacement string
+        """
+        ident=matchObj.group(2)
+        if ident in self.dic:
+            msg=self.dic[ident].decode("UTF-8").encode("ISO8859-1")
+            return matchObj.group(1)+msg+matchObj.group(3)
+        else:
+            return matchObj.group(0)
+
+
+def usage():
+    """
+    prints a short message about the usage of the program
+    """
+    print ("Usage: %s <LaTeXfile> <POfile>" %sys.argv[0])
+    sys.exit(1)
+    
+if __name__ == '__main__':
+    try:
+        texfile=sys.argv[1]
+        pofile=sys.argv[2]
+    except:
+        usage()
+
+    l = Localizer(pofile)
+    #print l.dic
+    lines=open(texfile,'r').readlines()
+    for line in l.localize(lines):
+        sys.stdout.write(line)
+        
