@@ -4,6 +4,7 @@ LANG = en fr
 all:
 	for l in $(LANG); do \
 	  make -C $$l/Docs all; \
+	  make -C $$l/Docs-jr all; \
 	done
 
 clean:

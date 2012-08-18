@@ -13,7 +13,7 @@ install: all
 	@echo -n "Language=$(LANG), shell=$$(echo $$SHELL), Running PDFLaTeX "
 	@ok=0; texfile=$<; logfile=$$(echo $$texfile| sed s/tex/log/); \
 	while [ $$ok = 0 ]; do \
-	  echo -n "on $${texfile} ... "; \
+	  echo -n "... "; \
 	  pdflatex -interaction=nonstopmode $${texfile} >/dev/null 2>&1 || true; \
 	  if ! grep -q "$(WARNING)" $${logfile}; then \
 	    ok=1; \
