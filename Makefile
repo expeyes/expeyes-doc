@@ -12,6 +12,8 @@ clean:
 	  make -C $$l/Docs clean; \
 	  make -C $$l/Docs-jr clean; \
 	done
+	# remove generated eps files
+	find . -name "*.eps" -exec rm {} \;
 
 install:
 	for l in $(LANG); do \
