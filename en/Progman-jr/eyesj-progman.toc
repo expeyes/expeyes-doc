@@ -1,0 +1,56 @@
+\select@language {american}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {1.1}Software}{4}
+\contentsline {chapter}{\numberline {2}Hardware Communication}{6}
+\contentsline {section}{\numberline {2.1}Analog Output}{7}
+\contentsline {subsection}{\numberline {2.1.1}set\_voltage()}{7}
+\contentsline {section}{\numberline {2.2}Digital Inputs (IN1, IN2 and SEN)}{8}
+\contentsline {subsection}{\numberline {2.2.1}get\_state(channel\#)}{8}
+\contentsline {section}{\numberline {2.3}Digital Output (OD1)}{8}
+\contentsline {subsection}{\numberline {2.3.1}set\_state(channel\#, state)}{8}
+\contentsline {section}{\numberline {2.4}Analog Inputs (A1,A2,IN1,IN2 \& SEN)}{8}
+\contentsline {subsection}{\numberline {2.4.1}get\_voltage(channel\#)}{9}
+\contentsline {subsection}{\numberline {2.4.2}get\_voltage\_time(channel\#)}{9}
+\contentsline {subsection}{\numberline {2.4.3}get\_voltageNS(channel\#)}{9}
+\contentsline {subsection}{\numberline {2.4.4}capture(ch, NP, tg)}{10}
+\contentsline {subsection}{\numberline {2.4.5}capture2, capture3 \& capture4}{10}
+\contentsline {subsection}{\numberline {2.4.6}capture\_hr(ch, NP, tg), capture2\_hr(ch1, ch2, NP, tg)}{11}
+\contentsline {section}{\numberline {2.5}Capture modifiers}{11}
+\contentsline {subsection}{\numberline {2.5.1}set\_trigger(trigval)}{12}
+\contentsline {subsection}{\numberline {2.5.2}set\_trigsource(channel\#)}{12}
+\contentsline {subsection}{\numberline {2.5.3}enable\_wait\_high(channel\#), ...\_low(...), ...\_falling(...), ...\_rising(...)}{13}
+\contentsline {subsection}{\numberline {2.5.4}enable\_set\_high(channel\#), ...\_low(...), ...\_pulse\_high(...), ...\_low(...)}{13}
+\contentsline {subsection}{\numberline {2.5.5}set\_pulsewidth(width)}{13}
+\contentsline {section}{\numberline {2.6}Waveform Generation}{14}
+\contentsline {subsection}{\numberline {2.6.1}set\_sqr1(freq), set\_sqr2(freq)}{14}
+\contentsline {subsection}{\numberline {2.6.2}set\_sqrs(freq, phase shift in percent)}{14}
+\contentsline {subsection}{\numberline {2.6.3}set\_sqr1\_pwm(dutycycle), set\_sqr2\_pwm(dutycycle)}{14}
+\contentsline {subsection}{\numberline {2.6.4}set\_sqr1\_dc(voltage), set\_sqr2\_dc(voltage)}{15}
+\contentsline {subsection}{\numberline {2.6.5}get\_frequency(pin)}{15}
+\contentsline {section}{\numberline {2.7}Infrared Transmission}{15}
+\contentsline {subsection}{\numberline {2.7.1}irsend1(byte)}{15}
+\contentsline {subsection}{\numberline {2.7.2}irsend4(byte, byte, byte, byte)}{16}
+\contentsline {section}{\numberline {2.8}Passive Time Interval Measurements}{16}
+\contentsline {subsection}{\numberline {2.8.1}r2ftime(pin1, pin2) , f2rtime(pin1, pin2)}{16}
+\contentsline {subsection}{\numberline {2.8.2}r2rtime(pin1, pin2), f2ftime(pin1, pin2)}{16}
+\contentsline {subsection}{\numberline {2.8.3}multi\_r2rtime(channel\#,skip\_edges)}{17}
+\contentsline {section}{\numberline {2.9}Active Time Interval Measurements}{17}
+\contentsline {subsubsection}{\numberline {2.9.0.1}set2rtime (Digital Output, Digital Input)}{17}
+\contentsline {subsubsection}{\numberline {2.9.0.2}htpulse2rtime(Digital output, Digital Input)}{17}
+\contentsline {subsubsection}{\numberline {2.9.0.3}set\_pulse\_width(width)}{18}
+\contentsline {section}{\numberline {2.10}1mA Current Source}{18}
+\contentsline {section}{\numberline {2.11}Capacitance measurements}{18}
+\contentsline {subsection}{\numberline {2.11.1}measure\_cap()}{18}
+\contentsline {subsection}{\numberline {2.11.2}measure\_cv(channel, duration, current)}{19}
+\contentsline {subsection}{\numberline {2.11.3}set\_current(channel, current)}{19}
+\contentsline {section}{\numberline {2.12}Resistance Measurements}{19}
+\contentsline {subsection}{\numberline {2.12.1}measure\_res()}{19}
+\contentsline {section}{\numberline {2.13}Disk Writing}{20}
+\contentsline {subsection}{\numberline {2.13.1}save\_data}{20}
+\contentsline {chapter}{\numberline {3}Data processing}{21}
+\contentsline {subsection}{\numberline {3.0.2}fit\_sine}{21}
+\contentsline {subsection}{\numberline {3.0.3}fit\_dsine}{21}
+\contentsline {subsection}{\numberline {3.0.4}fit\_exp}{22}
+\contentsline {subsubsection}{\numberline {3.0.4.1}fft}{22}
+\contentsline {chapter}{\numberline {4}Experiments }{23}
+\contentsline {section}{\numberline {4.1}Transient response of LC circuit}{23}

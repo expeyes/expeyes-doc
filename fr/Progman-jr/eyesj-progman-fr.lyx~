@@ -1,0 +1,4290 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass report
+\use_default_options false
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 4
+\tocdepth 4
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\size tiny
+.
+\size giant
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 1in
+\end_inset
+
+ExpEYES-Junior
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size giant
+Manuel du programmeur
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Ajith Kumar B.P
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+Inter-University Accelerator Centre
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+New Delhi 110 067
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Version 1.1 (26-Oct-2013) - traduction Georges Khaznadar
+\end_layout
+
+\begin_layout Standard
+\align center
+http://expeyes.in
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\end_layout
+
+\begin_layout Standard
+La conception d'expEYES est schématisée à la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:expEYES-Junior-Top"
+
+\end_inset
+
+, à côté de la sérigraphie du boîtier et du marquage des connexions d'entrée/sor
+tie expliqué à la table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Description-of-Input/Output"
+
+\end_inset
+
+.
+ Les fonctions pour piloter expEYES, comme mesurer une tension ou une fréquence,
+ régler une tension ou une fréquence, mesurer des intervalles de temps,
+ etc.
+ sont disponibles dans les langages Python et C.
+ L'analyse de données et les fonctions graphiques viennent dans deux modules
+ Python séparés.
+ Les programmes d'application sont développés à l'aide de ces modules.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename pics/top-panel.png
+	lyxscale 30
+	width 5cm
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename pics/eyesjun-block.png
+	lyxscale 50
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sérigraphie du boîtier expEYES Junior et diagramme en blocs
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:expEYES-Junior-Top"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="19" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Borne N°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GND
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Masse (Ground)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrée analogique/numérique 0 à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, source de courant
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrée analogique/numérique 0 à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, source de courant
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SEN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrée analogique/numérique 0 à 5V, polarisée avec 
+\begin_inset Formula $5k\Omega$
+\end_inset
+
+, pour capteurs résistifs
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie de signal carré de 
+\begin_inset Formula $0,7\ Hz$
+\end_inset
+
+ à 
+\begin_inset Formula $200\ kHz$
+\end_inset
+
+, résistance série 
+\begin_inset Formula $100\ \Omega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie de signal carré de 
+\begin_inset Formula $0,7\ Hz$
+\end_inset
+
+ à 
+\begin_inset Formula $200\ kHz$
+\end_inset
+
+, sans résistance série
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OD1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie numérique, sans résistance série
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CCS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Source de courant constant 
+\begin_inset Formula $1\ mA$
+\end_inset
+
+ avec contrôle ON/OFF
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GND
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Masse (Ground)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GND
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Masse (Ground)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SINE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie sinusoïdale, 
+\begin_inset Formula $150\ Hz$
+\end_inset
+
+ environ, 
+\begin_inset Formula $4\ V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MIC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie du microphone, amplifiée 51 fois
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrée de l'amplificateur inverseur, gain maximum 51
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OUT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie de l'amplificateur (entrée en borne 13)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PVS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie de tension programmable de 0 à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrée analogique
+\begin_inset Formula $\pm5V$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+17
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Entrée analogique
+\begin_inset Formula $\pm5V$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GND
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Masse (Ground)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Description des connexions d'entrée/sortie
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Description-of-Input/Output"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Le logiciel
+\end_layout
+
+\begin_layout Standard
+Voici les modules principaux du paquetage expEYES :
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+eyesj.py
+\family default
+ : communication avec le matériel
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+eyeplot.py
+\family default
+ : fonctions graphiques basées sur le module 
+\family typewriter
+Tkinter
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+eyemath.py
+\family default
+ : analyse de données utilisant les modules 
+\family typewriter
+numpy
+\family default
+ et 
+\family typewriter
+scipy
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+ejlib.c
+\family default
+ & 
+\family typewriter
+ejlib.h
+\family default
+ : bibliothèque C et fichier d'en-tête
+\end_layout
+
+\begin_layout Standard
+On peut les installer à l'aide des fichiers 
+\family typewriter
+.tgz
+\family default
+ ou des paquetages 
+\family typewriter
+.deb
+\family default
+ disponibles à 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://expeyes.in"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Communication avec le matériel
+\end_layout
+
+\begin_layout Standard
+Le module 
+\family typewriter
+expeyes.py
+\family default
+ contient toutes les fonctions nécessaires pour communiquer avec le matériel,
+ plus quelques fonctions utilitaires.
+ Les fonctions sont à l'intérieur d'une classe, et la fonction statique
+ 
+\family typewriter
+open()
+\family default
+ renvoie une instance de cette classe si un boîtier expEYES est détecté.
+ Ensuite, les appels de fonctions pour accéder à expEYES sont faits à l'aide
+ cette instance, comme le montre l'exemple ci-dessous.
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj      # importe la bibliothèque eyes
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()  # renvoie une instance si un boîtier est détecté
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(1)    # affiche la tension à l'entrée A1
+\end_layout
+
+\begin_layout Standard
+Un programme d'exemple en langage C est donné ci-dessous.
+ Il convient de le compiler et de l'exécuter.
+\end_layout
+
+\begin_layout LyX-Code
+#include "ejlib.c"
+\end_layout
+
+\begin_layout LyX-Code
+int fd;
+\end_layout
+
+\begin_layout LyX-Code
+int main() 
+\end_layout
+
+\begin_layout LyX-Code
+   {
+\end_layout
+
+\begin_layout LyX-Code
+   byte ss[10]; 
+\end_layout
+
+\begin_layout LyX-Code
+   fd = open_eyesj(); 
+\end_layout
+
+\begin_layout LyX-Code
+   if(fd < 0) 
+\end_layout
+
+\begin_layout LyX-Code
+     {
+\end_layout
+
+\begin_layout LyX-Code
+     fprintf(stderr,"Échec à l'ouverture d'EYES
+\backslash
+n");
+\end_layout
+
+\begin_layout LyX-Code
+     exit(0);
+\end_layout
+
+\begin_layout LyX-Code
+     }
+\end_layout
+
+\begin_layout LyX-Code
+   if(get_version(ss) != 0) exit(1);
+\end_layout
+
+\begin_layout LyX-Code
+   printf(
+\begin_inset Quotes eld
+\end_inset
+
+%s
+\backslash
+n
+\begin_inset Quotes erd
+\end_inset
+
+,ss);
+\end_layout
+
+\begin_layout LyX-Code
+}
+\end_layout
+
+\begin_layout Standard
+En cas d'erreur, les fonctions Python renvoient 
+\family typewriter
+None
+\family default
+ (-1 dans le cas de mesures d'intervalles de temps).
+ En cas de succès la donnée est renvoyée.
+ Les fonctions C renvoient zéro en cas de succès, et un code d'erreur dans
+ le cas contraire.
+ La donnée est toujours renvoyée en utilisant l'adresse passée à la fonction
+ par le programme appelant.
+ En Python comme en C, on a donné les mêmes noms aux fonctions.
+ La différence principale est dans les résultats renvoyés.
+ En C, il faut passer une adresse pour ça.
+ La fonction ne renvoie que le statut de l'opération.
+ Quelques-unes des fonctions C sont mentionnées ci-dessous.
+ Le plus simple est d'examiner le fichier d'en-tête 
+\shape italic
+ejlib.h
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+Pour chaque fonction, les versions Python et C sont décrites, mais il n'y
+ a pas de code donné en exemple pour C.
+ Chaque fonction communique avec le programme qui tourne sur le micro-contrôleur
+ de la carte expEYES Junior.
+ Les fonctions de communication avec le matériel peuvent être regroupées
+ en gros en entrées analogiques, sorties analogiques, entrées numériques,
+ sorties numériques, mesures d'intervalles de temps, génération de signaux,
+ etc.
+ Pour tracer des graphiques à partit de données d'expEYES, le paquet 
+\family typewriter
+python-matplotlib
+\family default
+ est utilisé.
+\end_layout
+
+\begin_layout Standard
+Dans les sections suivantes on introduira les fonctionnalités d'expEYES
+ à l'aide d'exemples.
+ Il est OBLIGATOIRE que les tensions appliquées restent dans les limites
+ spécifiées.
+ 
+\emph on
+Un numéro de canal est assigné pour identifier chaque signal analogique/numériqu
+e.
+ Les appels de fonctions utilisent ce numéro pour y accéder.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Canal N°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nom
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sortie du comparateur analogique
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SEN
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+retour de SQR1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+retour de SQR2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sortie de SQR1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sortie de SQR2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+sortie de OD1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+contrôle de la sortie CCS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+retour de PVS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Signaux et numéros de canal
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Signals-and-Channel"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sortie analogique
+\end_layout
+
+\begin_layout Standard
+La source de tension programmable (Programmable Voltage Source, PVS) peut
+ être réglée à volonté entre 0 et 
+\begin_inset Formula $5\ V$
+\end_inset
+
+.
+ La résolution est de 12 bits, ce qui signifie des échelons de 5000/4096,
+ environ 
+\begin_inset Formula $1,25\ mV$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+set_voltage(V)
+\end_layout
+
+\begin_layout Standard
+Règle la tension de sortie à la borne PVS.
+ La valeur du paramètre de tension 
+\emph on
+V
+\emph default
+ doit être dans l'intervalle de 0 à 5.
+ La fonction renvoie la valeur réglée en réalité, en la lisant en retour
+ grâce à une entrée analogique (canal numéro 12).
+\end_layout
+
+\begin_layout LyX-Code
+print p.set_voltage(2.5)      # règle PVS à 2,5 V et affiche la valeur obtenue
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_voltage(float v, float* vset); // vset reçoit le retour de PVS
+\end_layout
+
+\begin_layout Section
+Entrées numériques (IN1, IN2 et SEN)
+\end_layout
+
+\begin_layout Standard
+On peut les connecter extérieurement à 0 (GND) ou à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, pour fixer le niveau de tension à HAUT ou BAS.
+ Tout ce qui est inférieur à 
+\begin_inset Formula $1\ V$
+\end_inset
+
+ est considéré comme BAS ou 0.
+ Tout ce qui dépasse 
+\begin_inset Formula $2,5\ V$
+\end_inset
+
+ est considéré comme HAUT ou 1.
+ Ces bornes peuvent aussi être configurées comme entrées analogiques.
+\end_layout
+
+\begin_layout Subsection
+get_state(num_canal)
+\end_layout
+
+\begin_layout Standard
+Renvoie 0 ou 1, selon le niveau de tension à la borne d'entrée
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_state(3)    # affiche le niveau logique de IN1.
+  IN2 = 4, SEN = 5
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_state(0)    # Renvoie « 1 » si SEN > 1,25 V
+\end_layout
+
+\begin_layout Standard
+Le canal 0 représente la sortie du comparateur analogique.
+ L'entrée non-inverseuse de ce comparateur doit être connectée à SEN, l'entrée
+ inverseuse est connectée à 
+\begin_inset Formula $1,25\ V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Une fonctionnalité puissante des entrées numériques est la possibilité de
+ mesurer des intervalles de temps entre des changements de niveaux avec
+ une résolution de l'ordre de la microseconde.
+ On en reparlera plus loin.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte get_state(byte pin, byte *st); // la variable st renvoie 0 ou 1.
+\end_layout
+
+\begin_layout Section
+Sortie numérique (OD1)
+\end_layout
+
+\begin_layout Standard
+On peut en régler le niveau de tension à HAUT ou BAS par programme.
+ Si on y connecte une DEL, utiliser une résistance série de 
+\begin_inset Formula $1\ k\Omega$
+\end_inset
+
+ pour limiter le courant.
+\end_layout
+
+\begin_layout Subsection
+set_state(num_canal, etat)
+\end_layout
+
+\begin_layout Standard
+Cette fonction règle le canal spécifié à l'état « 0 » ou « 1 ».
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p.set_state(10,1)    # Règle OD1 à HAUT.
+ Le numéro de canal pour OD1 est 10.
+\end_layout
+
+\begin_layout Standard
+Les sorties SQR1 (8) et SQR2 (9) peuvent aussi se comporter comme des sorties
+ numériques, pour autant qu'elles ne soient pas utilisées pour générer une
+ signal carré ou un signal PWM.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_state(byte pin, byte state); // la borne pin est réglée à 0 ou
+ 1, selon la valeur de state.
+\end_layout
+
+\begin_layout Section
+Entrées analogiques (A1,A2,IN1,IN2 & SEN)
+\end_layout
+
+\begin_layout Standard
+Les entrées analogiques A1 et A2 acceptent des tensions comprises entre
+ 
+\begin_inset Formula $-5\ V$
+\end_inset
+
+ et 
+\begin_inset Formula $+5\ V$
+\end_inset
+
+.
+ Les entrées IN1, IN2 et SEN acceptent des tensions dans l'intervalle 0
+ à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+.
+ On peut lire la tension à chacune de ces entrées, par une lecture simple
+ ou par une lecture multiple en un seul appel de fonction, normalement pour
+ capturer un signal.
+ L'intervalle de temps entre lectures consécutives lors d'une capture peut
+ se régler à la microseconde près.
+\end_layout
+
+\begin_layout Subsection
+get_voltage(num_canal)
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(1)  # tension en A1
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(2)  # tension en A2
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(3)  # tension en IN1
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(4)  # tension en IN2
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(5)  # tension en SEN
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(6)  # tension à la sortie SQR1
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(7)  # tension à la sortie SQR2
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(12) # tension à la sortie PVS 
+\end_layout
+
+\begin_layout Standard
+Connecter PVS à A1 à l'aide d'un fil électrique et lancer le programme suivant
+ plusieurs fois.
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+v = input('Entrer la tension (0 à 5)')
+\end_layout
+
+\begin_layout LyX-Code
+print p.set_voltage(v)   # affiche la tension affectée à PVS
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+print p.get_voltage(1)   # tension en A1
+\end_layout
+
+\begin_layout Standard
+Si la tension est dans l'intervalle de 0 à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, utiliser IN1 ou IN2 pour de meilleurs résultats.
+ L'intervalle de tension 
+\begin_inset Formula $\pm5\ V$
+\end_inset
+
+ pour les entrées A1 & A2 est converti en un intervalle de tension de 0
+ à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+ à l'aide d'un calcul analogique.
+ Les amplificateurs utilisés à cet effet souffrent de petites erreurs de
+ gain et de décalage.
+ De plus la résolution est divisée par deux quand l'intervalle de tension
+ est doublé.
+ L'entrée SEN possède une résistance de polarisation de 
+\begin_inset Formula $5\ k\Omega$
+\end_inset
+
+ connectée à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, pour y brancher des photo-transistors ou des capteurs résistifs.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte get_voltage(byte ch, float* v)
+\end_layout
+
+\begin_layout Subsection
+get_voltage_time(num_canal)
+\end_layout
+
+\begin_layout Standard
+Cette fonction renvoie un timbre à date, issu de l'horloge du PC, et la
+ tension dans un tuple.
+ Elle est utile pour les applications de suivi de tension.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte get_voltage(byte ch, int* t, float* v)
+\end_layout
+
+\begin_layout Subsection
+get_voltageNS(num_canal)
+\end_layout
+
+\begin_layout Standard
+La fonction get_voltage() mentionnée plus haut mesure le tension après avoir
+ placé le micro-contrôleur en mode SLEEP, pour une meilleure précision.
+ Ça a pour conséquence d'arrêter les signaux émis sur les sorties SQR1 et
+ SQR2.
+ Si on peut accepter ça pour une expérience particulière, on peut utiliser
+ cette fonction.
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltageNS(1)  # tension en A1
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte get_voltageNS(byte ch, float* v)
+\end_layout
+
+\begin_layout Subsection
+capture(ch, NP, tg)
+\end_layout
+
+\begin_layout Standard
+L'argument 
+\shape italic
+ch
+\shape default
+ est le numéro de canal de l'entrée, 
+\shape italic
+NP
+\shape default
+ est le nombre de mesures et 
+\shape italic
+tg
+\shape default
+ est la durée entre deux mesures en microseconde.
+ Deux listes sont renvoyées par cette fonction, qui contiennent le temps
+ (en 
+\begin_inset Formula $ms$
+\end_inset
+
+) et la tension (en 
+\begin_inset Formula $V$
+\end_inset
+
+).
+ Les appels à 
+\emph on
+capture
+\emph default
+ renvoient des données analogiques avec une résolution de 8 bit.
+ La valeur maximale de NP est 1800, limitée par la RAM du micro-contrôleur.
+\end_layout
+
+\begin_layout Standard
+La plus petite valeur de 
+\emph on
+tg
+\emph default
+ est 
+\begin_inset Formula $4\ \mu s$
+\end_inset
+
+.
+ Il faut choisir la valeur de 
+\emph on
+tg
+\emph default
+ selon le signal à capturer.
+ Par exemple, une période d'un signal sinusoïdal dure 
+\begin_inset Formula $1000\ \mu s$
+\end_inset
+
+.
+ Une valeur de 
+\emph on
+tg
+\emph default
+ de 20 donnera 50 points de donnée par période.
+\end_layout
+
+\begin_layout Standard
+Connecter SINE à A1 et lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture(1,300,100)
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)     # à l'aide de pylab
+\end_layout
+
+\begin_layout LyX-Code
+show()        # à l'aide de pylab
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Borne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+num_canal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intervalle (V)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-5 à +5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-5 à +5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 à 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+IN2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 à 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SEN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 à 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR1(lecture)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 à 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SQR2(lecture)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0 à 5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si la tension à mesurer est dans l'intervalle de 0 à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, utiliser IN1 ou IN2 pour une meilleure résolution.
+ L'entrée SEN possède une résistance de polarisation de 
+\begin_inset Formula $5\ k\Omega$
+\end_inset
+
+ connectée à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+.
+ On peut calculer la valeur d'une résistance connectée entre SEN et GND,
+ à partir de la tension mesurée, grâce à la loi d'Ohm.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte capture(int ch, int ns, int tg, float* data); 
+\end_layout
+
+\begin_layout Standard
+La variable 
+\emph on
+data
+\emph default
+ renvoie une table de 2*
+\emph on
+ns
+\emph default
+ éléments de type float, d'abord 
+\emph on
+ns
+\emph default
+ coordonnées de temps, puis 
+\emph on
+ns
+\emph default
+ coordonnées de tension.
+ C'est de la responsabilité du programme appelant d'allouer une table de
+ taille suffisante.
+ 
+\emph on
+capture_hr()
+\emph default
+ renvoie aussi les données dans ce même format.
+\end_layout
+
+\begin_layout Subsection
+capture2, capture3 & capture4
+\end_layout
+
+\begin_layout Standard
+Ces fonctions capturent plusieurs canaux en même temps, avec corrélation
+ temporelle.
+ La valeur maximale de 
+\emph on
+NP
+\emph default
+ pour 
+\emph on
+capture4
+\emph default
+ = 1800/4 = 450.
+ La plus petite valeur de 
+\emph on
+tg
+\emph default
+ est de 
+\begin_inset Formula $4\ \mu s$
+\end_inset
+
+ par canal, 
+\emph on
+capture4
+\emph default
+ aura donc une valeur minimale de 
+\emph on
+tg
+\emph default
+ égale à 16.
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1,t2,v2 = capture2(ch1, ch2, NP, tg)
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1,t2,v2 = capture2_hr(ch1, ch2, NP, tg)
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1,t2,v2,t3,v3 = capture3(ch1, ch2, ch3, NP, tg)
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1,t2,v2,t3,v3,t4,v4 = capture4(ch1, ch2, ch3, ch4, NP, tg)
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte capture2(int ch1, int ch2, int ns, int tg, float* data); 
+\end_layout
+
+\begin_layout Standard
+La variable 
+\emph on
+data
+\emph default
+ renvoie une table de 2(2*
+\emph on
+ns
+\emph default
+) éléments de type float.
+ Les premiers (2*
+\emph on
+ns
+\emph default
+) sont le temps et la tension pour le canal 
+\emph on
+ch1
+\emph default
+ et les suivants (2*
+\emph on
+ns
+\emph default
+) pour le canal 
+\emph on
+ch2
+\emph default
+.
+ Les fonctions 
+\emph on
+capture3
+\emph default
+ et 
+\emph on
+capture4
+\emph default
+ renvoient les données d'une façon similaire.
+\end_layout
+
+\begin_layout Subsection
+capture_hr(ch, NP, tg), capture2_hr(ch1, ch2, NP, tg)
+\end_layout
+
+\begin_layout Standard
+Ces deux fonctions capturent les données avec un résolution supérieure (12
+ bit).
+ Dans ce cas chaque valeur occupe deux octets et la valeur maximale de 
+\emph on
+NP
+\emph default
+ est 900 pour 
+\emph on
+capture_hr
+\emph default
+, et 450 pour 
+\emph on
+capture2_ht
+\emph default
+.
+ Les versions en haute résolution ne sont PAS disponibles pour 
+\emph on
+capture3
+\emph default
+ et 
+\emph on
+capture4
+\emph default
+.
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1 = capture_hr(ch1, 900, 10)
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1,t2,v2 = capture2_hr(ch1, ch2, 450, 20)
+\end_layout
+
+\begin_layout LyX-Code
+plot(t1,v1, t2,v2)
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Standard
+On peut déterminer l'amplitude et la fréquence du signal d'entrée en réalisant
+ un « fit » mathématique des données capturées à l'aide de l'équation d'un
+ signal sinusoïdal 
+\begin_inset Formula $V=V_{0}\sin\left(2\pi ft+\theta\right)+C$
+\end_inset
+
+ .
+ En capturant 4 à 5 périodes, on peut aller jusqu'à obtenir la fréquences
+ avec une incertitude de 0,1%.
+\end_layout
+
+\begin_layout Section
+Modificateurs de capture
+\end_layout
+
+\begin_layout Standard
+Quand un signal périodique est capturé, le point de départ pourrait être
+ à n'importe quelle tension, entre les valeurs extrémales.
+ Pour implémenter une oscilloscope, il faut s'assurer que le point de départ
+ est prévisible, sans quoi la trace sera erratique.
+ Ceci est un exemple simple de modificateur de capture.
+ ExpEYES implémente plusieurs autres types de modificateurs de capture pour
+ augmenter les fonctionnalités des fonctions de capture.
+ L'idée de base est de réaliser une certaine action juste avant de démarrer
+ la capture du signal.
+ Les types importants de modificateurs (ou actions) sont :
+\end_layout
+
+\begin_layout Itemize
+Seuil de déclenchement (trigger) analogique sur n'importe quel canal d'entrée,
+ le seuil peut être choisi par l'utilisateur.
+\end_layout
+
+\begin_layout Itemize
+Attente d'état HAUT, BAS, de front descendant ou montant sur les entrées
+ IN1, IN2, SEN, SQR1 ou SQR2
+\end_layout
+
+\begin_layout Itemize
+Mettre à HAUT, BAS, ou envoyer une impulsion sur une des sorties numériques,
+ le plus souvent OD1.
+ SQR1 & SQR2 peuvent aussi être utilisées comme sorties numériques si leur
+ fréquence est réglée à zéro.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Action
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AANATRIG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Seuil (trigger) pour une entrée analogique
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ASET
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Force la sortie spécifiée à HAUT
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ACLR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Force la sortie spécifiée à BAS
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+APULSEHT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Envoie une impulsion High True à une sortie 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+APULSELT
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Envoie une impulsion Low True à une sortie
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AWAITHI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Attend un niveau HAUT sur l'entrée spécifiée
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AWAITLO
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Attend un niveau BAS sur l'entrée spécifiée
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AWAITRISE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Attend un front montant sur l'entrée spécifiée
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+AWAITFALL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Attend un front descendant sur l'entrée spécifiée
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modificateurs de capture
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Capture-Modifiers"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+enable_action(<action>, <entrée/sortie spécifiée>)
+\emph default
+ est l'appel de fonction à utiliser pour enregistrer des actions.
+ L'appel de 
+\emph on
+disable_actions()
+\emph default
+ efface toutes les actions enregistrées et la capture revient à son fonctionneme
+nt par défaut (seuil analogique sur le canal capturé).
+ Par commodité, on a défini des fonctions supplémentaires qui appellent
+ en interne la fonction 
+\emph on
+enable_action()
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+set_trigger(trigval)
+\end_layout
+
+\begin_layout Standard
+Règle le niveau du seuil (trigger) analogique, pour la fonction de capture.
+ Si la valeur spécifiée de tension n'est pas trouvée à l'entrée durant la
+ période d'attente, la capture est faite en ignorant la condition de seuil.
+\end_layout
+
+\begin_layout LyX-Code
+p.set_trigger(2048)   # 0 à 4095 est l'intervalle analogique
+\end_layout
+
+\begin_layout Subsection
+set_trigsource(num_canal)
+\end_layout
+
+\begin_layout Standard
+La source d'entrée à utiliser pour le déclenchement par un seuil analogique.
+ Ce n'est pas forcément l'entrée qui est capturée.
+ Le code donné en exemple ci-dessous démontre l'effet de cette fonction.
+ Connecter SINE à A1 avant de lancer le programme.
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+ts = 1      # relancer le programme après avoir remplacé ça par 2
+\end_layout
+
+\begin_layout LyX-Code
+p.set_trig_source(ts)
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture(1,300,50)
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture(1,300,50)
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Standard
+Les traces ne se recouvriront pas si la source retenue pour le seuil est
+ un autre canal quelconque, s'il n'y a pas de corrélation temporelle entre
+ les deux entrées.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_trig_source(byte ch);
+\end_layout
+
+\begin_layout Subsection
+enable_wait_high(num_canal), ..._low(...), ..._falling(...), ..._rising(...)
+\end_layout
+
+\begin_layout Standard
+Quand on appelle cette fonction, tous les appels suivants de capture provoquent
+ l'attente d'un état HAUT/BAS ou d'un front montant/descendant avant le
+ début de la numérisation.
+\end_layout
+
+\begin_layout LyX-Code
+p.enable_action(1, 11)    # Démarrer CCS avant la capture
+\end_layout
+
+\begin_layout LyX-Code
+p.enable_wait_rising(3)   # Attendre un front montant sur IN1
+\end_layout
+
+\begin_layout LyX-Code
+p.disable_actions()       # effacer tous les modificateurs
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte enable_wait_high(byte ch);
+\end_layout
+
+\begin_layout Subsection
+enable_set_high(num_canal), ..._low(...), ..._pulse_high(...), ..._low(...)
+\end_layout
+
+\begin_layout Standard
+Dans certaines applications, il peut être nécessaire de forcer une sortie
+ numérique à l'état HAUT ou BAS, ou émettre une impulsion, de largeur réglée
+ par une autre fonction, avant que la numérisation commence.
+ Capturer la tension aux bornes d'un condensateur durant sa charge / sa
+ décharge est une application typique de cette fonctionnalité.
+ Connecter un condensateur de 
+\begin_inset Formula $1\ \mu F$
+\end_inset
+
+ entre A1 et GND.
+ Connecter une résistance de 
+\begin_inset Formula $1\ k\Omega$
+\end_inset
+
+ entre OD1 et A1 puis lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_state(10,1)       # Force OD1 à HAUT
+\end_layout
+
+\begin_layout LyX-Code
+p.enable_set_low(10)    # OD1 deviendra BAS avant la capture
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture(1,200,20)
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte enable_set_high(byte ch);
+\end_layout
+
+\begin_layout Subsection
+set_pulsewidth(duree)
+\end_layout
+
+\begin_layout Standard
+Règle la 
+\emph on
+duree
+\emph default
+ de l'impulsion qui est envoyée sur la sortie numérique avant la capture,
+ en microseconde, jusqu'à 250.
+\end_layout
+
+\begin_layout LyX-Code
+p.set_pulsewidth(100)  # règle la durée d'impulsion
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_pulsewidth(u16 width);
+\end_layout
+
+\begin_layout Section
+Génération de signal
+\end_layout
+
+\begin_layout Standard
+ExpEYES peut générer des signaux sur SQE1 et SQR2.
+ La fréquence peut varier de 
+\begin_inset Formula $0,7\ Hz$
+\end_inset
+
+ à 
+\begin_inset Formula $100\ kHz$
+\end_inset
+
+.
+ Toutes les valeurs intermédiaires ne sont PAS possibles comme le signal
+ de sortie est généré par des temporisateurs et des comparateurs.
+ La fonction renvoie la valeur effectivement réglée, au plus près de la
+ valeur demandée.
+ La sortie SQR1 a une résistance série de 
+\begin_inset Formula $100\ \Omega$
+\end_inset
+
+ pour limiter le courant, mais SQR2 est connecté directement à la borne.
+\end_layout
+
+\begin_layout Subsection
+set_sqr1(freq), set_sqr2(freq)
+\end_layout
+
+\begin_layout Standard
+Génère un signal carré, de rapport cyclique 50 %, sur SQR1/SQR2.
+ La sortie SQR1 a une résistance série de 
+\begin_inset Formula $100\ \Omega$
+\end_inset
+
+.
+ Régler 
+\emph on
+freq
+\emph default
+ = 0 force la sortie à HAUT et régler 
+\emph on
+freq
+\emph default
+ = -1 la force à BAS.
+ Dans ces deux cas, le temporisateur/compteur est désactivé et la sortie
+ est configurée comme une sortie numérique ordinaire.
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+print p.set_sqr1(1000) 
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_sqr1(float freq, float *fset);
+\end_layout
+
+\begin_layout Standard
+La valeur désirée est passée par 
+\emph on
+freq
+\emph default
+, et après l'appel 
+\emph on
+fset
+\emph default
+ contiendra la valeur réelle du réglage de fréquence.
+\end_layout
+
+\begin_layout Subsection
+set_sqrs(freq, <déphasage en pourcentage>)
+\end_layout
+
+\begin_layout Standard
+Génère des signaux carrés de même fréquence sur SQR1 et SQR2.
+ Le déphasage entre les deux signaux peut être réglé en pourcentage de la
+ période.
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p.set_sqrs(1000,50)    # Deux signaux en opposition de phase
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_sqrs(float freq, float diff, float *fset);
+\end_layout
+
+\begin_layout Subsection
+set_sqr1_pwm(rc [, idx]), set_sqr2_pwm(rc[, idx])
+\end_layout
+
+\begin_layout Standard
+SQR1 et SQR2 peuvent être configurés pour faire un signal carré modulé en
+ largeur d'impulsion (Pulse Width Modulation, PWM).
+ Le rapport cyclique est spécifié en pourcentage.
+ La fréquence est 
+\begin_inset Formula $488\ Hz$
+\end_inset
+
+ par défaut, parce que le second argument est réglé à 14 par défaut.
+ C'est l'index du bit du compteur qui est utilisé pour piloter le PWM.
+ En spécifiant le deuxième argument, on peut changer la fréquence.
+ Le diminuer de 1 double la fréquence et l'augmenter de 1 divise la fréquence
+ par deux.
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+print p.set_sqr1_pwm(20)      # 488Hz, rapport cyclique 20%
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+print p.set_sqr1_pwm(50, 15)  # 244Hz, rapport cyclique 50%
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+print p.set_sqr1_pwm(50, 13)  # 976Hz, rapport cyclique 50%
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_sqr1_pwm(byte dc);
+\end_layout
+
+\begin_layout Subsection
+set_sqr1_dc(voltage), set_sqr2_dc(voltage)
+\end_layout
+
+\begin_layout Standard
+SQR1 et SQR2 peuvent être configurés pour générer une tension continue,
+ grâce à un filtrage externe, depuis un signal PWM.
+ La tension, entre 0 et 
+\begin_inset Formula $5\ V$
+\end_inset
+
+, est spécifiée dans l'argument.
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+print p.set_sqr1_dc(2)   # 7.8 kHz, rapport cyclique 40%
+\end_layout
+
+\begin_layout Standard
+\align block
+Un filtrage du signal produira une tension continue.
+ Connecter 
+\begin_inset Formula $10\ k\Omega$
+\end_inset
+
+ entre SQR1 et IN1 et 
+\begin_inset Formula $100\ \mu F$
+\end_inset
+
+ entre IN1 et GND.
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_voltage(3)   # tension en IN1
+\end_layout
+
+\begin_layout Standard
+La tension de sortie dépend de la tension d'alimentation fournie par le
+ câble USB.
+ Régler cette tension à 
+\begin_inset Formula $3\ V$
+\end_inset
+
+ signifie en fait 60 % de la tension d'alimentation.
+ La relecture par IN1 permet de connaître la valeur correcte.
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte set_sqr1_dc(float volt)
+\end_layout
+
+\begin_layout Subsection
+get_frequency(pin)
+\end_layout
+
+\begin_layout Standard
+Mesure la fréquence d'un signal carré entre 0 et 
+\begin_inset Formula $5\ V$
+\end_inset
+
+ connecté à IN1, IN2 ou SEN.
+ On peut aussi mesurer la fréquence des sorties SQR1 et SQR2 en utilisant
+ les canaux de numéros 6 et 7 respectivement.
+ Connecter SQR1 à IN1 et lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_sqr1(1000)
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_frequency(3)      # fréquence du signal carré en IN1
+\end_layout
+
+\begin_layout LyX-Code
+print p.get_frequency(6)      # fréquence en SQR1, identique à l'autre
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte get_frequency(byte pin, float *fr)
+\end_layout
+
+\begin_layout Section
+Transmission infrarouge
+\end_layout
+
+\begin_layout Standard
+La sortie SQR1 supporte deux protocoles de transmission infrarouge à 
+\begin_inset Formula $38\ kHz$
+\end_inset
+
+.
+ L'un d'entre eux est une transmission non-standard à 1 octet, qui peut
+ être reçu par un autre programme fonctionnant sur un micro-contrôleur ATmega32.
+ On peut l'utiliser pour contrôler un appareil depuis expEYES Junior.
+\end_layout
+
+\begin_layout Subsection
+irsend1(octet)
+\end_layout
+
+\begin_layout Standard
+Envoie l'
+\emph on
+octet
+\emph default
+ par SQR1.
+ Connecter simplement une DEL IR entre SQR1 et GND et lancer la commande.
+\end_layout
+
+\begin_layout Standard
+Pour signifier un 
+\emph on
+start
+\emph default
+, le signal normalement à 
+\begin_inset Formula $38\ kHz$
+\end_inset
+
+ est bloqué à l'état HAUT durant 
+\begin_inset Formula $9000\ \mu s$
+\end_inset
+
+, puis à l'état BAS durant 
+\begin_inset Formula $440\ \mu s$
+\end_inset
+
+.
+ Ensuite, c'est un état HAUT durant 
+\begin_inset Formula $680\ \mu s$
+\end_inset
+
+ suivi d'un état BAS durant 
+\begin_inset Formula $1560\ \mu s$
+\end_inset
+
+ pour transmettre un 1, sinon un état BAS durant 
+\begin_inset Formula $440\ \mu s$
+\end_inset
+
+ pour transmettre un 0.
+ Ce processus se répète 8 fois, en commençant par le bit le plus significatif
+ (Most Significant Bit, MSB) à transmettre.
+ La séquence se termine par une impulsion longue de 
+\begin_inset Formula $340\ \mu s$
+\end_inset
+
+ pour signifier un 
+\emph on
+end
+\emph default
+.
+ Voici ce que reçoit un programme
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+http://expeyes.in/sites/default/files/debs/recv.c
+\end_layout
+
+\end_inset
+
+ disponible sur le site web.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename schematics/ir-code.png
+	height 1.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+irsend4(byte, byte, byte, byte)
+\end_layout
+
+\begin_layout Standard
+Les séquences 
+\emph on
+start
+\emph default
+ et 
+\emph on
+end
+\emph default
+ sont identiques à 
+\emph on
+irsend1()
+\emph default
+ mais au lieu d'un octet, quatre octets sont envoyés lors d'une seule transmissi
+on.
+ En choisissant les nombres correctement, on peut télécommander des TV ou
+ d'autres appareils ainsi.
+\end_layout
+
+\begin_layout Section
+Mesures passives d'intervalle de temps
+\end_layout
+
+\begin_layout Standard
+Les entrées numériques peuvent être utilisées pour mesurer des intervalles
+ de temps entre des transitions d'un niveau à l'autre avec une résolution
+ temporelle de l'ordre de la microseconde.
+ Les transitions qui définissent le début et la fin peuvent être sur la
+ même borne ou sur des bornes différentes.
+\end_layout
+
+\begin_layout Subsection
+r2ftime(pin1, pin2) , f2rtime(pin1, pin2)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+r2ftime
+\emph default
+ renvoie le délai en microseconde entre un front montant sur la borne 
+\emph on
+pin1
+\emph default
+ et un front descendant sur la borne 
+\emph on
+pin2
+\emph default
+, les numéros de canal correspondants étant donnés comme arguments.
+ Les bornes peuvent être identiques ou distinctes.
+ De la même façon, 
+\emph on
+f2rtime()
+\emph default
+ mesure le délai entre un front descendant et un front ascendant.
+\end_layout
+
+\begin_layout Standard
+Connecter SQR1 à IN1 lancer le programme suivant, qui devrait afficher environ
+ 
+\begin_inset Formula $500\ \mu s$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_sqr1(1000)        # 1kHz, T=1 ms.
+ demi-période = 500 µs.
+\end_layout
+
+\begin_layout LyX-Code
+print p.r2ftime(3,3)
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte r2ftime(byte pin1, byte pin2, float *ti)
+\end_layout
+
+\begin_layout Subsection
+r2rtime(pin1, pin2), f2ftime(pin1, pin2)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+r2rtime
+\emph default
+ renvoie le délai en microseconde entre un front montant et un autre front
+ montant.
+ Les bornes ne doivent PAS être identiques.
+ Le programme qui suit illustre comme utiliser ça pour mesurer un délai
+ entre deux transitions.
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_sqrs(1000, 25)      # 1000Hz sur SQR1 & SQR2.
+ Délai de 25%, soit 250 µs
+\end_layout
+
+\begin_layout LyX-Code
+print p.r2rtime(6,7)      # Les canaux 6 & 7 sont les retours de SQR1 et
+ SQR2
+\end_layout
+
+\begin_layout Subsection
+multi_r2rtime(num_canal, a_laisser)
+\end_layout
+
+\begin_layout Standard
+Mesure l'intervalle de temps entre deux fronts montants d'un signal appliqué
+ à une entrée numérique.
+ Le deuxième argument est le nombre de fronts montants à laisser passer
+ entre les deux fronts montants pris en compte.
+ De cette façon on peut décider du nombre de périodes à mesurer.
+\end_layout
+
+\begin_layout Standard
+Connecter SQR1 à IN1 et lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_sqr1(1000)
+\end_layout
+
+\begin_layout LyX-Code
+a = p.multi_r2rtime(3)   # durée pour 1 période, en µs
+\end_layout
+
+\begin_layout LyX-Code
+b = p.multi_r2rtime(3,9) # durée pour 10 périodes, en µs
+\end_layout
+
+\begin_layout LyX-Code
+print 10.0e6/a           # fréquence en Hz
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\begin_layout Standard
+Pour un signal d'entrée périodique 
+\emph on
+multi_r2rtime
+\emph default
+ renvoie le temps pour dix périodes (9 fronts montants intermédiaires sont
+ laissés de côté).
+ On peut utiliser ça pour des mesures de fréquence.
+ On peut augmenter la précision en mesurant un nombre de périodes plus grand.
+ 
+\end_layout
+
+\begin_layout Paragraph*
+fonction C :
+\end_layout
+
+\begin_layout Standard
+byte multi_r2rtime(byte pin, byte skip, float *ti)
+\end_layout
+
+\begin_layout Section
+Mesures d'intervalles de temps actives
+\end_layout
+
+\begin_layout Standard
+Pendant certaines expériences, on veut initier une action et mesurer l'intervall
+e de temps jusqu'au résultat de cette action.
+ Ces fonctions sont utiles dans des expériences comme la détermination de
+ la gravité par temps de vol et la mesure de la vitesse du son à l'aide
+ de disques pézoélectriques ultrasonores.
+\end_layout
+
+\begin_layout Subsubsection
+set2rtime (<sortie numérique>, <entrée numérique>)
+\end_layout
+
+\begin_layout Standard
+Ça force la sortie numérique spécifiée à HAUT et attend l'arrivée d'un état
+ HAUT sur l'entrée numérique.
+ Connectez une résistance de 
+\begin_inset Formula $1\ k\Omega$
+\end_inset
+
+ de OD1 à IN1 et un condensateur de 
+\begin_inset Formula $1\ \mu F$
+\end_inset
+
+ de IN1 à GND.
+\end_layout
+
+\begin_layout Quotation
+\align left
+p.set2rtime(10, 3)
+\end_layout
+
+\begin_layout Subsubsection
+htpulse2rtime(<sortie numérique>, <entrée numérique>)
+\end_layout
+
+\begin_layout LyX-Code
+int htpulse2rtime(out, in)
+\end_layout
+
+\begin_layout Standard
+Envoie une impulsion High True sur 
+\emph on
+out
+\emph default
+ (SQR1, SQR2 ou OD1) et attend un front montant/descendant sur 
+\emph on
+in
+\emph default
+ (IN1, IN2 ou SEN).
+ La durée de l'impulsion est réglée par 
+\emph on
+set_pulsewidth()
+\emph default
+.
+ À l'allumage cette durée est de 
+\begin_inset Formula $13\ \mu s$
+\end_inset
+
+.
+ Le niveau logique initial de 
+\emph on
+out
+\emph default
+ devrait être réglé selon la catégorie d'impulsion.
+\end_layout
+
+\begin_layout Standard
+De même, il existe 
+\emph on
+htpulse2ftime()
+\emph default
+, 
+\emph on
+ltpulse2rtime()
+\emph default
+ et 
+\emph on
+ltpulse2ftime()
+\emph default
+.
+\end_layout
+
+\begin_layout LyX-Code
+p.set_pulse_width(1)
+\end_layout
+
+\begin_layout LyX-Code
+print p.htpulse2rtime(10, 3) 
+\end_layout
+
+\begin_layout Standard
+mesure l'intervalle de temps depuis une impulsion High True de 
+\begin_inset Formula $1\ \mu s$
+\end_inset
+
+ jusqu'au front montant sur IN1.
+\end_layout
+
+\begin_layout Subsubsection
+set_pulse_width(duree)
+\end_layout
+
+\begin_layout Standard
+Règle la largeur de l'impulsion, en microseconde, à utiliser avec les fonctions
+ 
+\emph on
+htpulse2rtime()
+\emph default
+, 
+\emph on
+htpulse2ftime()
+\emph default
+, 
+\emph on
+ltpulse2rtime()
+\emph default
+, 
+\emph on
+ltpulse2ftime()
+\emph default
+.
+\end_layout
+
+\begin_layout LyX-Code
+p.set_pulse_width(10)
+\end_layout
+
+\begin_layout Section
+Source de courant de 1mA
+\end_layout
+
+\begin_layout Standard
+La source de courant de 
+\begin_inset Formula $1\ mA$
+\end_inset
+
+ peut être mise dans l'état ON ou OFF par le canal de numéro 11, comme montré
+ ci-dessous :
+\end_layout
+
+\begin_layout LyX-Code
+p.set_state(11, 1)    # met CCS dans l'état ON (allumé)
+\end_layout
+
+\begin_layout Standard
+On peut tracer le graphique de la charge linéaire d'un condensateur de 
+\begin_inset Formula $1\ \mu F$
+\end_inset
+
+ en le connectant entre CSS et GND, et en lançant le programme suivant.
+ Connecter aussi CSS à IN1 pour mesurer la tension.
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import * 
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj, time 
+\end_layout
+
+\begin_layout LyX-Code
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_state(11,0)      # force CCS à l'état OFF (éteint)
+\end_layout
+
+\begin_layout LyX-Code
+time.sleep(1)          # attend la décharge complète du condensateur
+\end_layout
+
+\begin_layout LyX-Code
+p.enable_set_high(11)  # met en route CSS juste avant la capture
+\end_layout
+
+\begin_layout LyX-Code
+t1,v1= p.capture_hr(3,500,10) 
+\end_layout
+
+\begin_layout LyX-Code
+plot(t1,v1) 
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Section
+Mesures de capacité
+\end_layout
+
+\begin_layout Standard
+La borne IN1 peut être utilisée pour mesurer la capacité d'un condensateur,
+ dans un intervalle de cent à plusieurs millier de picofarad.
+ C'est fait en utilisant une source de courant constant interne programmable.
+\end_layout
+
+\begin_layout Subsection
+measure_cap()
+\end_layout
+
+\begin_layout Standard
+Connecter le condensateur entre IN1 et GND et lancer la fonction 
+\emph on
+measure_cap()
+\emph default
+.
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+print p.measure_cap()
+\end_layout
+
+\begin_layout Standard
+La capacité est mesurée en chargeant le condensateur à l'aide d'une source
+ de courant constant de 
+\begin_inset Formula $5,5\ \mu A$
+\end_inset
+
+ pendant une durée fixe.
+ La charge totale est donnée par 
+\begin_inset Formula $Q=It=CU$
+\end_inset
+
+.
+ Si U,I et t dont connus, C peut être calculé.
+ La valeur de la source de courant peut être légèrement différente de 
+\begin_inset Formula $5,5\ \mu A$
+\end_inset
+
+, et la borne nue, avec ses connexions, possède aussi un peu de capacité
+ propre.
+ On tient compte de ces erreurs en faisant une calibration à l'aide d'un
+ condensateur de capacité connue.
+ Les facteurs d'erreur sont enregistrés dans la mémoire EEPROM du micro-contrôle
+ur.
+\end_layout
+
+\begin_layout Subsection
+measure_cv(num_canal, duree, courant)
+\end_layout
+
+\begin_layout Standard
+C'est une version plus souple de 
+\emph on
+measure_cap
+\emph default
+, qui autorise à ajuster la source de courant branchée à IN1 ou IN2.
+ La source de courant est activée pour 
+\emph on
+duree
+\emph default
+ microseconde.
+ Le dernier argument peut être au choix 
+\begin_inset Formula $0,55;\ 5,5;\ 55;\ 550\ (\mu A)$
+\end_inset
+
+.
+ Cette fonction renvoie la tension à l'entrée sélectionnée après avoir appliqué
+ le courant pendant la durée spécifiée.
+\end_layout
+
+\begin_layout Standard
+Selon la valeur du condensateur branché, on doit sélectionner la durée et
+ le courant de telle façon que la tension développée soit comprise entre
+ 2 et 
+\begin_inset Formula $4\ V$
+\end_inset
+
+, pour de bons résultats.
+ Connecter un condensateur de 
+\begin_inset Formula $330\ pF$
+\end_inset
+
+ entre IN1 et GND puis lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj
+\end_layout
+
+\begin_layout LyX-Code
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+print p.measure_cv(3, 200, 5.5)  # on a trouvé 3,017 V
+\end_layout
+
+\begin_layout Standard
+La capacité peut être calculée à l'aide de l'expression 
+\begin_inset Formula $Q=CU$
+\end_inset
+
+ et 
+\begin_inset Formula $Q=I\times t$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C=\frac{I\times t}{U}=\frac{5,5\times10^{-6}\times200\times10^{-6}}{3,017}=364\times10^{-12}=364\ pF
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quand on soustrait la capacité à vide (
+\begin_inset Formula $32\ pF$
+\end_inset
+
+), il reste 
+\begin_inset Formula $332\ pF$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+set_current(num_canal, courant)
+\end_layout
+
+\begin_layout Standard
+Cette fonction active la source de courant interne sur IN1 ou IN2.
+ Cette source de courant constant peut être utilisée pour pour mesurer le
+ courant avec un autre appareil.
+ Le retour de tension ne permet pas cette mesure directement.
+ En utilisant un ampèremètre connecté entre IN1 et GND, on peut trouver
+ par exemple des valeurs de courant de 
+\begin_inset Formula $5,5\ \mu A$
+\end_inset
+
+, 
+\begin_inset Formula $47\ \mu A$
+\end_inset
+
+ et 
+\begin_inset Formula $470\ \mu A$
+\end_inset
+
+, soit un peu moins que la spécification, dans les valeurs élevées.
+\end_layout
+
+\begin_layout Section
+Mesures de résistance
+\end_layout
+
+\begin_layout Standard
+L'entrée SEN est connectée en interne à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+ à travers une résistance de 
+\begin_inset Formula $5100\ \Omega$
+\end_inset
+
+.
+ On peut calculer la valeur d'une résistance connectée entre SEN et GND
+ en utilisant la loi d'Ohm.
+ Cependant, la valeur de la résistance interne peut être légèrement différente
+ de 
+\begin_inset Formula $5100\ \Omega$
+\end_inset
+
+ à cause de la tolérance des composants.
+\end_layout
+
+\begin_layout Subsection
+measure_res()
+\end_layout
+
+\begin_layout Standard
+L'entrée SEN est connectée en interne à 
+\begin_inset Formula $5\ V$
+\end_inset
+
+ à travers une résistance de 
+\begin_inset Formula $5100\ \Omega$
+\end_inset
+
+.
+ Si on connecte une résistance externe entre SEN et GND on réalise un diviseur
+ de tension.
+ On peut calculer la valeur d'une résistance connectée entre SEN et GND
+ en utilisant la loi d'Ohm.
+\end_layout
+
+\begin_layout Standard
+Cette fonction renvoie la valeur d'une résistance connectée entre SEN et
+ GND, à l'aide de l'équation :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{ext}=R_{int}*U{}_{SEN}/(5.0-U_{SEN})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Écriture sur le disque
+\end_layout
+
+\begin_layout Subsection
+save_data
+\end_layout
+
+\begin_layout Standard
+Les données mesurées peuvent être mises sous la forme [ [x1,y1], [x2,y2],....]
+ où x et y sont des vecteurs, pour les enregistrer dans un fichier texte.
+\end_layout
+
+\begin_layout Standard
+Cette fonction enregistre les données renvoyées par les fonctions de capture
+ dans un fichier texte.
+ Le nom de fichier par défaut est `plot.dat', on peut le modifier en utilisant
+ un deuxième argument.
+ Connecter SINE à A1 et lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj    
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture(1, 200, 100)
+\end_layout
+
+\begin_layout LyX-Code
+p.save([[t,v]], 'sine.dat')
+\end_layout
+
+\begin_layout Standard
+ouvrir le fichier en utilisant la commande
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+$ xmgrace sine.dat
+\end_layout
+
+\begin_layout Chapter
+Traitement des données
+\end_layout
+
+\begin_layout Standard
+Les données acquises à l'aide d'expEYES sont analysées en utilisant diverses
+ techniques mathématiques comme l'ajustement de modèle par la méthode des
+ moindres carrés (
+\begin_inset Quotes fld
+\end_inset
+
+fit
+\begin_inset Quotes frd
+\end_inset
+
+), la transformation de Fourier, etc.
+ Le module nommé 
+\family typewriter
+eyemath.py
+\family default
+ le fait à l'aide de fonctions du paquet 
+\family typewriter
+scipy
+\family default
+.
+ La plupart des fonctions acceptent les formats de données renvoyés par
+ les fonctions de capture.
+\end_layout
+
+\begin_layout Subsection
+fit_sine
+\end_layout
+
+\begin_layout Standard
+Modèle sinusoïdal.
+\end_layout
+
+\begin_layout Standard
+Accepte deux vecteurs [x] et [y] et essaie de réaliser une modélisation
+ des données avec l'équation 
+\begin_inset Formula $A\sin\left(2\pi ft+\theta\right)+C$
+\end_inset
+
+, en ajustant par la méthode des moindres carrés.
+ Renvoie les données modélisées et la liste de paramètres
+\begin_inset Formula $[A,f,\theta,C]$
+\end_inset
+
+.
+ Connecter SINE à A1 lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj, expeyes.eyemath as em
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+t,v= p.capture(1,400,100)
+\end_layout
+
+\begin_layout LyX-Code
+vfit, par = em.fit_sine(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+print par        # 
+\begin_inset Formula $A,f,\theta,C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)        # les données brutes
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,vfit)     # les données modélisées
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Standard
+la fréquence par[1] est en kHz, comme le temps est donné en milliseconde.
+\end_layout
+
+\begin_layout Subsection
+fit_dsine
+\end_layout
+
+\begin_layout Standard
+Modèle sinusoïdal amorti.
+\end_layout
+
+\begin_layout Standard
+Accepte deux vecteurs [x] et [y] et essaie de modéliser les données par
+ l'équation 
+\begin_inset Formula $A=A_{0}\sin\left(2\pi ft+\theta\right)\times exp(-dt)+C$
+\end_inset
+
+, en ajustant par la méthode des moindres carrés.
+ Renvoie les données modélisées et la liste de paramètres
+\begin_inset Formula $[A,f,\theta,C,d]$
+\end_inset
+
+.
+ 
+\family typewriter
+par[1]
+\family default
+ est la fréquence en kHz, comme le temps est donné en milliseconde, et 
+\family typewriter
+d
+\family default
+ est le facteur d'amortissement.
+\end_layout
+
+\begin_layout Subsection
+fit_exp
+\end_layout
+
+\begin_layout Standard
+Modèle exponentiel.
+\end_layout
+
+\begin_layout Standard
+Accepte deux vecteurs [x] et [y] et essaie de modéliser les données par
+ l'équation 
+\begin_inset Formula $A=A_{0}\exp\left(kt\right)+C$
+\end_inset
+
+, en ajustant par la méthode des moindres carrés.
+ Renvoie les données modélisées et la liste de paramètres 
+\begin_inset Formula $[A,k,C]$
+\end_inset
+
+.
+ Connecter un condensateur de 
+\begin_inset Formula $1\ \mu F$
+\end_inset
+
+ entre A1 et GND, une résistance de 
+\begin_inset Formula $1\ k\Omega$
+\end_inset
+
+ entre OD1 et A1 et lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+import expeyes.eyesj, expeyes.eyemath as em
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_state(10,1)           # Force OD1 à HAUT
+\end_layout
+
+\begin_layout LyX-Code
+p.enable_set_low(1)         # OD1 deviendra BAS avant capture
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture(1,200,20)
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+vfit, par = em.fit_exp(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+print par
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)                   # les données brutes
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,vfit)                # les données modélisées
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\begin_inset Formula $\frac{-1}{par[1]}$
+\end_inset
+
+
+\family default
+ est la constante de temps 
+\begin_inset Formula $RC$
+\end_inset
+
+ en seconde.
+\end_layout
+
+\begin_layout Subsubsection
+fft
+\end_layout
+
+\begin_layout Standard
+Réalise une transformée de Fourier sur un ensemble de données.
+ L'intervalle d'échantillonage en milliseconde est le deuxième argument.
+ Renvoie le spectre de fréquence, c'est à dire l'intensité relative de chaque
+ composante fréquentielle.
+ Connecter SINE à A1 et lancer le programme suivant :
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj, expeyes.eyemath as em
+\end_layout
+
+\begin_layout LyX-Code
+ns = 1000                    # nombre de points à capturer
+\end_layout
+
+\begin_layout LyX-Code
+tg = 100                     # durée entre échantillons en µs
+\end_layout
+
+\begin_layout LyX-Code
+\align block
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+t,v= p.capture(1, ns, tg)
+\end_layout
+
+\begin_layout LyX-Code
+x,y = em.fft(v, tg * 0.001)  # tg en ms
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)                    # Donnée brutes
+\end_layout
+
+\begin_layout LyX-Code
+plot(x,y)                    # spectre de fréquence
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout Standard
+Le spectre de fréquence devrait avoir un pic à la fréquence 
+\begin_inset Formula $f\simeq150\ Hz$
+\end_inset
+
+.
+ Un petit pic à la fréquence double peut être visible.
+\end_layout
+
+\begin_layout Standard
+Modifiez le montage pour montrer le spectre de fréquence d'un signal carré.
+\end_layout
+
+\begin_layout Chapter
+Expériences
+\end_layout
+
+\begin_layout Standard
+La plupart des expériences décrites dans le manuel de l'utilisateur peuvent
+ être faites en écrivant quelques lignes de code Python.
+\end_layout
+
+\begin_layout Section
+Réponse transitoire d'un circuit LC
+\end_layout
+
+\begin_layout Standard
+Connecter un solénoïde entre OD1 et A1, un condensateur entre A1 et GND.
+\end_layout
+
+\begin_layout LyX-Code
+NP = 200                      # nombre d'échantillons
+\end_layout
+
+\begin_layout LyX-Code
+tg = 10                       # délai entre ceux-ci, faire en sorte que
+ NP*tg soit proche de 3*RC
+\end_layout
+
+\begin_layout LyX-Code
+from pylab import *
+\end_layout
+
+\begin_layout LyX-Code
+import expeyes.eyesj, expeyes.eyemath as em
+\end_layout
+
+\begin_layout LyX-Code
+p = expeyes.eyesj.open()
+\end_layout
+
+\begin_layout LyX-Code
+p.set_state(10,1)
+\end_layout
+
+\begin_layout LyX-Code
+p.enable_set_low(10)           # OD1 deviendra BAS avant capture
+\end_layout
+
+\begin_layout LyX-Code
+t,v = p.capture_hr(1,NP,tg)    # choisir NP*tg selon la constante de temps
+ RC
+\end_layout
+
+\begin_layout LyX-Code
+plot(t,v)
+\end_layout
+
+\begin_layout LyX-Code
+vf, par = em.fit_exp(t,v)      # modèle exponentiel
+\end_layout
+
+\begin_layout LyX-Code
+plot(t, vf,'r')
+\end_layout
+
+\begin_layout LyX-Code
+print abs(1./par[1])           # affiche la valeur de RC
+\end_layout
+
+\begin_layout LyX-Code
+show()
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\end_body
+\end_document

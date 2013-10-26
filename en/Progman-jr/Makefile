@@ -1,6 +1,5 @@
 DESTDIR =
-PODIR   = ../../../po
-LANG    = fr
+LANG    = en
 SOURCES = $(shell ls *.lyx)
 PDFS    = $(patsubst %.lyx, %.pdf, $(SOURCES))
 TEXS    = $(patsubst %.lyx, %.tex, $(SOURCES))
@@ -11,20 +10,17 @@ all: $(PDFS)
 install: all
 	install -m 644 $(PDFS) $(DESTDIR)
 
-%.tex: %.lyx
+%.pdf: %.lyx
 	@echo -n "Language=$(LANG), exporting $< to a LaTeX file ... "
 	@lyx -e latex $< >/dev/null 2>&1
 	@echo Done.
-	@echo "Localizing some words in the LaTeX file"
-	@./localize-texfile $@ $(PODIR)/$(LANG).po > $@.tmp && mv $@.tmp $@
-
-%.pdf: %.tex
 	@echo -n "Running PDFLaTeX"
-	@ok=0; \
-	logfile=$$(echo $< | sed 's/\.tex/.log/'); \
+	@ok=0; lyxfile=$<; \
+	logfile=$$(echo $${lyxfile} | sed 's/\.lyx/.log/'); \
+	texfile=$$(echo $${lyxfile} | sed 's/\.lyx/.tex/'); \
 	while [ $$ok = 0 ]; do \
 	  echo -n " ... "; \
-	  pdflatex -interaction=nonstopmode $< >/dev/null 2>&1 || true; \
+	  pdflatex -interaction=nonstopmode $${texfile} >/dev/null 2>&1 || true; \
 	  if ! grep -q "$(WARNING)" $${logfile}; then \
 	    ok=1; \
 	  fi; \
@@ -32,5 +28,5 @@ install: all
 	@echo Done.
 
 clean:
-	rm -f *~ *.aux *.log *.toc *.lof $(TEXS)
+	rm -f *~ *.aux *.log *.toc *.lof
 	[ -f /tmp/keep-expeyes-docs ] || rm -f $(PDFS) $(TEXS)
