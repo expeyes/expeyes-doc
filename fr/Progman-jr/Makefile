@@ -30,5 +30,5 @@ install: all
 	@echo Done.
 
 clean:
-	rm -f *~ *.aux *.log *.toc *.lof $(TEXS)
+	rm -f *~ *.aux *.log *.toc *.lof *.out $(TEXS)
 	[ -f /tmp/keep-expeyes-docs ] || rm -f $(PDFS) $(TEXS)

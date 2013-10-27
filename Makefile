@@ -18,10 +18,10 @@ clean:
 	find . -name "*.eps" -exec rm {} \;
 
 install:
+	install -d $(DESTDIR)/usr/share/expeyes/doc
 	for l in $(LANG); do \
-	  install -d $(DESTDIR)/../expeyes-doc-$$l/usr/share/expeyes/doc; \
-	  for p in $$l/Docs/*.pdf $$l/Docs-jr/*.pdf; $$l/Progman-jr/*.pdf;do \
-	    install -m 644 $$p $(DESTDIR)/../expeyes-doc-$$l/usr/share/expeyes/doc/$$l-$$(basename $$p); \
+	  for p in $$l/Docs/*.pdf $$l/Docs-jr/*.pdf $$l/Progman-jr/*.pdf; do \
+	    install -m 644 $$p $(DESTDIR)/usr/share/expeyes/doc/$$l-$$(basename $$p); \
 	  done; \
 	done
 
