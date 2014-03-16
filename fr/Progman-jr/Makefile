@@ -31,4 +31,4 @@ install: all
 
 clean:
 	rm -f *~ *.aux *.log *.toc *.lof *.out $(TEXS)
-	[ -f /tmp/keep-expeyes-docs ] || rm -f $(PDFS) $(TEXS)
+	[ -f ../../../keep-expeyes-docs ] || rm -f $(PDFS) $(TEXS)
