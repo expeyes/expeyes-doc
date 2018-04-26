@@ -22,7 +22,7 @@ def error(msg, parser):
     sys.exit(1)
 
 def warn(msg):
-    print(msg, file=sys.stdout)
+    print(msg, file=sys.stderr)
     return
 
 def identsOf(doc):
