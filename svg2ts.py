@@ -48,6 +48,19 @@ def getTheText(t):
             else:
                 result+=tn.data
     return result
+
+def translatableOf(doc):
+    """
+    Harvest the translatable strings from a SVG document
+    @param doc an xml.doc.minidoc instace parsed from a SVG file
+    @return a dictionary identifier => translatable string
+    """
+    texts=doc.getElementsByTagName("flowPara")
+    # harvest all the translatable strings with their ids
+    translatable={t.getAttribute("id"): getTheText(t) for t in texts}
+    # ignore the empty strings
+    return {key: translatable[key] for key in translatable if translatable[key]}
+    
     
 def extractStrings(args, parser):
     if not os.path.exists(args.inSvg[0]):
@@ -65,11 +78,7 @@ def extractStrings(args, parser):
                 doc=xml.dom.minidom.parse(args.inSvg[0])
             except:
                 error(_("The document %s is not well-formed SVG") %args.inSvg[0], parser)
-            texts=doc.getElementsByTagName("flowPara")
-            # harvest all the translatable strings with their ids
-            translatable={t.getAttribute("id"): getTheText(t) for t in texts}
-            # ignore the empty strings
-            translatable={key: translatable[key] for key in translatable if translatable[key]}
+            translatable=translatableOf(doc)
             if not os.path.exists(outTs):
                 open(outTs,"w").write(TSminimal)
             tDoc=xml.dom.minidom.parse(outTs)
