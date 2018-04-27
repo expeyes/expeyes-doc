@@ -63,7 +63,11 @@ def translationsOf(trdoc):
     result={}
     for m in messages:
         ident=m.getElementsByTagName("comment")[0].firstChild.data
-        trans=m.getElementsByTagName("translation")[0].firstChild.data
+        transTextNode=m.getElementsByTagName("translation")[0].firstChild
+        if transTextNode:
+            trans=transTextNode.data
+        else:
+            trans=m.getElementsByTagName("source")[0].firstChild.data
         result[ident]=trans
     return result
 
@@ -131,7 +135,7 @@ def prettySave(doc, outFile):
         line=line.rstrip()
         if line:
             result+=line+"\n"
-    open(outFile,"w").write(result)
+    open(outFile,"w", encoding="utf-8").write(result)
     return
     
 def translate(args, parser):
