@@ -22,22 +22,16 @@
         <translation>Réponse transitoire de circuits RLC</translation>
     </message>
     <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>ExpEYES can generate/monitor voltage signals as a function of time. Other physical parameters like temperature,</source>
+        <location filename="Back.svg"/>
+        <source>ExpEYES can generate/monitor voltage signals as a function of time. Other physical parameters like temperature, velocity, frequency  etc. also can be handled using appropriate sensor elements. Experiments are essentially a sequence of these operations. Every hardware feature of ExpEYES is  accessed using a well-documented Python function call.</source>
         <comment>flowPara3410</comment>
-        <translation>ExpEYES peut générer/enregistrer des signaux de tension en fonction du temps. Et aussi d&apos;autres paramètres physiques tels que la température,</translation>
+        <translation>ExpEYES peut générer/enregistrer des signaux de tension en fonction du temps. D&apos;autres paramètres physiques comme la température, la vitesse, la fréquence, etc. peuvent aussi être traités à l&apos;aide de capteurs appropriés. On monte les expériences à partir de ça. Chaque possibilité matérielle d&apos;ExpEYES est accessible par une fonction Python bien documentée.</translation>
     </message>
     <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>velocity, frequency  etc. also can be handled using appropriate sensor elements. Experiments are essentially a</source>
-        <comment>flowPara3412</comment>
-        <translation>la vitesse, la fréquence, etc. on peut aussi gérer des capteurs appropriés. Les expériences sont essentiellement une</translation>
-    </message>
-    <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>sequence of these operations. Every hardware feature of ExpEYES is  accessed using a well-documented Python function call.</source>
-        <comment>flowPara3414</comment>
-        <translation>séquence de ces opérations. On accède à toutes les possibilités d&apos;ExpEYES à l&apos;aide de fonctions Python bien documentées.</translation>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara4384</comment>
+        <translation></translation>
     </message>
     <message>
         <location filename="en/Brochure-eyes17/Back.svg"/>
@@ -46,10 +40,22 @@
         <translation>Les exemples montrés ci-dessus sont en majorité des expériences d&apos;électricité et d&apos;électronique, mais le manuel utilisateur décrit aussi des expériences de mécanique, acoustique, thermophysique, etc. Les programmes sont écrits en Python à cause de sa syntaxe simple et de la disponibilité de modules pour le calcul scientifique et les graphiques. </translation>
     </message>
     <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3422</comment>
+        <translation></translation>
+    </message>
+    <message>
         <location filename="en/Brochure-eyes17/Back.svg"/>
         <source>ExpEYES is supported by the PHOENIX project of Inter-University Accelerator Centre. IUAC conducts training programs for teachers, once in every six months. To be informed about the announcement of training programs and new developments, you may join the Phoenix mailing list from the website www.epeyes.in, or subscribe to the facebook page</source>
         <comment>flowPara3430</comment>
         <translation>ExpEYES est supporté par le projet PHOENIX, de l&apos;Inter-University Accelerator Centre. L&apos;IUAC organise des sessions de formation pour les enseignants tous les six mois. Pour être informé des sessions de formation, rejoignez la liste de diffusion Phoenix sur le site web www.epeyes.in, ou inscrivez-vous sur la page Facebook</translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3432</comment>
+        <translation></translation>
     </message>
     <message>
         <location filename="en/Brochure-eyes17/Back.svg"/>
@@ -58,28 +64,34 @@
         <translation> Le site web contient aussi beaucoup de documentation pour ExpEYES, dont des vidéos et un manuel utlisateur. Il a quelques ressource en Python pour faciliter l&apos;enseignement des paths et de la physique. On y trouve aussi des informations sur MicroHOPE, un kit de développement de microcontrôleur et KuttyPy, un appareil simple pour du contrôle et de la mesure à l&apos;aide de Python.</translation>
     </message>
     <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3442</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3496</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3514</comment>
+        <translation></translation>
+    </message>
+    <message>
         <location filename="en/Brochure-eyes17/Back.svg"/>
         <source>Communication to the ExpEYES hardware is done using a Python library, providing functions for operations like reading/setting voltages. The example shows the code to study an inverting amplifier. A 200 Hz sine wave is set on WG. The channels A1 and A2 are captured and plotted, using matplotlib.</source>
         <comment>flowPara3526</comment>
         <translation>La communication avec le matériel d&apos;ExpEYES se fait à l&apos;aide d&apos;une bibliothèque Python, qui fournit des fonctions telles que le réglage et la lecture de tensions,. L&apos;exemple montre le code pour étudier un amplificateur inverseur. Un signal sinusoïdal de 200 Hz est défini sur WD. Les canaux A1 et A2 sont enregistrés et mis en graphique à l&apos;aide de matplotlib.</translation>
     </message>
     <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>180 degree out of phase AC voltages required for the  full wave rectifier are provided by WG and WG outputs. </source>
+        <location filename="Back.svg"/>
+        <source>180 degree out of phase AC voltages required for the  full wave rectifier are provided by WG and WG outputs. The input waveforms are  monitored on A1 and A2 and the output on A3. A load resistor must be connected from A3 to ground to obtain proper output waveforms. A capacitor can be connected in parallel to the load resistor to observe the effect of filtering. </source>
         <comment>flowPara3538</comment>
-        <translation>Les tensions en opposition de phase nécessaire pour le redressement double-alternance sont fournies par les sorties WG et WG. </translation>
-    </message>
-    <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>The input waveforms are  monitored on A1 and A2 and the output on A3. A load resistor must be connected from A3 to ground to obtain proper output waveforms. A capacitor can be connected in parallel to the load</source>
-        <comment>flowPara3542</comment>
-        <translation>Les signaux d&apos;entrée sont enregistrés sur A1 et A1 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour obtenir les signaux corrects. Un condensateur peut être connecté en parallèle à la résistance</translation>
-    </message>
-    <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>resistor to observe the effect of filtering. </source>
-        <comment>flowPara3544</comment>
-        <translation>de charge pour observer l&apos;effet de filtrage. </translation>
+        <translation>Les tensions en opposition de phase requises pour le redresseur bi-alternance sont fournies par les sorties WG et WG. les signaux d&apos;entrée sont enregitrés sur A1 et A2 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour un bon signal de sortie. On peut connecter un condensateur en parallèle sur la charge pour observer l&apos;effet de filtrage. </translation>
     </message>
     <message>
         <location filename="en/Brochure-eyes17/Back.svg"/>
@@ -88,10 +100,28 @@
         <translation>L&apos;effet des éléments RLC sur la phase et l&apos;amplitude d&apos;un signal sinusoïdal est étudié avec un circuit RLC série. La trace rouge est la tension totale aux bornes de LC et elle passe par zéro à la résonance (elle n&apos;est pas tout à fait nulle à cause de la résistance du bobinage). On peut voir que les tensions aux bornes de L et C sont déphasées à ce point.</translation>
     </message>
     <message>
-        <location filename="en/Brochure-eyes17/Back.svg"/>
-        <source>the capacitor is captured and plotted. For 120mH and 0.1uF, the circuit is under damped as shown. The captured waveform is analyzed to extract the resonant frequency and damping factor, with an accuracy better than one percent.</source>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3571</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara3579</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source> </source>
+        <comment>flowPara4255</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source>The transient response of an LCR circuit is shown here. A five to zero volt step is applied across the inductor (a 3000 turn solenoid) , and the resultant voltage variation across the capacitor is captured and plotted. For 120mH and 0.1uF, the circuit is under damped as shown. The captured waveform is analyzed to extract the resonant frequency and damping factor, with an accuracy better than one percent.  </source>
         <comment>flowPara4277</comment>
-        <translation>Le condensateur est enregistré et mis en graphique. Pour 120 mH et 0,1 µF, le circuit est sous-amorti comme on voit. Le signal enregistré est analysé pour extraire la fréquence de résonance et le facteur d&apos;amortissement, avec une précision meilleure que 1%.</translation>
+        <translation>La réponse transitoire d&apos;un circuit RLC est montrée ici. Un échelon de tension de 0 à 5 V est appliqué aux bornes du bobinage (3000 tours), et la variation de tension aux bornes du condensateur est enregistrée et montrée. Pour 120 mH et 0,1 µF, l&apos;amortissement est sous-critique. Le signal enregistré est analysé pour trouver la fréquence de résonance et le facteur d&apos;amortissement, avec une précision meilleure que 1%.  </translation>
     </message>
     <message>
         <location filename="Back.svg"/>
@@ -113,21 +143,27 @@
     </message>
     <message>
         <location filename="Back.svg"/>
-        <source>ExpEYES can generate/monitor voltage signals as a function of time. Other physical parameters like temperature, velocity, frequency  etc. also can be handled using appropriate sensor elements. Experiments are essentially a sequence of these operations. Every hardware feature of ExpEYES is  accessed using a well-documented Python function call.</source>
-        <comment>flowPara3410</comment>
-        <translation>ExpEYES peut générer/enregistrer des signaux de tension en fonction du temps. D&apos;autres paramètres physiques comme la température, la vitesse, la fréquence, etc. peuvent aussi être traités à l&apos;aide de capteurs appropriés. On monte les expériences à partir de ça. Chaque possibilité matérielle d&apos;ExpEYES est accessible par une fonction Python bien documentée.</translation>
+        <source> </source>
+        <comment>tspan3480</comment>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="en/Brochure-eyes17/Back.svg"/>
+        <source>sequence of these operations. Every hardware feature of ExpEYES is  accessed using a well-documented Python function call.</source>
+        <comment>flowPara3414</comment>
+        <translation>séquence de ces opérations. On accède à toutes les possibilités d&apos;ExpEYES à l&apos;aide de fonctions Python bien documentées.</translation>
+    </message>
+    <message>
+        <location filename="en/Brochure-eyes17/Back.svg"/>
+        <source>The input waveforms are  monitored on A1 and A2 and the output on A3. A load resistor must be connected from A3 to ground to obtain proper output waveforms. A capacitor can be connected in parallel to the load</source>
+        <comment>flowPara3542</comment>
+        <translation>Les signaux d&apos;entrée sont enregistrés sur A1 et A1 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour obtenir les signaux corrects. Un condensateur peut être connecté en parallèle à la résistance</translation>
     </message>
     <message>
         <location filename="Back.svg"/>
         <source>180 degree out of phase AC voltages required for the  full wave rectifier are provided by WG and WG outputs. The input waveforms are  monitored on A1 and A2 and the output on A3. A load resistor must be connected from A3 to ground to obtain proper output waveforms. A capacitor can be connected in parallel to the load</source>
         <comment>flowPara3538</comment>
         <translation>Les tensions en opposition de phase requises pour le redresseur bi-alternance sont fournies par les sorties WG et WG. les signaux d&apos;entrée sont enregitrés sur A1 et A2 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour un bon signal de sortie. On peut connecter un condensateur en parallèle sur la charge</translation>
-    </message>
-    <message>
-        <location filename="Back.svg"/>
-        <source>180 degree out of phase AC voltages required for the  full wave rectifier are provided by WG and WG outputs. The input waveforms are  monitored on A1 and A2 and the output on A3. A load resistor must be connected from A3 to ground to obtain proper output waveforms. A capacitor can be connected in parallel to the load resistor to observe the effect of filtering. </source>
-        <comment>flowPara3538</comment>
-        <translation>Les tensions en opposition de phase requises pour le redresseur bi-alternance sont fournies par les sorties WG et WG. les signaux d&apos;entrée sont enregitrés sur A1 et A2 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour un bon signal de sortie. On peut connecter un condensateur en parallèle sur la charge pour observer l&apos;effet de filtrage. </translation>
     </message>
 </context>
 </TS>
