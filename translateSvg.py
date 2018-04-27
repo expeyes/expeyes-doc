@@ -82,45 +82,12 @@ def translateDoc(doc,translations):
     auxDoc=xml.dom.minidom.parseString("<ts></ts>")
     doc=copy.deepcopy(doc)
     translatable=translatableElementsOf(doc)
-    translated={} # dictionary of id => elements which need no longer to be managed
     for ident in translatable:
-        text=""
-        if ident in translations and ident not in translated:
-            # search whether there are other texts to be concatenated
-            # i.e. whether there are next siblings with non-empty text
-            # first keep the current text available at id==ident
-            text+=translations[ident]
-            # create a pointer to the possible text chain
-            chainBegin=ident
-            # the boolean finished will control the following loop
-            finished=False
-            while not finished:
-                # finished will remain True is no next text is detected
-                finished=True
-                for maybeNext in translatable:
-                    # test whether there is a non-empty (translated) next text
-                    if translatable[maybeNext] == \
-                       translatable[chainBegin].nextSibling and \
-                       maybeNext in translations:
-                        # when a next text is detected,
-                        isNext=maybeNext
-                        # its content is accumulated,
-                        text += " "+translations[isNext]
-                        # its id is added to the set of already seen texts,
-                        translated[isNext]=translatable[isNext]
-                        # the pointer of the chain is shifted forward,
-                        chainBegin=isNext
-                        # and the search for next text must be reactivated.
-                        finished=False
+        if ident in translations:
+            text=translations[ident]
             newTextNode=auxDoc.createTextNode(text)
             t=translatable[ident]
             t.replaceChild(newTextNode,t.firstChild)
-        # now we must get rid of any text which was accumulated as
-        # next text
-        for ident in translated:
-            node=translated[ident]
-            if node.parentNode:
-                node.parentNode.removeChild(node)
     return doc
 
 

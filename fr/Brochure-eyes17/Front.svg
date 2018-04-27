@@ -297,7 +297,14 @@
         <flowRegion id="flowRegion3571">
           <rect height="173.7" id="rect3573" style="fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none" width="237" x="805.03577" y="306.73209"/>
         </flowRegion>
-        <flowPara id="flowPara3575" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Réalisez plus de 50 expériences ! Générateur BF inclus, Fréquencemètre, Oscilloscope, Capacimètre et source de courant. Mesures précises. Compact et alimenté sur USB. Programmable en Python. Matériel et Logiciel Libres.</flowPara>
+        <flowPara id="flowPara3575" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Réalisez plus de 50 expériences !</flowPara>
+        <flowPara id="flowPara3577" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Générateur BF inclus,</flowPara>
+        <flowPara id="flowPara3579" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Fréquencemètre, Oscilloscope,</flowPara>
+        <flowPara id="flowPara3581" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Capacimètre et source de courant.</flowPara>
+        <flowPara id="flowPara3583" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Mesures précises.</flowPara>
+        <flowPara id="flowPara3585" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Compact et alimenté sur USB.</flowPara>
+        <flowPara id="flowPara3587" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Programmable en Python.</flowPara>
+        <flowPara id="flowPara3589" style="font-size:12.5px;line-height:169.00000572%;fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-font-specification:sans-serif;font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Matériel et Logiciel Libres.</flowPara>
       </flowRoot>
     </g>
     <g id="g3548" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" transform="matrix(-0.03494989,0,0,0.02898181,1131.7107,220.23854)">
@@ -333,7 +340,9 @@
       <flowPara id="flowPara3535"/>
     </flowRoot>
     <text id="text3537" sodipodi:linespacing="128%" style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:127.99999714%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="951.91089" xml:space="preserve" y="353.84171">
-      <tspan id="tspan3539" sodipodi:role="line" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:127.99999714%;font-family:Purisa;-inkscape-font-specification:'Purisa Bold';text-align:center;text-anchor:middle" x="951.91089" y="353.84171">Découvrir la  Joie de  la Science !</tspan>
+      <tspan id="tspan3539" sodipodi:role="line" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:127.99999714%;font-family:Purisa;-inkscape-font-specification:'Purisa Bold';text-align:center;text-anchor:middle" x="951.91089" y="353.84171">Découvrir la</tspan>
+      <tspan id="tspan3541" sodipodi:role="line" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:127.99999714%;font-family:Purisa;-inkscape-font-specification:'Purisa Bold';text-align:center;text-anchor:middle" x="956.75952" y="373.04172"> Joie de </tspan>
+      <tspan id="tspan3543" sodipodi:role="line" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.75px;line-height:127.99999714%;font-family:Purisa;-inkscape-font-specification:'Purisa Bold';text-align:center;text-anchor:middle" x="951.91089" y="392.2417">la Science !</tspan>
     </text>
     <flowRoot id="flowRoot3545" style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;letter-spacing:0px;word-spacing:0px" xml:space="preserve">
       <flowRegion id="flowRegion3547">
@@ -390,14 +399,28 @@
       <flowRegion id="flowRegion3650">
         <rect height="234.14502" id="rect3652" ry="0" width="186.77213" x="41.399998" y="379.40164"/>
       </flowRegion>
-      <flowPara id="flowPara3654" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Oscilloscope 4 canaux, 1 Méch/s - Volmètre 12 bits, calibre ±16V - Sources de tension programmables : ±5 ; 3,3 V - Source de courant constant : 1,1 mA - Fréquencemètre et outils de comptage - Générateur BF : 5 Hz à 5 kHz ±3 V   avec sortie inversée - 2x signaux carrés. Jusqu'à 1MHz - Bus d'extension I2C pour capteurs - stabilité analogique 50ppm/°C - Capacimètre : 10 pF - 100 µF - Programmable en Python </flowPara>
+      <flowPara id="flowPara3654" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Oscilloscope 4 canaux, 1 Méch/s</flowPara>
+      <flowPara id="flowPara3656" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Volmètre 12 bits, calibre ±16V</flowPara>
+      <flowPara id="flowPara3658" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Sources de tension programmables : ±5 ; 3,3 V</flowPara>
+      <flowPara id="flowPara3660" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Source de courant constant : 1,1 mA</flowPara>
+      <flowPara id="flowPara3662" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Fréquencemètre et outils de comptage</flowPara>
+      <flowPara id="flowPara3664" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Générateur BF : 5 Hz à 5 kHz ±3 V</flowPara>
+      <flowPara id="flowPara3666" style="font-size:8.5px;line-height:190%;fill:#ffffff">  avec sortie inversée</flowPara>
+      <flowPara id="flowPara3668" style="font-size:8.5px;line-height:190%;fill:#ffffff">- 2x signaux carrés. Jusqu'à 1MHz</flowPara>
+      <flowPara id="flowPara3670" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Bus d'extension I2C pour capteurs</flowPara>
+      <flowPara id="flowPara3672" style="font-size:8.5px;line-height:190%;fill:#ffffff">- stabilité analogique 50ppm/°C</flowPara>
+      <flowPara id="flowPara3674" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Capacimètre : 10 pF - 100 µF</flowPara>
+      <flowPara id="flowPara3676" style="font-size:8.5px;line-height:190%;fill:#ffffff">- Programmable en Python </flowPara>
       <flowPara id="flowPara3678" style="font-size:8.5px;line-height:190%;fill:#ffffff"/>
     </flowRoot>
     <flowRoot id="flowRoot3680" style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" transform="translate(-11.947573,326.46529)" xml:space="preserve">
       <flowRegion id="flowRegion3682">
         <rect height="94.020325" id="rect3684" width="480.28055" x="37.184475" y="647.06427"/>
       </flowRegion>
-      <flowPara id="flowPara3686" style="font-size:20px;text-align:center;text-anchor:middle;fill:#ffffff">INTER-UNIVERSITY ACCELERATOR CENTRE (service de recherche autonome de l'UGC) Aruna Asaf Ali Marg, New Delhi 110 067 www.iuac.res.in  |  www.expeyes.in  |  expeyes@gmail.com</flowPara>
+      <flowPara id="flowPara3686" style="font-size:20px;text-align:center;text-anchor:middle;fill:#ffffff">INTER-UNIVERSITY ACCELERATOR CENTRE</flowPara>
+      <flowPara id="flowPara3688" style="font-size:15px;text-align:center;text-anchor:middle;fill:#ffffff">(service de recherche autonome de l'UGC)</flowPara>
+      <flowPara id="flowPara3690" style="font-size:15px;text-align:center;text-anchor:middle;fill:#ffffff">Aruna Asaf Ali Marg, New Delhi 110 067</flowPara>
+      <flowPara id="flowPara3692" style="font-size:13.75px;text-align:center;text-anchor:middle;fill:#ffffff">www.iuac.res.in  |  www.expeyes.in  |  expeyes@gmail.com</flowPara>
     </flowRoot>
   </g>
 </svg>

@@ -111,5 +111,11 @@
         <comment>tspan3468</comment>
         <translation>RLC, état stationnaire</translation>
     </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source>ExpEYES can generate/monitor voltage signals as a function of time. Other physical parameters like temperature, velocity, frequency  etc. also can be handled using appropriate sensor elements. Experiments are essentially a sequence of these operations. Every hardware feature of ExpEYES is  accessed using a well-documented Python function call.</source>
+        <comment>flowPara3410</comment>
+        <translation>ExpEYES peut générer/enregistrer des signaux de tension en fonction du temps. D&apos;autres paramètres physiques comme la température, la vitesse, la fréquence, etc. peuvent aussi être traités à l&apos;aide de capteurs appropriés. On monte les expériences à partir de ça. Chaque possibilité matérielle d&apos;ExpEYES est accessible par une fonction Python bien documentée.</translation>
+    </message>
 </context>
 </TS>
