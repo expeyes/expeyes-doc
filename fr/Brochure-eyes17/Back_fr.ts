@@ -123,5 +123,11 @@
         <comment>flowPara3538</comment>
         <translation>Les tensions en opposition de phase requises pour le redresseur bi-alternance sont fournies par les sorties WG et WG. les signaux d&apos;entrée sont enregitrés sur A1 et A2 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour un bon signal de sortie. On peut connecter un condensateur en parallèle sur la charge</translation>
     </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source>180 degree out of phase AC voltages required for the  full wave rectifier are provided by WG and WG outputs. The input waveforms are  monitored on A1 and A2 and the output on A3. A load resistor must be connected from A3 to ground to obtain proper output waveforms. A capacitor can be connected in parallel to the load resistor to observe the effect of filtering. </source>
+        <comment>flowPara3538</comment>
+        <translation>Les tensions en opposition de phase requises pour le redresseur bi-alternance sont fournies par les sorties WG et WG. les signaux d&apos;entrée sont enregitrés sur A1 et A2 et la sortie sur A3. Une résistance de charge doit être connectée entre A3 et la masse pour un bon signal de sortie. On peut connecter un condensateur en parallèle sur la charge pour observer l&apos;effet de filtrage. </translation>
+    </message>
 </context>
 </TS>
