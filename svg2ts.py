@@ -36,8 +36,9 @@ def identsOf(doc):
 
 def getTheText(t):
     """
-    Extract the textnodes' text from children of a flowPara element
-    @param t a flowPara element
+    Extract the textnodes' text from children of a flowPara or of a
+    svg:tspan element
+    @param t a flowPara or a svg:tspan element
     """
     result=""
     first=True
@@ -55,7 +56,8 @@ def translatableOf(doc):
     @param doc an xml.doc.minidoc instace parsed from a SVG file
     @return a dictionary identifier => translatable string
     """
-    texts=doc.getElementsByTagName("flowPara")
+    texts=doc.getElementsByTagName("flowPara") + \
+           doc.getElementsByTagName("svg:tspan")
     # harvest all the translatable strings with their ids
     translatable={t.getAttribute("id"): getTheText(t) for t in texts}
     # ignore the empty strings
@@ -87,41 +89,42 @@ def extractStrings(args, parser):
                 outTs=re.sub("\.svg$", "_en.ts", args.inSvg[0], flags=re.I)
             else:
                 outTs=args.inSvg[0]+"_en.ts"
-            print(_("extracting strings from {} to {}").format(args.inSvg[0], outTs))
-            try:
-                doc=xml.dom.minidom.parse(args.inSvg[0])
-            except:
-                error(_("The document %s is not well-formed SVG") %args.inSvg[0], parser)
-            translatable=translatableOf(doc)
-            if not os.path.exists(outTs):
-                open(outTs,"w").write(TSminimal)
-            tDoc=xml.dom.minidom.parse(outTs)
-            idents=identsOf(tDoc)
-            context=tDoc.getElementsByTagName("context")[0]
-            for i in translatable:
-                if i in idents:
-                    warn(_("{ident} was already defined in {file}").format(ident=i, file=outTs))
-                    continue
-                message=tDoc.createElement("message")
-                location=tDoc.createElement("location")
-                filename=tDoc.createAttribute("filename")
-                filename.value=args.inSvg[0]
-                location.setAttributeNode(filename)
-                message.appendChild(location)
-                source=tDoc.createElement("source")
-                text=tDoc.createTextNode(translatable[i])
-                source.appendChild(text)
-                message.appendChild(source)
-                translation=tDoc.createElement("translation")
-                text=tDoc.createTextNode("")
-                translation.appendChild(text)
-                message.appendChild(translation)
-                comment=tDoc.createElement("comment")
-                text=tDoc.createTextNode(i)
-                comment.appendChild(text)
-                message.appendChild(comment)
-                context.appendChild(message)
-            prettySave(tDoc, outTs)
+        assert(outTs.endswith(".ts"))
+        print(_("extracting strings from {} to {}").format(args.inSvg[0], outTs))
+        try:
+            doc=xml.dom.minidom.parse(args.inSvg[0])
+        except:
+            error(_("The document %s is not well-formed SVG") %args.inSvg[0], parser)
+        translatable=translatableOf(doc)
+        if not os.path.exists(outTs):
+            open(outTs,"w").write(TSminimal)
+        tDoc=xml.dom.minidom.parse(outTs)
+        idents=identsOf(tDoc)
+        context=tDoc.getElementsByTagName("context")[0]
+        for i in translatable:
+            if i in idents:
+                warn(_("{ident} was already defined in {file}").format(ident=i, file=outTs))
+                continue
+            message=tDoc.createElement("message")
+            location=tDoc.createElement("location")
+            filename=tDoc.createAttribute("filename")
+            filename.value=args.inSvg[0]
+            location.setAttributeNode(filename)
+            message.appendChild(location)
+            source=tDoc.createElement("source")
+            text=tDoc.createTextNode(translatable[i])
+            source.appendChild(text)
+            message.appendChild(source)
+            translation=tDoc.createElement("translation")
+            text=tDoc.createTextNode("")
+            translation.appendChild(text)
+            message.appendChild(translation)
+            comment=tDoc.createElement("comment")
+            text=tDoc.createTextNode(i)
+            comment.appendChild(text)
+            message.appendChild(comment)
+            context.appendChild(message)
+        prettySave(tDoc, outTs)
     return
 
 if __name__=="__main__":
