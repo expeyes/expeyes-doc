@@ -60,7 +60,21 @@ def translatableOf(doc):
     translatable={t.getAttribute("id"): getTheText(t) for t in texts}
     # ignore the empty strings
     return {key: translatable[key] for key in translatable if translatable[key]}
-    
+
+def prettySave(doc, outFile):
+    """
+    save a prettyfied XML code.
+    @param doc an xml.dom.minidom instance
+    @param outFile a file name for saving
+    """
+    pretty=doc.toprettyxml(indent="  ")
+    result=""
+    for line in pretty.split("\n"):
+        line=line.rstrip()
+        if line:
+            result+=line+"\n"
+    open(outFile,"w").write(result)
+    return
     
 def extractStrings(args, parser):
     if not os.path.exists(args.inSvg[0]):
@@ -107,13 +121,7 @@ def extractStrings(args, parser):
                 comment.appendChild(text)
                 message.appendChild(comment)
                 context.appendChild(message)
-            pretty=tDoc.toprettyxml(indent="  ")
-            result=""
-            for line in pretty.split("\n"):
-                line=line.rstrip()
-                if line:
-                    result+=line+"\n"
-            open(outTs,"w").write(result)
+            prettySave(tDoc, outTs)
     return
 
 if __name__=="__main__":
