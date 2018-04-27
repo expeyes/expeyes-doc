@@ -85,13 +85,31 @@
         <location filename="en/Brochure-eyes17/Back.svg"/>
         <source>The effect of LCR elements on the phase and amplitudes of an applied sine wave is studied using a series LCR circuit. The red trace is the total voltage across LC and it goes to zero at resonance (it is not exactly zero due to the resistance of the inductor coil). It can be seen that the voltages across L and C are equal and out of  phase at this point.</source>
         <comment>flowPara3569</comment>
-        <translation>L&apos;efet des éléments RLC sur la phase et l&apos;amplitude d&apos;un signal sinusoïdal est étudié avec un circuit RLC série. La trace rouge est la tension totale aux bornes de LC et elle passe par zéro à la résonance (elle n&apos;est pas tout à fait nulle à cause de la résistance du bobinage). On peut voir que les tensions aux bornes de L et C sont déphasées à ce point.</translation>
+        <translation>L&apos;effet des éléments RLC sur la phase et l&apos;amplitude d&apos;un signal sinusoïdal est étudié avec un circuit RLC série. La trace rouge est la tension totale aux bornes de LC et elle passe par zéro à la résonance (elle n&apos;est pas tout à fait nulle à cause de la résistance du bobinage). On peut voir que les tensions aux bornes de L et C sont déphasées à ce point.</translation>
     </message>
     <message>
         <location filename="en/Brochure-eyes17/Back.svg"/>
         <source>the capacitor is captured and plotted. For 120mH and 0.1uF, the circuit is under damped as shown. The captured waveform is analyzed to extract the resonant frequency and damping factor, with an accuracy better than one percent.</source>
         <comment>flowPara4277</comment>
-        <translation>le condensateur est enregistré et mis en graphique. Pour 120 mH et 0,1 µF, le circuit est sous-amorti comme on voit. Le signal enregistré est analysé pour extraire la fréquence de résonance et le facteur d&apos;amortissement, avec une précision meilleure que 1%.</translation>
+        <translation>Le condensateur est enregistré et mis en graphique. Pour 120 mH et 0,1 µF, le circuit est sous-amorti comme on voit. Le signal enregistré est analysé pour extraire la fréquence de résonance et le facteur d&apos;amortissement, avec une précision meilleure que 1%.</translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source>Programming ExpEYES using Python</source>
+        <comment>tspan3460</comment>
+        <translation>Programmer ExpEYES avec Python</translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source>Full Wave Rectifier</source>
+        <comment>tspan3464</comment>
+        <translation>Redresseur double alternance</translation>
+    </message>
+    <message>
+        <location filename="Back.svg"/>
+        <source>RLC Steady state response</source>
+        <comment>tspan3468</comment>
+        <translation>RLC, état stationnaire</translation>
     </message>
 </context>
 </TS>

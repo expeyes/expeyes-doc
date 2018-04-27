@@ -201,5 +201,41 @@
         <comment>flowPara3692</comment>
         <translation>www.iuac.res.in  |  www.expeyes.in  |  expeyes@gmail.com</translation>
     </message>
+    <message>
+        <location filename="Front.svg"/>
+        <source>Discover the</source>
+        <comment>tspan3539</comment>
+        <translation>Découvrir la</translation>
+    </message>
+    <message>
+        <location filename="Front.svg"/>
+        <source> Joy of </source>
+        <comment>tspan3541</comment>
+        <translation> Joie de </translation>
+    </message>
+    <message>
+        <location filename="Front.svg"/>
+        <source>Science!</source>
+        <comment>tspan3543</comment>
+        <translation>la Science !</translation>
+    </message>
+    <message>
+        <location filename="Front.svg"/>
+        <source>Like us on Facebook!</source>
+        <comment>tspan3614</comment>
+        <translation>Likez-nous sur Facebook !</translation>
+    </message>
+    <message>
+        <location filename="Front.svg"/>
+        <source>User Friendy GUI</source>
+        <comment>tspan3642</comment>
+        <translation>Interface intuitive</translation>
+    </message>
+    <message>
+        <location filename="Front.svg"/>
+        <source>FEATURES</source>
+        <comment>tspan3646</comment>
+        <translation>CARACTÉRISTIQUES</translation>
+    </message>
 </context>
 </TS>
