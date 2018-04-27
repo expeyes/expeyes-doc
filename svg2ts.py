@@ -37,8 +37,8 @@ def identsOf(doc):
 def getTheText(t):
     """
     Extract the textnodes' text from children of a flowPara or of a
-    svg:tspan element
-    @param t a flowPara or a svg:tspan element
+    tspan element
+    @param t a flowPara or a tspan element
     """
     result=""
     first=True
@@ -57,7 +57,7 @@ def translatableOf(doc):
     @return a dictionary identifier => translatable string
     """
     texts=doc.getElementsByTagName("flowPara") + \
-           doc.getElementsByTagName("svg:tspan")
+           doc.getElementsByTagName("tspan")
     # harvest all the translatable strings with their ids
     translatable={t.getAttribute("id"): getTheText(t) for t in texts}
     # ignore the empty strings

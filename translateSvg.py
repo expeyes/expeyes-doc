@@ -8,8 +8,8 @@ _ = gettext.gettext
 
 def getTheText(t):
     """
-    Extract the textnodes' text from children of a flowPara element
-    @param t a flowPara element
+    Extract the textnodes' text from children of a flowPara or tspan element
+    @param t a flowPara or tspan element
     """
     result=""
     first=True
@@ -47,7 +47,8 @@ def translatableElementsOf(doc):
     @param doc an xml.doc.minidoc instace parsed from a SVG file
     @return a dictionary identifier => xml element
     """
-    texts=doc.getElementsByTagName("flowPara")
+    texts=doc.getElementsByTagName("flowPara") + \
+           doc.getElementsByTagName("tspan")
     # harvest all the translatable strings with their ids
     translatable={t.getAttribute("id"): t for t in texts}
     # ignore the empty strings
