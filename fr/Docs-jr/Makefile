@@ -16,7 +16,7 @@ install: all
 	@lyx -e latex $< >/dev/null 2>&1
 	@echo Done.
 	@echo "Localizing some words in the LaTeX file"
-	@./localize-texfile $@ $(PODIR)/$(LANG).po > $@.tmp && mv $@.tmp $@
+	@[ ! -e $(PODIR)/$(LANG).po ] || (./localize-texfile $@ $(PODIR)/$(LANG).po > $@.tmp && mv $@.tmp $@)
 
 %.pdf: %.tex
 	@echo -n "Running PDFLaTeX"
