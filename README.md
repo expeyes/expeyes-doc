@@ -1,7 +1,7 @@
 expeyes-doc
 ===========
 
-Documentation for expEYES and expEYES-junior
+Documentation for expEYES, expEYES-junior, brochure for ExpEYES-17.
 
 ## Translating the brochure for expeyes-17 ##
 
