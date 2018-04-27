@@ -1,2 +1,25 @@
 __pycache__/
 *~
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.eps
+*.tmp
+*.lof
+
+
+# some PDF files
+fr/Docs-jr/eyesj.pdf
+fr/Progman-jr/eyesj-progman.pdf
+fr/Docs/eyes.pdf
+en/Docs-jr/eyesj.pdf
+en/Progman-jr/eyesj-progman.pdf
+en/Docs/eyes.pdf
+
+# some generated TeX files
+en/Docs-jr/eyesj.tex
+en/Docs/eyes.tex
+en/Progman-jr/eyesj-progman.tex
