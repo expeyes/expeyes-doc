@@ -3,9 +3,9 @@ expeyes-doc
 
 Documentation for expEYES, expEYES-junior, brochure for ExpEYES-17.
 
-## Translating the brochure for expeyes-17 ##
+# Translating the brochure for expeyes-17 #
 
-### Dependencies ###
+## Dependencies ##
 
 In order to work efficiently, you need a little set of tools:
   * GNU **make**, to automatically rebuild documents
@@ -17,7 +17,7 @@ editing the files `Back_??.ts` and `Front_??.ts` is enough. However, with
 the suitable tools, you can see the final document, so you gain immediate
 feedback.
 
-### Working on translations ###
+## Working on translations ##
 
   * get a copy of the repository, either a zip file of a git clone
   * go to the subdirectory for your language (currently featured: de, es, fr, nl), and then to the subdirectory `Brochure-eyes17`
@@ -26,7 +26,7 @@ feedback.
   * when translations were updated by you, run once again `make` to refresh the SVG document.
   * the SVG documents can be viewed properly with the command `inkscape`
   
-### tuning finely the SVG documents ###
+## tuning finely the SVG documents ##
 
 When the automatic translation with `make` gives an almost correct document, there are generally little details to fix. Every language uses longer or shorter phrases to express the same idea, so some paragraphs mays be wrongly located in the graphic layout. To fix those details, the best is to work on a copy.
 
