@@ -7,5 +7,11 @@ all: $(TARGETS)
 %_en.ts : %.svg $(EXTRACT_STRING)
 	$(EXTRACT_STRING) $< $@
 
+brochure-en.pdf: $(SOURCES)
+	convert Front.svg Front.pdf
+	convert Back.svg Back.pdf
+	pdftk Front.pdf Back.pdf cat output $@
+	rm Front.pdf Back.pdf
+
 clean:
-	rm -f *~ *bak
+	rm -f *~ *bak *pdf
