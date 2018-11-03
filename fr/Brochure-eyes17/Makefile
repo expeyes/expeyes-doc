@@ -24,5 +24,11 @@ Back.svg: Back_$(LANG).ts
 Front.svg: Front_$(LANG).ts
 	$(TRANSLATE_SVG) ../../en/Brochure-eyes17/Front.svg Front_$(LANG).ts $@
 
+brochure-fr.pdf: hand-rewritten/Front.svg hand-rewritten/Back.svg
+	convert hand-rewritten/Front.svg Front.pdf
+	convert hand-rewritten/Back.svg Back.pdf
+	pdftk Front.pdf Back.pdf cat output $@
+	rm Front.pdf Back.pdf
+
 clean:
-	rm -f *~ *bak
+	rm -f *~ *bak *pdf
